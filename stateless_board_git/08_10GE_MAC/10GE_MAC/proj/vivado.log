@@ -1,0 +1,78 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Aug  7 18:36:21 2020
+# Process ID: 19000
+# Current directory: D:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13676 D:\SNS\MC02\DVD\MC02_DVD_V1.0\FPGA_RefDesign\08_10GE_MAC\10GE_MAC\proj\XGE_MAC.xpr
+# Log file: D:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/vivado.log
+# Journal file: D:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/vivado/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'ten_gig_eth_pcs_pma_0' is locked:
+* IP definition '10G Ethernet PCS/PMA (10GBASE-R/KR) (6.0)' for IP 'ten_gig_eth_pcs_pma_0' (customized with software release 2016.4) has a different revision in the IP Catalog.
+* IP 'ten_gig_eth_pcs_pma_0' contains one or more locked subcores.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ten_gig_eth_mac_0' is locked:
+* IP definition '10G Ethernet MAC (15.1)' for IP 'ten_gig_eth_mac_0' (customized with software release 2016.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ClkGen' is locked:
+* IP definition 'Clocking Wizard (5.3)' for IP 'ClkGen' (customized with software release 2016.4) has a newer minor version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 842.512 ; gain = 134.918
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcku040-ffva1156-2-e
+INFO: [Project 1-454] Reading design checkpoint 'd:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen.dcp' for cell 'inst_ClkGen'
+INFO: [Project 1-454] Reading design checkpoint 'd:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ten_gig_eth_pcs_pma_0.dcp' for cell 'inst_ten_gig_mac_wrapper/ten_gig_eth_pcs_pma_i'
+INFO: [Project 1-454] Reading design checkpoint 'd:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_mac_0/ten_gig_eth_mac_0.dcp' for cell 'inst_ten_gig_mac_wrapper/fifo_block_i/xgmac_support_i/xgmac_i'
+INFO: [Netlist 29-17] Analyzing 131 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xcku040-ffva1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ip_0/synth/ten_gig_eth_pcs_pma_0_gt.xdc] for cell 'inst_ten_gig_mac_wrapper/ten_gig_eth_pcs_pma_i/U0/ten_gig_eth_pcs_pma_0_gt_i/inst'
+Finished Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ip_0/synth/ten_gig_eth_pcs_pma_0_gt.xdc] for cell 'inst_ten_gig_mac_wrapper/ten_gig_eth_pcs_pma_i/U0/ten_gig_eth_pcs_pma_0_gt_i/inst'
+Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0.xdc] for cell 'inst_ten_gig_mac_wrapper/ten_gig_eth_pcs_pma_i/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0.xdc:54]
+all_fanin: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1765.438 ; gain = 349.648
+Finished Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0.xdc] for cell 'inst_ten_gig_mac_wrapper/ten_gig_eth_pcs_pma_i/U0'
+Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_mac_0/synth/ten_gig_eth_mac_0.xdc] for cell 'inst_ten_gig_mac_wrapper/fifo_block_i/xgmac_support_i/xgmac_i/U0'
+Finished Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_mac_0/synth/ten_gig_eth_mac_0.xdc] for cell 'inst_ten_gig_mac_wrapper/fifo_block_i/xgmac_support_i/xgmac_i/U0'
+Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen_board.xdc] for cell 'inst_ClkGen/inst'
+Finished Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen_board.xdc] for cell 'inst_ClkGen/inst'
+Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen.xdc] for cell 'inst_ClkGen/inst'
+INFO: [Timing 38-2] Deriving generated clocks [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen.xdc:57]
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.033330 which will be rounded to 0.033 to ensure it is an integer multiple of 1 picosecond [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen.xdc:57]
+Finished Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen.xdc] for cell 'inst_ClkGen/inst'
+Parsing XDC File [D:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/src/gvi_10ge_mac_example.xdc]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/src/gvi_10ge_mac_example.xdc:58]
+WARNING: [Vivado 12-507] No nets matched 'ten_gig_eth_base_shared_clock_reset_block/CLK'. [D:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/src/gvi_10ge_mac_example.xdc:70]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [D:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/src/gvi_10ge_mac_example.xdc:70]
+Finished Parsing XDC File [D:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/src/gvi_10ge_mac_example.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ten_gig_eth_pcs_pma_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_mac_0/ten_gig_eth_mac_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen.dcp'
+Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0_clocks.xdc] for cell 'inst_ten_gig_mac_wrapper/ten_gig_eth_pcs_pma_i/U0'
+INFO: [Timing 38-2] Deriving generated clocks [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0_clocks.xdc:47]
+Finished Parsing XDC File [d:/SNS/MC02/DVD/MC02_DVD_V1.0/FPGA_RefDesign/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0_clocks.xdc] for cell 'inst_ten_gig_mac_wrapper/ten_gig_eth_pcs_pma_i/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst_ten_gig_mac_wrapper/ten_gig_eth_pcs_pma_i/U0/ten_gig_eth_pcs_pma_0_gt_i/inst/gen_gtwizard_gthe3_top.ten_gig_eth_pcs_pma_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_channel_container[0].gen_enabled_channel.gthe3_channel_wrapper_inst/channel_inst/BUFG_GT_SYNC_1 for BUFG_GT ten_gig_eth_base_shared_clock_reset_block/txoutclk_bufg_gt_i
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 4 instances
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 2 instances
+
+open_run: Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1927.855 ; gain = 1064.555
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Aug  7 18:46:48 2020...

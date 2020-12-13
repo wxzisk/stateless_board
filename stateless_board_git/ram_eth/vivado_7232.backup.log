@@ -1,0 +1,707 @@
+#-----------------------------------------------------------
+# Vivado v2017.4_AR70877 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Sep  2 00:06:06 2020
+# Process ID: 7232
+# Current directory: E:/test/pcie_eth_10g_8.11/ram_eth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11844 E:\test\pcie_eth_10g_8.11\ram_eth\ram_eth.xpr
+# Log file: E:/test/pcie_eth_10g_8.11/ram_eth/vivado.log
+# Journal file: E:/test/pcie_eth_10g_8.11/ram_eth\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.runs/synth_1/TOP.dcp'.
+WARNING: [Project 1-865] Could not find the file E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.runs/synth_1/TOP.dcp
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.sim/sim_1/behav/xsim/glbl.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.ip_user_files/sim_scripts/PCIe/xsim/glbl.v'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-865] Could not find the file E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.runs/synth_1/TOP.dcp
+WARNING: [Project 1-865] Could not find the file E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.runs/synth_1/TOP.dcp
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:dsc_bypass:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/dsc_bypass.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/dsc_bypass.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_7x_transceiver_debug.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_7x_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:ext_shared_logic:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_ext_shared_logic.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_ext_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:pcie3_us_gt_if:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_gt_if.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:int_shared_logic:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_int_shared_logic.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_int_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_us_transceiver_debug:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_transceiver_debug.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_if:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_gt_if.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_ext_gtcom.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_ext_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_int_gtcom.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_int_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie4_us_plus_transceiver_debug:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_us_plus_transceiver_debug.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_us_plus_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_cfg_external_msix:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie_cfg_ext_msix.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_debug:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie_debug.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_debug_ports:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/xdma_debug_ports.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/xdma_debug_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_status_ports:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/xdma_status_ports.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/xdma_status_ports.xml'
+WARNING: [IP_Flow 19-3664] IP 'ten_gig_eth_pcs_pma_0' generated file not found 'e:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/elaborate/configure_gt.tcl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:01:42 ; elapsed = 00:00:57 . Memory (MB): peak = 1056.121 ; gain = 283.711
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 1663.824 ; gain = 586.785
+set_property PROGRAM.FILE {E:\pcie_eth_10G_stateful_5states\ram_eth.bin} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {E:\pcie_eth_10G_stateful_5states\ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:\pcie_eth_10G_stateful_5states\ram_eth.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+WARNING: [Labtools 27-1973] Mismatch between the design programmed into the device xcku040 (JTAG device index = 0) and the probes file(s) E:\pcie_eth_10G_stateful_5states\ram_eth.ltx.
+ The device core at location uuid_23E7D65A79BC59F7BC47406C1714DFAE, has 22 ILA Input port(s), but the core in the probes file(s) have 21 ILA Input port(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+refresh_hw_device: Time (s): cpu = 00:00:41 ; elapsed = 00:00:12 . Memory (MB): peak = 1706.980 ; gain = 41.461
+set_property PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1706.980 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Sep-02 10:04:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Sep-02 10:04:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:23 ; elapsed = 00:00:08 . Memory (MB): peak = 1706.980 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+refresh_hw_device: Time (s): cpu = 00:00:25 ; elapsed = 00:00:10 . Memory (MB): peak = 1706.980 ; gain = 0.000
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {FIFO_wr_en_p2e} {pcie_out} {PCIe_TOP/c_h2c_success} {PCIe_TOP/despatch_i/c_h2c_success_cnt} {PCIe_TOP/despatch_i/data_from_eth} {PCIe_TOP/despatch_i/din} {PCIe_TOP/despatch_i/din_h2c} {PCIe_TOP/despatch_i/dout} {PCIe_TOP/despatch_i/event_header} {PCIe_TOP/despatch_i/event_header_in} {PCIe_TOP/despatch_i/fifo_empty} {PCIe_TOP/despatch_i/fifo_rd_en} {PCIe_TOP/despatch_i/p2e_state} {PCIe_TOP/despatch_i/rd_en} {PCIe_TOP/despatch_i/state} {PCIe_TOP/despatch_i/state_cnt} {PCIe_TOP/despatch_i/state_cnt_last} {PCIe_TOP/despatch_i/state_e2p_empty} {PCIe_TOP/despatch_i/state_e2p_rd_en} {PCIe_TOP/despatch_i/wr_en} {PCIe_TOP/despatch_i/wr_en_h2c} }
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes PCIe_TOP/c_h2c_success -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Sep-02 10:31:15
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2020-Sep-02 10:31:15
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2020-Sep-02 10:31:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2020-Sep-02 10:31:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes PCIe_TOP/c_h2c_success -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2020-Sep-02 10:31:46
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes PCIe_TOP/despatch_i/wr_en_h2c -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Sep-02 10:32:07
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes PCIe_TOP/despatch_i/wr_en_h2c -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes state_e2p_wr_en -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2020-Sep-02 10:32:54
+set_property PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1711.039 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+refresh_hw_device: Time (s): cpu = 00:00:30 ; elapsed = 00:00:14 . Memory (MB): peak = 1711.039 ; gain = 0.000
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:32 ; elapsed = 00:00:08 . Memory (MB): peak = 1715.668 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+refresh_hw_device: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1719.367 ; gain = 3.699
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes FIFO_wr_en_e2p -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes FIFO_rd_en_e2p -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:22 ; elapsed = 00:00:08 . Memory (MB): peak = 1719.367 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+refresh_hw_device: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1722.738 ; gain = 3.371
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1722.738 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+refresh_hw_device: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1722.738 ; gain = 0.000
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1892.125 ; gain = 1.594
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+refresh_hw_device: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1894.102 ; gain = 1.977
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1895.738 ; gain = 1.547
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+refresh_hw_device: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1895.809 ; gain = 0.070
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Sep-02 15:46:44
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2020-Sep-02 15:46:44
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2020-Sep-02 15:46:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Sep-02 15:46:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:16 ; elapsed = 00:00:05 . Memory (MB): peak = 1896.492 ; gain = 0.684
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg}
+close_hw
+set_property -dict [list CONFIG.Read_Data_Count {true}] [get_ips ten_to_one_fifo]
+generate_target all [get_files  E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ten_to_one_fifo'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ten_to_one_fifo'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ten_to_one_fifo'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ten_to_one_fifo'...
+catch { config_ip_cache -export [get_ips -all ten_to_one_fifo] }
+config_ip_cache: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1924.781 ; gain = 2.207
+export_ip_user_files -of_objects [get_files E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci] -no_script -sync -force -quiet
+reset_run ten_to_one_fifo_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/ten_to_one_fifo_synth_1
+
+launch_runs -jobs 24 ten_to_one_fifo_synth_1
+config_ip_cache: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1928.023 ; gain = 2.340
+[Wed Sep  2 17:11:03 2020] Launched ten_to_one_fifo_synth_1...
+Run output will be captured here: E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/ten_to_one_fifo_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1932.496 ; gain = 6.813
+export_simulation -of_objects [get_files E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci] -directory E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.ip_user_files/sim_scripts -ip_user_files_dir E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.ip_user_files -ipstatic_source_dir E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.cache/compile_simlib/modelsim} {questa=E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.cache/compile_simlib/questa} {riviera=E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.cache/compile_simlib/riviera} {activehdl=E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/synth_1
+
+launch_runs synth_1 -jobs 24
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'miim(rtl)' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 50 of file E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/imports/miim/miim.vhd
+Duplicate found in file E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/new/miim/miim.vhd
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'miim_control(rtl)' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 48 of file E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/imports/miim/miim_control.vhd
+Duplicate found in file E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/new/miim/miim_control.vhd
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'miim_top(rtl)' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 34 of file E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/imports/miim/miim_top.vhd
+Duplicate found in file E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/new/miim/miim_top.vhd
+[Wed Sep  2 17:30:56 2020] Launched synth_1...
+Run output will be captured here: E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1946.805 ; gain = 4.059
+launch_runs impl_2 -jobs 24
+[Wed Sep  2 17:38:52 2020] Launched impl_2...
+Run output will be captured here: E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/runme.log
+launch_runs impl_2 -to_step write_bitstream -jobs 24
+[Wed Sep  2 18:44:06 2020] Launched impl_2...
+Run output will be captured here: E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+WARNING: [Labtools 27-1972] Mismatch between the design programmed into the device xcku040 (JTAG device index = 0) and the probes file(s) E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx.
+ The core at location uuid_23E7D65A79BC59F7BC47406C1714DFAE has different widths for ILA input port 1. Port width in the device core is 16, but port width in the probes file is 156.
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+refresh_hw_device: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1954.785 ; gain = 1.852
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1955.785 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1957.645 ; gain = 0.656
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+refresh_hw_device: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1959.496 ; gain = 1.852
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/despatch_fifo/sim/despatch_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module despatch_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/event_header_fifo/sim/event_header_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module event_header_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/sim/ten_to_one_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_to_one_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_mac_0/ten_gig_eth_mac_v15_1_1/hdl/ten_gig_eth_mac_0_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_mac_0_core_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_mac_0/synth/ten_gig_eth_mac_0_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_mac_0_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_mac_0/synth/ten_gig_eth_mac_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_mac_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ip_0/sim/gtwizard_ultrascale_v1_7_gthe3_channel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_7_2_gthe3_channel
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ip_0/sim/ten_gig_eth_pcs_pma_0_gt_gthe3_channel_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_gt_gthe3_channel_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ip_0/sim/ten_gig_eth_pcs_pma_0_gt_gtwizard_gthe3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_gt_gtwizard_gthe3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ip_0/sim/ten_gig_eth_pcs_pma_0_gt_gtwizard_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_gt_gtwizard_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ip_0/sim/ten_gig_eth_pcs_pma_0_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0_ff_synchronizer_rst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_ff_synchronizer_rst
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0_ff_synchronizer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_ff_synchronizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0_local_clock_and_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_local_clock_and_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0_sim_speedup_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_sim_speedup_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0_cable_pull_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_cable_pull_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/synth/ten_gig_eth_pcs_pma_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/one_to_ten_fifo/sim/one_to_ten_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_to_ten_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/tx_data_fifo/sim/tx_data_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_data_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/ip/icmp_rx_ram_8_256/sim/icmp_rx_ram_8_256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module icmp_rx_ram_8_256
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/ip/udp_rx_ram_8_2048/sim/udp_rx_ram_8_2048.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_rx_ram_8_2048
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/ip/udp_checksum_fifo/sim/udp_checksum_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_checksum_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/ip/udp_tx_data_fifo/sim/udp_tx_data_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_tx_data_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/rx/arp_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arp_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/tx/arp_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arp_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/debouce/ax_debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ax_debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/xdma_0_ex/xdma_0_ex.srcs/sources_1/new/despatch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module despatch
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/new/ethernet_2port.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ethernet_2port
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/imports/src/ethernet_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ethernet_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/gtwizard_ultrascale_v1_6_gthe3_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_6_5_gthe3_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/icmp_reply.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module icmp_reply
+WARNING: [VRFC 10-986] literal value truncated to fit in 11 bits [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/icmp_reply.v:64]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/rx/ip_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/tx/ip_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/tx/ip_tx_mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_tx_mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/rx/mac_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/rx/mac_rx_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_rx_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/mac_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_test
+INFO: [VRFC 10-2458] undeclared symbol mac_send_end, assumed default net type wire [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/mac_test.v:392]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/mac_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/tx/mac_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/tx/mac_tx_mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_tx_mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/tx/mac_tx_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_tx_top
+INFO: [VRFC 10-2458] undeclared symbol udp_tx_ack, assumed default net type wire [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/tx/mac_tx_top.v:223]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/new/reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_gt_common_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_gig_eth_pcs_pma_0_gt_common_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/rx/udp_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/tx/udp_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sim_1/new/sim1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim1
+"xvhdl --incr --relax -prj sim1_vhdl.prj"
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1977.719 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '13' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 41ed348df50945a8b5bcc8170767b3a7 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_1 -L xil_defaultlib -L ten_gig_eth_mac_v15_1_4 -L gtwizard_ultrascale_v1_7_2 -L ten_gig_eth_pcs_pma_v6_0_11 -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim1_behav xil_defaultlib.sim1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 64 for port arp_tx_data [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/tx/mac_tx_top.v:135]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 64 for port mac_rx_dataout [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/mac_top.v:167]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port addra [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/rx/udp_rx.v:478]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port addrb [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/rx/udp_rx.v:481]
+WARNING: [VRFC 10-278] actual bit length 64 differs from formal bit length 8 for port arp_rx_data [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/rx/mac_rx_top.v:221]
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 8 for port addra [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/icmp_reply.v:330]
+WARNING: [VRFC 10-278] actual bit length 11 differs from formal bit length 8 for port addrb [E:/test/pcie_eth_10g_8.11/19 ethernet_test/rgmii_ethernet/eth_test.srcs/sources_1/mac/icmp_reply.v:333]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port full_c2h [E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sim_1/new/sim1.v:202]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port full_h2c [E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sim_1/new/sim1.v:206]
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2419]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2420]
+WARNING: [VRFC 10-597] element index -1 into num_read_words_dc is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_2/simulation/fifo_generator_vlog_beh.v:8080]
+WARNING: [VRFC 10-597] element index -1 into num_write_words_dc is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_2/simulation/fifo_generator_vlog_beh.v:8130]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.miim_types
+Compiling package xil_defaultlib.utility
+Compiling package xil_defaultlib.miim_registers
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture rtl of entity xil_defaultlib.miim [miim_default]
+Compiling architecture rtl of entity xil_defaultlib.miim_control [\miim_control(poll_wait_ticks=10...]
+Compiling architecture rtl of entity xil_defaultlib.miim_top [miim_top_default]
+Compiling module xil_defaultlib.mac_tx
+Compiling module xil_defaultlib.mac_tx_mode
+Compiling module xil_defaultlib.arp_tx
+Compiling module xil_defaultlib.ip_tx
+Compiling module xil_defaultlib.ip_tx_mode
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_s...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_COMMON_...
+Compiling module xil_defaultlib.udp_tx_data_fifo
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_s...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_COMMON_...
+Compiling module xil_defaultlib.udp_checksum_fifo
+Compiling module xil_defaultlib.udp_tx
+Compiling module xil_defaultlib.mac_tx_top
+Compiling module xil_defaultlib.mac_rx
+Compiling module xil_defaultlib.ip_rx
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="kin...
+Compiling module xil_defaultlib.udp_rx_ram_8_2048
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_s...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module xil_defaultlib.udp_rx
+Compiling module xil_defaultlib.arp_rx
+Compiling module xil_defaultlib.mac_rx_top
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="kin...
+Compiling module xil_defaultlib.icmp_rx_ram_8_256
+Compiling module xil_defaultlib.icmp_reply
+Compiling module xil_defaultlib.mac_top
+Compiling module xil_defaultlib.ax_debounce_default
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_s...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_COMMON_...
+Compiling module xil_defaultlib.tx_data_fifo
+Compiling module xil_defaultlib.mac_test
+Compiling module xil_defaultlib.reset
+Compiling module xil_defaultlib.ethernet_test
+Compiling module xil_defaultlib.ethernet_2port
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_sync_stag...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_a...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_EN_SAFE...
+Compiling module xil_defaultlib.one_to_ten_fifo
+Compiling secureip modules ...
+Compiling module unisims_ver.GTHE3_COMMON(QPLL0_CFG0=16'b0110...
+Compiling module xil_defaultlib.gtwizard_ultrascale_v1_6_5_gthe3...
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_gt_common_...
+Compiling architecture wrapper of entity xil_defaultlib.ten_gig_eth_pcs_pma_0_gt_common [\ten_gig_eth_pcs_pma_0_gt_common...]
+Compiling architecture ibufds_gte3_v of entity unisim.IBUFDS_GTE3 [ibufds_gte3_default]
+Compiling architecture bufg_gt_v of entity unisim.BUFG_GT [bufg_gt_default]
+Compiling architecture rtl of entity xil_defaultlib.ten_gig_eth_pcs_pma_0_ff_synchronizer_rst2 [\ten_gig_eth_pcs_pma_0_ff_synchr...]
+Compiling architecture rtl of entity xil_defaultlib.ten_gig_eth_pcs_pma_0_ff_synchronizer_rst2 [\ten_gig_eth_pcs_pma_0_ff_synchr...]
+Compiling architecture wrapper of entity xil_defaultlib.ten_gig_eth_pcs_pma_0_shared_clock_and_reset [ten_gig_eth_pcs_pma_0_shared_clo...]
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_sim_speedu...
+Compiling module unisims_ver.BUFG_GT
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_ff_synchro...
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_ff_synchro...
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_local_cloc...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_sync...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_sync...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_cohe...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_tx_e...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_tx_p...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_pcs_...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_tx_p...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_rx_b...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_rx_b...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_pcs_...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_rx_p...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_rx_d...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_rx_p...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_rx_p...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_pcs_...
+Compiling module unisims_ver.MUXCY
+Compiling module unisims_ver.MUXCY_L
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_idle...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_seq_...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_idle...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_dp_r...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_asyn...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_idle...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_elas...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_elas...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_ieee...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_comm...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_ieee...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_togg...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_togg...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_drp_...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_comb...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_deci...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_cs_i...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_mana...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_mana...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_cohe...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_g_re...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_puls...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_rxus...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_base...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_base...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11_wrap...
+Compiling module ten_gig_eth_pcs_pma_v6_0_11.ten_gig_eth_pcs_pma_v6_0_11(C_HA...
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_ff_synchro...
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_cable_pull...
+Compiling secureip modules ...
+Compiling module unisims_ver.GTHE3_CHANNEL(ALIGN_COMMA_ENABLE...
+Compiling module xil_defaultlib.gtwizard_ultrascale_v1_7_2_gthe3...
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_gt_gthe3_c...
+Compiling module gtwizard_ultrascale_v1_7_2.gtwizard_ultrascale_v1_7_2_bit_s...
+Compiling module gtwizard_ultrascale_v1_7_2.gtwizard_ultrascale_v1_7_2_reset...
+Compiling module gtwizard_ultrascale_v1_7_2.gtwizard_ultrascale_v1_7_2_reset...
+Compiling module gtwizard_ultrascale_v1_7_2.gtwizard_ultrascale_v1_7_2_gtwiz...
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_gt_gtwizar...
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_gt_gtwizar...
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_gt
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0_block
+Compiling module xil_defaultlib.ten_gig_eth_pcs_pma_0
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_sync_res...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_reset_ge...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_manageme...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rs_64bit
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_confi...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_sm(C_...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_frame...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_crc_c...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_mux_1
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_crc
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_mux_2
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_sync_blo...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_mux_f...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_ifg(W...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_dec_d...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_pfc_tx_c...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_pause...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_tx_64bit...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_confi...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_fsm(C...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_crc
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_size
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_decod...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_contr...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_detec...
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_user
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_info
+Compiling module ten_gig_eth_mac_v15_1_4.ten_gig_eth_mac_v15_1_4_rx_64bit...
+Compiling module xil_defaultlib.ten_gig_eth_mac_0_core_top(C_HAS...
+Compiling module xil_defaultlib.ten_gig_eth_mac_0_block
+Compiling module xil_defaultlib.ten_gig_eth_mac_0
+Compiling architecture rtl of entity xil_defaultlib.ten_gig_eth_mac_0_support [ten_gig_eth_mac_0_support_defaul...]
+Compiling architecture rtl of entity xil_defaultlib.ten_gig_eth_mac_0_sync_reset [ten_gig_eth_mac_0_sync_reset_def...]
+Compiling architecture rtl of entity xil_defaultlib.ten_gig_eth_mac_0_sync_block [ten_gig_eth_mac_0_sync_block_def...]
+Compiling architecture rtl of entity xil_defaultlib.ten_gig_eth_mac_0_fifo_ram [\ten_gig_eth_mac_0_fifo_ram(addr...]
+Compiling architecture rtl of entity xil_defaultlib.ten_gig_eth_mac_0_axi_fifo [\ten_gig_eth_mac_0_axi_fifo(fifo...]
+Compiling architecture rtl of entity xil_defaultlib.ten_gig_eth_mac_0_axi_fifo [\ten_gig_eth_mac_0_axi_fifo(fifo...]
+Compiling architecture rtl of entity xil_defaultlib.ten_gig_eth_mac_0_xgmac_fifo [\ten_gig_eth_mac_0_xgmac_fifo(tx...]
+Compiling architecture wrapper of entity xil_defaultlib.ten_gig_eth_mac_0_fifo_block [\ten_gig_eth_mac_0_fifo_block(fi...]
+Compiling architecture wrapper of entity xil_defaultlib.ten_gig_mac_wrapper [ten_gig_mac_wrapper_default]
+Compiling architecture wrapper of entity xil_defaultlib.ten_gig_eth_example_top [ten_gig_eth_example_top_default]
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_a...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_EN_SAFE...
+Compiling module xil_defaultlib.ten_to_one_fifo
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_a...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_sync_stag...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_a...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_DATA_CO...
+Compiling module xil_defaultlib.event_header_fifo
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_s...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_p...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_COMMON_...
+Compiling module xil_defaultlib.despatch_fifo
+Compiling module xil_defaultlib.despatch
+Compiling module xil_defaultlib.sim1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim1_behav
+
+****** Webtalk v2017.4_AR70877 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim/xsim.dir/sim1_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep  3 09:46:27 2020...
+run_program: Time (s): cpu = 00:00:07 ; elapsed = 00:02:10 . Memory (MB): peak = 1977.719 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '129' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim1_behav -key {Behavioral:sim_1:Functional:sim1} -tclbatch {sim1.tcl} -view {E:/test/pcie_eth_10g_8.11/ram_eth/sim_test_behav1.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+open_wave_config E:/test/pcie_eth_10g_8.11/ram_eth/sim_test_behav1.wcfg
+source sim1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module sim1.eth_test.u1.mac_test0.mac_top0.mac_rx0.udp0.udp_receive_ram.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module sim1.eth_test.u1.mac_test0.mac_top0.icmp0.icmp_receive_ram.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+xsim: Time (s): cpu = 00:00:25 ; elapsed = 00:00:06 . Memory (MB): peak = 2078.324 ; gain = 84.328
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:01:04 ; elapsed = 00:02:45 . Memory (MB): peak = 2078.324 ; gain = 114.324
+run all
+run: Time (s): cpu = 00:01:10 ; elapsed = 00:00:23 . Memory (MB): peak = 2080.469 ; gain = 1.090
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2084.590 ; gain = 0.000
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  3 09:47:22 2020...

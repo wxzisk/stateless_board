@@ -1,0 +1,33 @@
+$date
+        2020-Aug-03 20:47:19
+$end
+$version
+        Vivado v2017.4_AR70877 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 64 " eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_in [63:0] $end
+$var reg 64 b eth_test/gmii_rxd [63:0] $end
+$var reg 2 D" eth_test/state [1:0] $end
+$var reg 16 F" eth_test/cnt [15:0] $end
+$var reg 8 V" ten_gig_eth_example_top/rx_axis_tkeep [7:0] $end
+$var reg 16 ^" ten_gig_eth_example_top/packet_length_cnt [15:0] $end
+$var reg 64 n" ten_gig_eth_example_top/rx_axis_tdata [63:0] $end
+$var reg 64 P# eth_out [63:0] $end
+$var reg 64 2$ rx_axis_tdata_out [63:0] $end
+$var reg 1 r$ FIFO_wr_en_e2p $end
+$var reg 1 s$ eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/full $end
+$var reg 1 t$ eth_test/rec_datain_en $end
+$var reg 1 u$ eth_test/rec_fifo_empty $end
+$var reg 1 v$ ten_gig_eth_example_top/rx_axis_tlast $end
+$var reg 1 w$ ten_gig_eth_example_top/rx_axis_tready $end
+$var reg 1 x$ ten_gig_eth_example_top/rx_axis_tvalid $end
+$var reg 1 y$ rx_axis_tvalid_out $end
+$var reg 1 z$ eth_test/rx_ready $end
+$var reg 1 {$ _TRIGGER $end
+$var reg 1 |$ _WINDOW $end
+$var reg 1 }$ _GAP $end
+$upscope $end
+$enddefinitions $end

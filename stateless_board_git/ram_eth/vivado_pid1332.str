@@ -1,0 +1,66 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 1332
+License: Customer
+
+Current time: 	Fri Mar 20 12:04:44 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 34 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	wxz
+User home directory: C:/Users/wxz
+User working directory: D:/pcie_eth_10g/ram_eth
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/xilinx/Vivado
+HDI_APPROOT: D:/xilinx/Vivado/2017.4
+RDI_DATADIR: D:/xilinx/Vivado/2017.4/data
+RDI_BINDIR: D:/xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/wxz/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/wxz/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/wxz/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	D:/pcie_eth_10g/ram_eth/vivado.log
+Vivado journal file location: 	D:/pcie_eth_10g/ram_eth/vivado.jou
+Engine tmp dir: 	D:/pcie_eth_10g/ram_eth/.Xil/Vivado-1332-LAPTOP-AE792R7S
+
+GUI allocated memory:	110 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 489 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 30 MB (+29465kb) [00:00:23]
+// [Engine Memory]: 408 MB (+276662kb) [00:00:23]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+closeMainWindow("Vivado 2017.4"); // cj
+// x (cj): Exit Vivado: addNotify
+// [GUI Memory]: 45 MB (+13584kb) [00:00:34]
+// [Engine Memory]: 489 MB (+63636kb) [00:00:34]
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: D:\pcie_eth_10g\ram_eth\ram_eth.xpr. Version: Vivado v2017.4 

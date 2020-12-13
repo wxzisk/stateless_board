@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/pcie_eth_10g/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="394435fs"></ZoomStartTime>
+      <ZoomEndTime time="403826fs"></ZoomEndTime>
+      <Cursor1Time time="397000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="210"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_in" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">event_info_in[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_in_en" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_in_en</obj_property>
+      <obj_property name="ObjectShortName">event_info_in_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rx_axis_tdata_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">rx_axis_tdata_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tdata_out[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rx_axis_tvalid_out" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">rx_axis_tvalid_out</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tvalid_out</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/rx_axis_tdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/rx_axis_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/rx_axis_tkeep" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/rx_axis_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tkeep[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/rx_axis_tlast" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/rx_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/rx_axis_tready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/rx_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/rx_axis_tvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/rx_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/tx_axis_tdata_dly" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/tx_axis_tdata_dly[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tdata_dly[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/tx_axis_tkeep" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/tx_axis_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tkeep[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/tx_axis_tlast_in" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/tx_axis_tlast_in</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tlast_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/tx_axis_tready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/tx_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ten_gig_eth_example_top/tx_axis_tvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ten_gig_eth_example_top/tx_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

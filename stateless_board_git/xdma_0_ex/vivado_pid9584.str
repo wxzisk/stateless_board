@@ -1,0 +1,1209 @@
+/*
+
+Xilinx Vivado v2017.4_AR70877 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 9584
+License: Customer
+
+Current time: 	Wed Jul 08 10:28:39 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows NT (unknown)
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 24
+
+Screen size: 1024x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 215 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: D:/fpga/yxj/xdma_0_ex
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.4
+RDI_DATADIR: D:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data;D:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	D:/fpga/yxj/xdma_0_ex/vivado.log
+Vivado journal file location: 	D:/fpga/yxj/xdma_0_ex/vivado.jou
+Engine tmp dir: 	D:/fpga/yxj/xdma_0_ex/.Xil/Vivado-9584-WIN-6LRTIFRL70S
+
+GUI allocated memory:	192 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 539 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 44 MB (+44040kb) [00:00:14]
+// [Engine Memory]: 495 MB (+367782kb) [00:00:14]
+// Opening Vivado Project: D:\fpga\yxj\xdma_0_ex\xdma_0_ex.xpr. Version: Vivado v2017.4_AR70877 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/fpga/yxj/xdma_0_ex/xdma_0_ex.xpr 
+// [GUI Memory]: 57 MB (+10690kb) [00:00:16]
+// [Engine Memory]: 537 MB (+17715kb) [00:00:16]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 595 MB. GUI used memory: 31 MB. Current time: 7/8/20 10:28:41 AM CST
+// [Engine Memory]: 602 MB (+40253kb) [00:00:21]
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 633 MB (+398kb) [00:00:41]
+// HMemoryUtils.trashcanNow. Engine heap size: 641 MB. GUI used memory: 30 MB. Current time: 7/8/20 10:29:06 AM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 678 MB (+14314kb) [00:00:49]
+// [GUI Memory]: 90 MB (+32217kb) [00:00:53]
+// [Engine Memory]: 733 MB (+21769kb) [00:00:53]
+// [GUI Memory]: 99 MB (+3923kb) [00:00:53]
+// [GUI Memory]: 105 MB (+1749kb) [00:00:54]
+// [Engine Memory]: 786 MB (+17226kb) [00:00:54]
+// [GUI Memory]: 116 MB (+5774kb) [00:00:55]
+// [Engine Memory]: 841 MB (+17245kb) [00:00:57]
+// Tcl Message: open_project D:/fpga/yxj/xdma_0_ex/xdma_0_ex.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 889 MB. GUI used memory: 60 MB. Current time: 7/8/20 10:29:26 AM CST
+// [Engine Memory]: 889 MB (+6093kb) [00:01:02]
+// Tcl Message: open_project: Time (s): cpu = 00:01:23 ; elapsed = 00:00:47 . Memory (MB): peak = 1068.563 ; gain = 295.422 
+// Project name: xdma_0_ex; location: D:/fpga/yxj/xdma_0_ex; part: xcku040-ffva1156-2-e
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (cj): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+// TclEventType: DG_GRAPH_GENERATED
+dismissDialog("Critical Messages"); // a (cj)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cj)
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g (aQ, cj): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, cj): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, cj): FALSE
+// Elapsed time: 10 seconds
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, cj): FALSE
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah (O, cj)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 1); // ah (O, cj)
+// Elapsed time: 20 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-285] failed synthesizing module 'top' [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/new/top.v:23]. ]", 14, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\fpga\yxj\xdma_0_ex\xdma_0_ex.srcs\sources_1\new\top.v;-;;-;16;-;line;-;23;-;;-;16;-;"); // ah (O, cj)
+// PAPropertyPanels.initPanels (top.v) elapsed time: 0.4s
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-285] failed synthesizing module 'top' [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/new/top.v:23]. ]", 14, false, false, false, false, false, true); // ah (O, cj) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 910 MB. GUI used memory: 64 MB. Current time: 7/8/20 10:30:32 AM CST
+// Elapsed time: 18 seconds
+selectCodeEditor("top.v", 300, 260); // cd (w, cj)
+// Elapsed time: 11 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), despatch_i : despatch (despatch.v)]", 4, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), despatch_i : despatch (despatch.v)]", 4, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cj)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 259, 254); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 2); // k (j, cj)
+selectCodeEditor("despatch.v", 191, 47); // cd (w, cj)
+selectCodeEditor("despatch.v", 191, 47, false, false, false, false, true); // cd (w, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cj)
+selectCodeEditor("top.v", 190, 142); // cd (w, cj)
+selectCodeEditor("top.v", 269, 271); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 2); // k (j, cj)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 24 
+// TclEventType: RUN_LAUNCH
+// [Engine Memory]: 935 MB (+898kb) [00:04:32]
+// TclEventType: RUN_MODIFY
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: [Wed Jul  8 10:32:55 2020] Launched synth_1... Run output will be captured here: D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 935 MB. GUI used memory: 58 MB. Current time: 7/8/20 10:32:57 AM CST
+// Elapsed time: 13 seconds
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g (aQ, cj): FALSE
+// Elapsed time: 54 seconds
+selectCodeEditor("despatch.v", 478, 165); // cd (w, cj)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 199 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, cj)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// Elapsed time: 27 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs (cj):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xcku040-ffva1156-2-e 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,008 MB. GUI used memory: 59 MB. Current time: 7/8/20 10:38:08 AM CST
+// [Engine Memory]: 1,008 MB (+27708kb) [00:09:45]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,045 MB. GUI used memory: 59 MB. Current time: 7/8/20 10:38:31 AM CST
+// [Engine Memory]: 1,079 MB (+21757kb) [00:10:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,136 MB. GUI used memory: 59 MB. Current time: 7/8/20 10:38:51 AM CST
+// [Engine Memory]: 1,174 MB (+42872kb) [00:10:30]
+// [Engine Memory]: 1,447 MB (+225139kb) [00:10:35]
+// [Engine Memory]: 1,542 MB (+23038kb) [00:10:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,676 MB. GUI used memory: 59 MB. Current time: 7/8/20 10:39:06 AM CST
+// [Engine Memory]: 1,678 MB (+61701kb) [00:10:45]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SDC_CONSTRAINT_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 1,706 MB. GUI used memory: 59 MB. Current time: 7/8/20 10:39:21 AM CST
+// TclEventType: UNMARK_DEBUG_NET
+// TclEventType: MARK_DEBUG_NET
+// TclEventType: UNMARK_DEBUG_NET
+// TclEventType: MARK_DEBUG_NET
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,845 MB. GUI used memory: 59 MB. Current time: 7/8/20 10:39:41 AM CST
+// [Engine Memory]: 1,849 MB (+91253kb) [00:11:19]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,970 MB. GUI used memory: 59 MB. Current time: 7/8/20 10:40:01 AM CST
+// [Engine Memory]: 1,972 MB (+32410kb) [00:11:39]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// [Engine Memory]: 2,075 MB (+4839kb) [00:11:49]
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,075 MB. GUI used memory: 59 MB. Current time: 7/8/20 10:40:19 AM CST
+// Xgd.load filename: D:/Xilinx/Vivado/2017.4/data/parts/xilinx/kintexu/devint/kintexu/xcku040/xcku040.xgd; ZipEntry: xcku040_floorplan.xgd elapsed time: 0.5s
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 2,238 MB (+61648kb) [00:11:59]
+// Xgd.load filename: D:/Xilinx/Vivado/2017.4/data/parts/xilinx/kintexu/devint/kintexu/xcku040/xcku040.xgd; ZipEntry: xcku040_detail.xgd elapsed time: 3.4s
+// [GUI Memory]: 123 MB (+1642kb) [00:12:01]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 5.5s
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (despatch.v) elapsed time: 0.3s
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Common 17-14] Message 'Vivado 12-507' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:219] 
+// Tcl Message: INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:220] 
+// Tcl Message: INFO: [Common 17-14] Message 'Vivado 12-1419' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2945] 
+// Tcl Message: Finished Parsing XDC File [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc] 
+// Tcl Message: INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/xdma_and_ram_xdma_0_0.dcp' INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_auto_ds_0/xdma_and_ram_auto_ds_0.dcp' 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl:2] 
+// Tcl Message: all_registers: Time (s): cpu = 00:00:40 ; elapsed = 00:00:32 . Memory (MB): peak = 2290.141 ; gain = 384.730 
+// ExpRunCommands.openSynthResults elapsed time: 147.4s
+// OpenDesignTask elapsed time: 147.4s
+// [GUI Memory]: 131 MB (+1500kb) [00:12:05]
+// Tcl Message: open_run: Time (s): cpu = 00:03:29 ; elapsed = 00:02:27 . Memory (MB): peak = 2500.770 ; gain = 1392.492 
+// 'dO' command handler elapsed time: 149 seconds
+// M (cj): Critical Messages: addNotify
+// [GUI Memory]: 140 MB (+2038kb) [00:12:07]
+// Elapsed time: 149 seconds
+dismissDialog("Open Synthesized Design"); // bs (cj)
+// Elapsed time: 141 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (M)
+dismissDialog("Critical Messages"); // M (cj)
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// N (cj): Set Up Debug: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectRadioButton(PAResourceAtoD.DebugWizard_DISCONNECT_ALL_NETS_AND_REMOVE_DEBUG, "Disconnect all nets and remove debug cores"); // a (N)
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectButton("FINISH", "Finish"); // JButton (h, N)
+// [GUI Memory]: 150 MB (+3110kb) [00:14:58]
+// [GUI Memory]: 159 MB (+2083kb) [00:14:58]
+// TclEventType: DEBUG_CORE_DELETE
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,323 MB. GUI used memory: 115 MB. Current time: 7/8/20 10:43:23 AM CST
+// Tcl Message: delete_debug_core [get_debug_cores {u_ila_0 }] 
+// bs (N):  Set Up Debug : addNotify
+dismissDialog("Set Up Debug"); // bs (N)
+dismissDialog("Set Up Debug"); // N (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cj): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bs (cj):  Save Constraints : addNotify
+dismissDialog("Save Project"); // am (cj)
+// Tcl Message: save_constraints 
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Save Constraints"); // bs (cj)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 24 
+// TclEventType: RUN_MODIFY
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: [Wed Jul  8 10:43:36 2020] Launched synth_1... Run output will be captured here: D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 8 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+// Elapsed time: 82 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, cj)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 84 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cZ, cj)
+// bs (cj):  Reloading : addNotify
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/xdma_and_ram.bd] 
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.dcp' for cell 'despatch_i/descriptor' INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'dsc_gen_all_i/fifo_generator_0_c2h' 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_axi_bram_ctrl_0_0/xdma_and_ram_axi_bram_ctrl_0_0.dcp' for cell 'xdma_and_ram_i/axi_bram_ctrl_0' INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_axi_bram_ctrl_0_bram_1/xdma_and_ram_axi_bram_ctrl_0_bram_1.dcp' for cell 'xdma_and_ram_i/axi_bram_ctrl_0_bram' INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_util_ds_buf_0/xdma_and_ram_util_ds_buf_0.dcp' for cell 'xdma_and_ram_i/util_ds_buf' 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,353 MB. GUI used memory: 115 MB. Current time: 7/8/20 10:46:52 AM CST
+// [Engine Memory]: 2,359 MB (+9674kb) [00:18:30]
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/xdma_and_ram_xdma_0_0.dcp' for cell 'xdma_and_ram_i/xdma_0' 
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,384 MB. GUI used memory: 107 MB. Current time: 7/8/20 10:47:02 AM CST
+// Engine heap size: 2,384 MB. GUI used memory: 108 MB. Current time: 7/8/20 10:47:02 AM CST
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_auto_ds_0/xdma_and_ram_auto_ds_0.dcp' for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds' 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: UNMARK_DEBUG_NET
+// TclEventType: MARK_DEBUG_NET
+// TclEventType: UNMARK_DEBUG_NET
+// TclEventType: MARK_DEBUG_NET
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,384 MB. GUI used memory: 66 MB. Current time: 7/8/20 10:47:50 AM CST
+// Xgd.load filename: D:/Xilinx/Vivado/2017.4/data/parts/xilinx/kintexu/devint/kintexu/xcku040/xcku040.xgd; ZipEntry: xcku040_detail.xgd elapsed time: 3.4s
+// Schematic: addNotify
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 4.8s
+// PAPropertyPanels.initPanels (despatch.v) elapsed time: 0.2s
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 1384 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 3 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.4_AR70877 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Finished Parsing XDC File [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc] 
+// Tcl Message: INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/xdma_and_ram_xdma_0_0.dcp' INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_auto_ds_0/xdma_and_ram_auto_ds_0.dcp' 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl:2] 
+// Tcl Message: all_registers: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 2557.855 ; gain = 0.000 
+// Tcl Message: refresh_design: Time (s): cpu = 00:02:12 ; elapsed = 00:01:27 . Memory (MB): peak = 2604.301 ; gain = 103.531 
+// M (cj): Critical Messages: addNotify
+// Elapsed time: 87 seconds
+dismissDialog("Reloading"); // bs (cj)
+// Elapsed time: 16 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (M)
+dismissDialog("Critical Messages"); // M (cj)
+// Elapsed time: 48 seconds
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, despatch_i (despatch)]", 3); // aW (O, cj)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, despatch_i (despatch), Nets (956)]", 4); // aW (O, cj)
+// Elapsed time: 24 seconds
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, despatch_i (despatch), Leaf Cells (615)]", 572); // aW (O, cj)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, despatch_i (despatch)]", 3); // aW (O, cj)
+// PAPropertyPanels.initPanels (h2c_dsc_byp_ready) elapsed time: 0.7s
+// Elapsed time: 29 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 698, 349, 952, 510, false, false, false, true, false); // f (k, cj) - Popup Trigger
+selectMenu(PAResourceQtoS.SchMenuAndMouse_EXPAND_CONE, "Expand Cone"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SchMenuAndMouse_EXPAND_CONE, "Expand Cone"); // Z (ai, Popup.HeavyWeightWindow)
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 648, 298, 952, 510, false, false, false, true, false); // f (k, cj) - Popup Trigger
+selectMenu(PAResourceQtoS.SchMenuAndMouse_EXPAND_CONE, "Expand Cone"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_MARK_DEBUG_NET, "Mark Debug"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_MARK_DEBUG_NET
+// TclEventType: MARK_DEBUG_NET
+// Tcl Message: set_property mark_debug true [get_nets [list {c_h2c_sts[3]} {c_c2h_sts[3]} h_h2c_sts h_c2h_sts]] 
+// r (cj):  Generate Schematic : addNotify
+// Elapsed time: 38 seconds
+dismissDialog("Generate Schematic"); // r (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,452 MB. GUI used memory: 121 MB. Current time: 7/8/20 10:51:28 AM CST
+// Elapsed time: 174 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 420, 366, 952, 510, false, false, false, true, false); // f (k, cj) - Popup Trigger
+selectMenu(PAResourceQtoS.SchMenuAndMouse_EXPAND_CONE, "Expand Cone"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_MARK_DEBUG_NET, "Mark Debug"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_MARK_DEBUG_NET
+// bs (cj):  Mark Debug : addNotify
+// TclEventType: MARK_DEBUG_NET
+dismissDialog("Mark Debug"); // bs (cj)
+// [GUI Memory]: 167 MB (+26kb) [00:26:02]
+// Elapsed time: 77 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 2); // k (j, cj)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 96, 197, 952, 510, false, false, false, true, false); // f (k, cj) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_MARK_DEBUG_NET, "Mark Debug"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_MARK_DEBUG_NET
+// TclEventType: MARK_DEBUG_NET
+// bs (cj):  Mark Debug : addNotify
+dismissDialog("Mark Debug"); // bs (cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 2); // k (j, cj)
+selectCodeEditor("despatch.v", 132, 223); // cd (w, cj)
+selectCodeEditor("despatch.v", 132, 223, false, false, false, false, true); // cd (w, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 153, 320, 952, 510, false, false, false, true, false); // f (k, cj) - Popup Trigger
+selectMenu(PAResourceQtoS.SchMenuAndMouse_EXPAND_CONE, "Expand Cone"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_MARK_DEBUG_NET, "Mark Debug"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_MARK_DEBUG_NET
+// TclEventType: MARK_DEBUG_NET
+// Tcl Message: set_property mark_debug true [get_nets [list to_eth_en_OBUF]] 
+// bs (cj):  Mark Debug : addNotify
+dismissDialog("Mark Debug"); // bs (cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+// PAPropertyPanels.initPanels (data_to_eth_1[5]_i_1 (LUT6)) elapsed time: 0.7s
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// N (cj): Set Up Debug: addNotify
+// bs (N):  Filtering Net and Tracing Clock Domain : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, N)
+dismissDialog("Filtering Net and Tracing Clock Domain"); // bs (N)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "c2h_dsc_byp_ctl (16) ; partially defined ; (Multiple) ; Data and Trigger", 0, "c2h_dsc_byp_ctl (16)", 0, true); // ap (O, N) - Node
+selectButton(PAResourceAtoD.DebugWizard_REMOVE_NETS, "Nets to Debug_remove_nets"); // B (f, N)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "din_c2h (156) ; undefined ; GND ; Data and Trigger", 7, "din_c2h (156)", 0, true); // ap (O, N) - Node
+typeControlKey(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, (String) null, 'a'); // ap (O, N)
+// RouteApi::getAllTilesAndNodesAndArcInstancesOfNet elapsed time: 0.2s
+// PAPropertyPanels.initPanels (din_c2h[0]) elapsed time: 0.7s
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "c_h2c_success ; xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ; FDRE ; Data and Trigger", 16, "xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK", 1, false, false, false, false, true, false); // ap (O, N) - Popup Trigger
+selectMenuItem(PAResourceAtoD.DebugWizard_SELECT_CLOCK_DOMAIN, "Select Clock Domain..."); // U (ai, N)
+// Tcl Command: 'show_objects -name CLK_NET0.8737438576974851 [get_nets -hierarchical -filter {TYPE == "GLOBAL_CLOCK"}]'
+// aV (cj): Select Clock Domain: addNotify
+// bs (aV):  Find Nets as Clock Domains : addNotify
+// TclEventType: SHOW_OBJECTS
+dismissDialog("Find Nets as Clock Domains"); // bs (aV)
+dismissDialog("Select Clock Domain"); // aV (cj)
+selectButton((HResource) null, "Nets to Debug_add"); // u (f, N): TRUE
+// bs (N):  Filtering Net : addNotify
+dismissDialog("Filtering Net"); // bs (N)
+dismissDialog("Set Up Debug"); // N (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// N (cj): Set Up Debug: addNotify
+// bs (N):  Filtering Net and Tracing Clock Domain : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, N)
+dismissDialog("Filtering Net and Tracing Clock Domain"); // bs (N)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/cfg_ltssm_state_reg0 (6) ; xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ; FDRE ; Data and Trigger", 6, "xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/cfg_ltssm_state_reg0 (6)", 0, true); // ap (O, N) - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/store_ltssm ; xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_CORECLK ; LUT2 ; Data and Trigger", 24, "xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/store_ltssm", 0, false); // ap (O, N)
+typeControlKey(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, (String) null, 'a'); // ap (O, N)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "h_c2h_success ; xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ; FDRE ; Data and Trigger", 21, "xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK", 1, false, false, false, false, true, false); // ap (O, N) - Popup Trigger
+selectMenuItem(PAResourceAtoD.DebugWizard_SELECT_CLOCK_DOMAIN, "Select Clock Domain..."); // U (ai, N)
+// [GUI Memory]: 178 MB (+2419kb) [00:29:09]
+// Tcl Command: 'show_objects -name CLK_NET0.29407395033297645 [get_nets -hierarchical -filter {TYPE == "GLOBAL_CLOCK"}]'
+// aV (cj): Select Clock Domain: addNotify
+// bs (aV):  Find Nets as Clock Domains : addNotify
+// TclEventType: SHOW_OBJECTS
+dismissDialog("Find Nets as Clock Domains"); // bs (aV)
+selectTree(PAResourceOtoP.PickClockDomainNetDialog_CLOCK_DOMAIN_NETS_TREE, "[xdma_0_ex, xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK]", 0, false); // aZ (O, aV)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,476 MB. GUI used memory: 136 MB. Current time: 7/8/20 10:57:38 AM CST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aV)
+dismissDialog("Select Clock Domain"); // aV (cj)
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectCheckBox(PAResourceAtoD.DebugWizard_CAPTURE_CONTROL, "Capture control", true); // g (d, N): TRUE
+selectCheckBox(PAResourceAtoD.DebugWizard_ADVANCED_TRIGGER, "Advanced trigger", true); // g (d, N): TRUE
+selectComboBox(PAResourceAtoD.DebugWizard_SAMPLE_OF_DATA_DEPTH, "4096", 2); // e (N)
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectButton("FINISH", "Finish"); // JButton (h, N)
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_core u_ila_0 ila 
+// bs (N):  Set Up Debug : addNotify
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGIN_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: startgroup  
+// Tcl Message: set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: endgroup 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/clk] 
+// Tcl Message: connect_debug_port u_ila_0/clk [get_nets [list xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 156 [get_debug_ports u_ila_0/probe0] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 64 [get_debug_ports u_ila_0/probe1] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 16 [get_debug_ports u_ila_0/probe2] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe2 [get_nets [list {c2h_dsc_byp_ctl[0]} {c2h_dsc_byp_ctl[1]} {c2h_dsc_byp_ctl[2]} {c2h_dsc_byp_ctl[3]} {c2h_dsc_byp_ctl[4]} {c2h_dsc_byp_ctl[5]} {c2h_dsc_byp_ctl[6]} {c2h_dsc_byp_ctl[7]} {c2h_dsc_byp_ctl[8]} {c2h_dsc_byp_ctl[9]} {c2h_dsc_byp_ctl[10]} {c2h_dsc_byp_ctl[11]} {c2h_dsc_byp_ctl[12]} {c2h_dsc_byp_ctl[13]} {c2h_dsc_byp_ctl[14]} {c2h_dsc_byp_ctl[15]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe3] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe3 [get_nets [list {c_h2c_sts[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 64 [get_debug_ports u_ila_0/probe4] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 64 [get_debug_ports u_ila_0/probe5] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 156 [get_debug_ports u_ila_0/probe6] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 28 [get_debug_ports u_ila_0/probe7] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe7 [get_nets [list {h2c_dsc_byp_len[0]} {h2c_dsc_byp_len[1]} {h2c_dsc_byp_len[2]} {h2c_dsc_byp_len[3]} {h2c_dsc_byp_len[4]} {h2c_dsc_byp_len[5]} {h2c_dsc_byp_len[6]} {h2c_dsc_byp_len[7]} {h2c_dsc_byp_len[8]} {h2c_dsc_byp_len[9]} {h2c_dsc_byp_len[10]} {h2c_dsc_byp_len[11]} {h2c_dsc_byp_len[12]} {h2c_dsc_byp_len[13]} {h2c_dsc_byp_len[14]} {h2c_dsc_byp_len[15]} {h2c_dsc_byp_len[16]} {h2c_dsc_byp_len[17]} {h2c_dsc_byp_len[18]} {h2c_dsc_byp_len[19]} {h2c_dsc_byp_len[20]} {h2c_dsc_byp_len[21]} {h2c_dsc_byp_len[22]} {h2c_dsc_byp_len[23]} {h2c_dsc_byp_len[24]} {h2c_dsc_byp_len[25]} {h2c_dsc_byp_len[26]} {h2c_dsc_byp_len[27]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe8] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe8 [get_nets [list {c_c2h_sts[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 28 [get_debug_ports u_ila_0/probe9] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe9 [get_nets [list {c2h_dsc_byp_len[0]} {c2h_dsc_byp_len[1]} {c2h_dsc_byp_len[2]} {c2h_dsc_byp_len[3]} {c2h_dsc_byp_len[4]} {c2h_dsc_byp_len[5]} {c2h_dsc_byp_len[6]} {c2h_dsc_byp_len[7]} {c2h_dsc_byp_len[8]} {c2h_dsc_byp_len[9]} {c2h_dsc_byp_len[10]} {c2h_dsc_byp_len[11]} {c2h_dsc_byp_len[12]} {c2h_dsc_byp_len[13]} {c2h_dsc_byp_len[14]} {c2h_dsc_byp_len[15]} {c2h_dsc_byp_len[16]} {c2h_dsc_byp_len[17]} {c2h_dsc_byp_len[18]} {c2h_dsc_byp_len[19]} {c2h_dsc_byp_len[20]} {c2h_dsc_byp_len[21]} {c2h_dsc_byp_len[22]} {c2h_dsc_byp_len[23]} {c2h_dsc_byp_len[24]} {c2h_dsc_byp_len[25]} {c2h_dsc_byp_len[26]} {c2h_dsc_byp_len[27]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 64 [get_debug_ports u_ila_0/probe10] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe10] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 64 [get_debug_ports u_ila_0/probe11] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe11] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 16 [get_debug_ports u_ila_0/probe12] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe12] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe12 [get_nets [list {h2c_dsc_byp_ctl[0]} {h2c_dsc_byp_ctl[1]} {h2c_dsc_byp_ctl[2]} {h2c_dsc_byp_ctl[3]} {h2c_dsc_byp_ctl[4]} {h2c_dsc_byp_ctl[5]} {h2c_dsc_byp_ctl[6]} {h2c_dsc_byp_ctl[7]} {h2c_dsc_byp_ctl[8]} {h2c_dsc_byp_ctl[9]} {h2c_dsc_byp_ctl[10]} {h2c_dsc_byp_ctl[11]} {h2c_dsc_byp_ctl[12]} {h2c_dsc_byp_ctl[13]} {h2c_dsc_byp_ctl[14]} {h2c_dsc_byp_ctl[15]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe13] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe13] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe13 [get_nets [list c2h_dsc_byp_load ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe14] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe14] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe14 [get_nets [list c2h_dsc_byp_ready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe15] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe15] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe15 [get_nets [list c_c2h_success ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe16] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe16] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe16 [get_nets [list c_h2c_success ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe17] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe17] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe17 [get_nets [list dsc_gen_all_i/dsc_gen_c2h_n_2 ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe18] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe18] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe18 [get_nets [list h2c_dsc_byp_load ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe19] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe19] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe19 [get_nets [list h2c_dsc_byp_ready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe20] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe20] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe20 [get_nets [list h_c2h_sts ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe21] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe21] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe21 [get_nets [list h_c2h_success ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe22] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe22] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe22 [get_nets [list h_h2c_sts ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe23] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe23] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe23 [get_nets [list h_h2c_success ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe24] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe24] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe24 [get_nets [list to_eth_en_OBUF ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe25] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe25] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe25 [get_nets [list user_clk ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe26] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe26] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,476 MB. GUI used memory: 134 MB. Current time: 7/8/20 10:58:29 AM CST
+// Tcl Message: connect_debug_port u_ila_0/probe26 [get_nets [list user_resetn ]] 
+// Elapsed time: 33 seconds
+dismissDialog("Set Up Debug"); // bs (N)
+dismissDialog("Set Up Debug"); // N (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cj): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// x (cj): Out of Date Design: addNotify
+dismissDialog("Save Project"); // am (cj)
+// [Engine Memory]: 2,478 MB (+820kb) [00:30:19]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // x (cj)
+// Tcl Message: save_constraints 
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cj):  Resetting Runs : addNotify
+selectButton("PAResourceAtoD.ConstraintUtils_ALL_NEW_CONSTRAINTS_SAVED_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 24 
+// Tcl Message: [Wed Jul  8 10:58:49 2020] Launched synth_1... Run output will be captured here: D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 10 seconds
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 301 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// f (cj): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // x (cj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 24 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jul  8 11:03:58 2020] Launched impl_1... Run output will be captured here: D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (cj): Implementation Failed: addNotify
+// [GUI Memory]: 187 MB (+765kb) [00:52:20]
+// Elapsed time: 1273 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (cj)
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g (aQ, cj): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Chipscope 16-213] The debug port 'u_ila_0/probe20' has 1 unconnected channels (bits). This will cause errors during implementation.. ]", 2, false); // ah (O, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Chipscope 16-213] The debug port 'u_ila_0/probe20' has 1 unconnected channels (bits). This will cause errors during implementation.. ]", 2, false, false, false, false, false, true); // ah (O, cj) - Double Click
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 10); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xilinx_xdma_pcie_x0y0.xdc]", 12, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xilinx_xdma_pcie_x0y0.xdc]", 12, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xilinx_xdma_pcie_x0y0.xdc]", 12, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 42 seconds
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 209, 51); // cd (w, cj)
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 209, 51, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 366, 49); // cd (w, cj)
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 366, 49, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 197, 48); // cd (w, cj)
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 197, 48, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 370, 46); // cd (w, cj)
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 370, 46, false, false, false, false, true); // cd (w, cj) - Double Click
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // ax
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_xdma_pcie_x0y0.xdc", 3); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_xdma_pcie_x0y0.xdc", 3); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,489 MB. GUI used memory: 135 MB. Current time: 7/8/20 11:28:33 AM CST
+// Elapsed time: 208 seconds
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+selectCodeEditor("top.v", 477, 56); // cd (w, cj)
+selectCodeEditor("top.v", 352, 147); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_xdma_pcie_x0y0.xdc", 3); // k (j, cj)
+// Elapsed time: 18 seconds
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 319, 65); // cd (w, cj)
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 285, 86); // cd (w, cj)
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 285, 86, false, false, false, false, true); // cd (w, cj) - Double Click
+typeControlKey((HResource) null, "xilinx_xdma_pcie_x0y0.xdc", 'c'); // cd (w, cj)
+selectCodeEditor("xilinx_xdma_pcie_x0y0.xdc", 396, 86); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cj)
+selectCodeEditor("top.v", 291, 60); // cd (w, cj)
+// Elapsed time: 16 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "h_c2h_sts"); // l (aP, cj)
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aH, cj)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_xdma_pcie_x0y0.xdc", 3); // k (j, cj)
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // ax
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+// Elapsed time: 62 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// N (cj): Set Up Debug: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, N)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 134 MB. Current time: 7/8/20 11:34:44 AM CST
+selectRadioButton(PAResourceAtoD.DebugWizard_DISCONNECT_ALL_NETS_AND_REMOVE_DEBUG, "Disconnect all nets and remove debug cores"); // a (N)
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectButton("FINISH", "Finish"); // JButton (h, N)
+// TclEventType: DEBUG_CORE_DELETE
+// TclEventType: NETLIST_UPDATE
+// bs (N):  Set Up Debug : addNotify
+// Tcl Message: delete_debug_core [get_debug_cores {u_ila_0 }] 
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 133 MB. Current time: 7/8/20 11:34:54 AM CST
+dismissDialog("Set Up Debug"); // bs (N)
+dismissDialog("Set Up Debug"); // N (cj)
+// Elapsed time: 54 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 455, 275, 729, 480, false, true, false, true, false); // f (k, cj) - Control Key - Popup Trigger
+selectMenu(PAResourceQtoS.SchMenuAndMouse_EXPAND_CONE, "Expand Cone"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_UNMARK_DEBUG_NET, "Unmark Debug"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_UNMARK_DEBUG_NET
+// TclEventType: UNMARK_DEBUG_NET
+// bs (cj):  Unmark Debug : addNotify
+// Tcl Message: set_property mark_debug false [get_nets [list {c_c2h_sts[3]} {c_h2c_sts[3]} h_c2h_sts h_h2c_sts]] 
+dismissDialog("Unmark Debug"); // bs (cj)
+unMinimizeFrame(PAResourceOtoP.PAViews_NETLIST, "Netlist"); // ax
+// Elapsed time: 19 seconds
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_h2c_sts]", 9); // aW (O, cj)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts]", 7); // aW (O, cj)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts]", 7, true, false, true, false, false, false); // aW (O, cj) - Control Key - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h_c2h_sts]", 34, false, false, true, false, false, false); // aW (O, cj) - Control Key
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h_h2c_sts]", 38, false, false, true, false, false, false); // aW (O, cj) - Control Key
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h_h2c_sts]", 38, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+// Elapsed time: 29 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h_c2h_sts]", 34, false, false, true, false, false, false); // aW (O, cj) - Control Key
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h_c2h_sts]", 34, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ready]", 33, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ready]", 33, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h_c2h_sts]", 34, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h_c2h_sts]", 34, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ready]", 33, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h_c2h_sts]", 34, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+// Run Command: PAResourceCommand.PACommandNames_MARK_DEBUG_NET
+// TclEventType: MARK_DEBUG_NET
+// bs (cj):  Mark Debug : addNotify
+// Tcl Message: set_property mark_debug true [get_nets [list h_h2c_sts h_c2h_sts]] 
+dismissDialog("Mark Debug"); // bs (cj)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h_c2h_sts]", 34, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), enb]", 29, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_dst_addr]", 16, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_dst_addr]", 16, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_dst_addr]", 16, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_dst_addr]", 16, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), doutb]", 14, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), sys_clk_p]", 45, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ctl]", 15, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, cj)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), sys_clk_p]", 45, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), sys_rst_n]", 46, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), sys_clk_p]", 45, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), sys_clk_p]", 45, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), doutb]", 14, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), doutb]", 14, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_h2c_sts]", 8, true, false, true, false, true, false); // aW (O, cj) - Control Key - Popup Trigger - Node
+// Elapsed time: 36 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts]", 7, true, false, true, false, true, false); // aW (O, cj) - Control Key - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts]", 7, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts]", 7, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts]", 7, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts]", 7, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_MARK_DEBUG_NET
+// TclEventType: MARK_DEBUG_NET
+// bs (cj):  Mark Debug : addNotify
+// Tcl Message: set_property mark_debug true [get_nets [list {c_c2h_sts[3]}]] 
+dismissDialog("Mark Debug"); // bs (cj)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts]", 7, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017)]", 1, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_dst_addr]", 4, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_src_addr]", 6, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), addrb]", 2, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_len]", 5, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts, c_c2h_sts[3]]", 8, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_c2h_sts, c_c2h_sts[3]]", 8, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_h2c_sts]", 9, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_h2c_sts, c_h2c_sts[3]]", 10, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, Popup.HeavyWeightWindow)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxp]", 22, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_src_addr]", 20, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_src_addr]", 20, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_src_addr]", 20, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), pci_exp_rxn]", 21, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_len]", 19, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, Popup.HeavyWeightWindow)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_h2c_sts]", 9, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_h2c_sts]", 9, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth_OBUF]", 12, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth_OBUF]", 12, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth_OBUF]", 12, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth_OBUF]", 12, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth_OBUF]", 12, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth_OBUF]", 12, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth_OBUF]", 12, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth_OBUF]", 12, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_ctl]", 3, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_ctl]", 3, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ctl]", 17, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), doutb]", 16, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ctl]", 17, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ctl]", 17, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ctl]", 17, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ctl]", 17, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_ready]", 28, false, false, false, false, true, false); // aW (O, cj) - Popup Trigger
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+*/
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_load]", 27, false, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click
+// Elapsed time: 48 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_ctl]", 3, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_h2c_sts]", 9, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), data_to_eth]", 11, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c_h2c_sts]", 9, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_len]", 19, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_dst_addr]", 4, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_ctl]", 3, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_ctl]", 3, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), c2h_dsc_byp_ctl]", 3, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, cj)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ctl]", 17, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ctl]", 17, true, false, false, false, true, false); // aW (O, cj) - Popup Trigger - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top, Nets (1017), h2c_dsc_byp_ctl]", 17, true, false, false, false, true, true); // aW (O, cj) - Popup Trigger - Double Click - Node

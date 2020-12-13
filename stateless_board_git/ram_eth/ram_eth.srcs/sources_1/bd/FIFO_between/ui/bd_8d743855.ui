@@ -1,0 +1,27 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port full -pg 1 -y 90 -defaultsOSRD
+preplace port rd_en -pg 1 -y 180 -defaultsOSRD
+preplace port wr_clk -pg 1 -y 230 -defaultsOSRD
+preplace port empty -pg 1 -y 40 -defaultsOSRD
+preplace port rd_clk -pg 1 -y 250 -defaultsOSRD
+preplace port rst -pg 1 -y 200 -defaultsOSRD
+preplace port wr_en -pg 1 -y 130 -defaultsOSRD
+preplace portBus eth_in -pg 1 -y 20 -defaultsOSRD
+preplace portBus pcie_out -pg 1 -y 40 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 1 -y 160 -defaultsOSRD
+preplace netloc pcie_out_1 1 0 1 -10
+preplace netloc wr_en_1 1 0 1 10
+preplace netloc wr_clk_1 1 0 1 -10
+preplace netloc rst_1 1 0 1 -10
+preplace netloc rd_clk_1 1 0 1 0
+preplace netloc fifo_generator_0_full 1 0 2 10 10 300J
+preplace netloc fifo_generator_0_empty 1 0 2 10 320 310
+preplace netloc fifo_generator_0_dout 1 0 2 20 310 290J
+preplace netloc rd_en_1 1 0 1 0
+levelinfo -pg 1 -30 160 330 -top 0 -bot 340
+",
+}
+0

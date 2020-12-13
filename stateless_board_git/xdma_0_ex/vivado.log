@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2017.4_AR70877 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Jul 13 15:40:27 2020
+# Process ID: 3908
+# Current directory: D:/fpga/yxj/xdma_0_ex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2108 D:\fpga\yxj\xdma_0_ex\xdma_0_ex.xpr
+# Log file: D:/fpga/yxj/xdma_0_ex/vivado.log
+# Journal file: D:/fpga/yxj/xdma_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/fpga/yxj/xdma_0_ex/xdma_0_ex.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/fpga/yxj/xdma_0_ex/sim_test_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:dsc_bypass:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/dsc_bypass.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/dsc_bypass.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_7x_transceiver_debug.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_7x_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:ext_shared_logic:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_ext_shared_logic.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_ext_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:pcie3_us_gt_if:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_gt_if.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:int_shared_logic:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_int_shared_logic.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_int_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_us_transceiver_debug:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_transceiver_debug.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_if:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_gt_if.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_ext_gtcom.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_ext_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_int_gtcom.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_int_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie4_us_plus_transceiver_debug:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_us_plus_transceiver_debug.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_us_plus_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_cfg_external_msix:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie_cfg_ext_msix.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_debug:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie_debug.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_debug_ports:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/xdma_debug_ports.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/xdma_debug_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_status_ports:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/xdma_status_ports.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/xdma_status_ports.xml'
+open_project: Time (s): cpu = 00:01:15 ; elapsed = 00:00:54 . Memory (MB): peak = 1049.371 ; gain = 296.703
+update_compile_order -fileset sources_1
+INFO: [Vivado 12-5777] IP Instance 'xdma_and_ram_xdma_0_0' cannot be used in a module reference: The 'xilinx.com:ip:xdma:4.0' core does not support module reference.
+INFO: [Vivado 12-5777] IP Instance 'xdma_and_ram_xdma_0_0' cannot be used in a module reference: The 'xilinx.com:ip:xdma:4.0' core does not support module reference.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 13 18:47:00 2020...

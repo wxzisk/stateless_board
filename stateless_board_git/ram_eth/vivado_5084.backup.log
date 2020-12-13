@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2017.4_AR70877 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Aug 22 16:33:03 2020
+# Process ID: 5084
+# Current directory: E:/test/pcie_eth_10g_8.11/ram_eth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8808 E:\test\pcie_eth_10g_8.11\ram_eth\ram_eth.xpr
+# Log file: E:/test/pcie_eth_10g_8.11/ram_eth/vivado.log
+# Journal file: E:/test/pcie_eth_10g_8.11/ram_eth\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.runs/synth_1/TOP.dcp'.
+WARNING: [Project 1-865] Could not find the file E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.runs/synth_1/TOP.dcp
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.sim/sim_1/behav/xsim/glbl.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.ip_user_files/sim_scripts/PCIe/xsim/glbl.v'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-865] Could not find the file E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.runs/synth_1/TOP.dcp
+WARNING: [Project 1-865] Could not find the file E:/test/pcie_eth_10g_8.11/PCIE_to_ram_ing/FPGA/pcieax7103x4_128ddr3/PCIe.runs/synth_1/TOP.dcp
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:dsc_bypass:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/dsc_bypass.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/dsc_bypass.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_7x_transceiver_debug.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_7x_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:ext_shared_logic:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_ext_shared_logic.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_ext_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:pcie3_us_gt_if:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_gt_if.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:int_shared_logic:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_int_shared_logic.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_int_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_us_transceiver_debug:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_transceiver_debug.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_if:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_gt_if.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_ext_gtcom.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_ext_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_int_gtcom.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_int_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie4_us_plus_transceiver_debug:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_us_plus_transceiver_debug.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_us_plus_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_cfg_external_msix:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie_cfg_ext_msix.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_debug:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie_debug.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_debug_ports:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/xdma_debug_ports.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/xdma_debug_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_status_ports:1.0'. The one found in location 'e:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/xdma_status_ports.xml' will take precedence over the same Interface in location 'e:/Vivado/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/xdma_status_ports.xml'
+WARNING: [IP_Flow 19-3664] IP 'ten_gig_eth_pcs_pma_0' generated file not found 'e:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/elaborate/configure_gt.tcl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:01:22 ; elapsed = 00:00:49 . Memory (MB): peak = 1055.695 ; gain = 294.188
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 24 14:27:42 2020...

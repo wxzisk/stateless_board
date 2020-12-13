@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="miim_registers" />
+            <top_module name="miim_types" />
+            <top_module name="sim1" />
+            <top_module name="utility" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7745000001fs"></ZoomEndTime>
+      <Cursor1Time time="1952600000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="201"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/sim1/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/sys_clk2" type="logic">
+      <obj_property name="ElementShortName">sys_clk2</obj_property>
+      <obj_property name="ObjectShortName">sys_clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/key_in" type="logic">
+      <obj_property name="ElementShortName">key_in</obj_property>
+      <obj_property name="ObjectShortName">key_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/eth_in" type="array">
+      <obj_property name="ElementShortName">eth_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/pcie_to_eth_empty" type="logic">
+      <obj_property name="ElementShortName">pcie_to_eth_empty</obj_property>
+      <obj_property name="ObjectShortName">pcie_to_eth_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/FIFO_rd_en_p2e" type="logic">
+      <obj_property name="ElementShortName">FIFO_rd_en_p2e</obj_property>
+      <obj_property name="ObjectShortName">FIFO_rd_en_p2e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/pcie_to_eth_data" type="array">
+      <obj_property name="ElementShortName">pcie_to_eth_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pcie_to_eth_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/rec_datain_en" type="logic">
+      <obj_property name="ElementShortName">rec_datain_en</obj_property>
+      <obj_property name="ObjectShortName">rec_datain_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/rec_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">rec_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">rec_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/gmii_rxd" type="array">
+      <obj_property name="ElementShortName">gmii_rxd[63:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/gmii_txd" type="array">
+      <obj_property name="ElementShortName">gmii_txd[63:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_txd[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/gmii_tx_en" type="logic">
+      <obj_property name="ElementShortName">gmii_tx_en</obj_property>
+      <obj_property name="ObjectShortName">gmii_tx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/empty_10g" type="logic">
+      <obj_property name="ElementShortName">empty_10g</obj_property>
+      <obj_property name="ObjectShortName">empty_10g</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/eth_to_fifo" type="array">
+      <obj_property name="ElementShortName">eth_to_fifo[63:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_to_fifo[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/out_en" type="logic">
+      <obj_property name="ElementShortName">out_en</obj_property>
+      <obj_property name="ObjectShortName">out_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/full_1g" type="logic">
+      <obj_property name="ElementShortName">full_1g</obj_property>
+      <obj_property name="ObjectShortName">full_1g</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/pcie_out" type="array">
+      <obj_property name="ElementShortName">pcie_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pcie_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/FIFO_wr_en_p2e" type="logic">
+      <obj_property name="ElementShortName">FIFO_wr_en_p2e</obj_property>
+      <obj_property name="ObjectShortName">FIFO_wr_en_p2e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/fifo_to_10g" type="array">
+      <obj_property name="ElementShortName">fifo_to_10g[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_10g[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/data_in_en_10g" type="logic">
+      <obj_property name="ElementShortName">data_in_en_10g</obj_property>
+      <obj_property name="ObjectShortName">data_in_en_10g</obj_property>
+   </wvobject>
+   <wvobject fp_name="group294" type="group">
+      <obj_property name="label">mac_test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim1/eth_test/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/total_queue_data_in" type="array">
+         <obj_property name="ElementShortName">total_queue_data_in[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_queue_data_in[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/total_queue_in_en" type="logic">
+         <obj_property name="ElementShortName">total_queue_in_en</obj_property>
+         <obj_property name="ObjectShortName">total_queue_in_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/total_queue_data_out" type="array">
+         <obj_property name="ElementShortName">total_queue_data_out[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_queue_data_out[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/total_queue_out_en" type="logic">
+         <obj_property name="ElementShortName">total_queue_out_en</obj_property>
+         <obj_property name="ObjectShortName">total_queue_out_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/rec_fifo_empty" type="logic">
+         <obj_property name="ElementShortName">rec_fifo_empty</obj_property>
+         <obj_property name="ObjectShortName">rec_fifo_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/gmii_rxd_real" type="array">
+         <obj_property name="ElementShortName">gmii_rxd_real[63:0]</obj_property>
+         <obj_property name="ObjectShortName">gmii_rxd_real[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/rec_datain_en" type="logic">
+         <obj_property name="ElementShortName">rec_datain_en</obj_property>
+         <obj_property name="ObjectShortName">rec_datain_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/cnt" type="array">
+         <obj_property name="ElementShortName">cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/wrong_packet" type="logic">
+         <obj_property name="ElementShortName">wrong_packet</obj_property>
+         <obj_property name="ObjectShortName">wrong_packet</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/ten_to_one_data_count" type="array">
+         <obj_property name="ElementShortName">ten_to_one_data_count[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ten_to_one_data_count[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/IDLE_cnt" type="array">
+         <obj_property name="ElementShortName">IDLE_cnt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE_cnt[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/ten_to_one_data_count_d0" type="array">
+         <obj_property name="ElementShortName">ten_to_one_data_count_d0[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ten_to_one_data_count_d0[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/ten_to_one_data_count_d1" type="array">
+         <obj_property name="ElementShortName">ten_to_one_data_count_d1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ten_to_one_data_count_d1[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/packet_type" type="array">
+         <obj_property name="ElementShortName">packet_type[15:0]</obj_property>
+         <obj_property name="ObjectShortName">packet_type[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/cnt" type="array">
+         <obj_property name="ElementShortName">cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/packet_len" type="array">
+         <obj_property name="ElementShortName">packet_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">packet_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/cnt" type="array">
+         <obj_property name="ElementShortName">cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/gmii_rxd_d1" type="array">
+         <obj_property name="ElementShortName">gmii_rxd_d1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">gmii_rxd_d1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/gmii_rx_en" type="logic">
+         <obj_property name="ElementShortName">gmii_rx_en</obj_property>
+         <obj_property name="ObjectShortName">gmii_rx_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/queue_state" type="array">
+         <obj_property name="ElementShortName">queue_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">queue_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/total_queue_data_in" type="array">
+         <obj_property name="ElementShortName">total_queue_data_in[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_queue_data_in[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/total_queue_in_en" type="logic">
+         <obj_property name="ElementShortName">total_queue_in_en</obj_property>
+         <obj_property name="ObjectShortName">total_queue_in_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/event_info_out" type="array">
+         <obj_property name="ElementShortName">event_info_out[63:0]</obj_property>
+         <obj_property name="ObjectShortName">event_info_out[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/event_info_out_en" type="logic">
+         <obj_property name="ElementShortName">event_info_out_en</obj_property>
+         <obj_property name="ObjectShortName">event_info_out_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/event2_info_out" type="array">
+         <obj_property name="ElementShortName">event2_info_out[63:0]</obj_property>
+         <obj_property name="ObjectShortName">event2_info_out[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/event2_info_out_en" type="logic">
+         <obj_property name="ElementShortName">event2_info_out_en</obj_property>
+         <obj_property name="ObjectShortName">event2_info_out_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/queue1_empty" type="logic">
+         <obj_property name="ElementShortName">queue1_empty</obj_property>
+         <obj_property name="ObjectShortName">queue1_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/QUEUE1_IN_cnt" type="array">
+         <obj_property name="ElementShortName">QUEUE1_IN_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">QUEUE1_IN_cnt[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/QUEUE2_IN_cnt" type="array">
+         <obj_property name="ElementShortName">QUEUE2_IN_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">QUEUE2_IN_cnt[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/dma_data_in" type="array">
+         <obj_property name="ElementShortName">dma_data_in[63:0]</obj_property>
+         <obj_property name="ObjectShortName">dma_data_in[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/dma_in_en" type="logic">
+         <obj_property name="ElementShortName">dma_in_en</obj_property>
+         <obj_property name="ObjectShortName">dma_in_en</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">mac_rx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/pcie_to_eth_empty" type="logic">
+         <obj_property name="ElementShortName">pcie_to_eth_empty</obj_property>
+         <obj_property name="ObjectShortName">pcie_to_eth_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/queue2_state" type="array">
+         <obj_property name="ElementShortName">queue2_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">queue2_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/data_temp" type="array">
+         <obj_property name="ElementShortName">data_temp[63:0]</obj_property>
+         <obj_property name="ObjectShortName">data_temp[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/data_in_en_d0" type="logic">
+         <obj_property name="ElementShortName">data_in_en_d0</obj_property>
+         <obj_property name="ObjectShortName">data_in_en_d0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/data_in_en" type="logic">
+         <obj_property name="ElementShortName">data_in_en</obj_property>
+         <obj_property name="ObjectShortName">data_in_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/tx_fifo_wr_en_d0" type="logic">
+         <obj_property name="ElementShortName">tx_fifo_wr_en_d0</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo_wr_en_d0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/tx_fifo_wr_en_d1" type="logic">
+         <obj_property name="ElementShortName">tx_fifo_wr_en_d1</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo_wr_en_d1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/event_queue1_transfer_start" type="logic">
+         <obj_property name="ElementShortName">event_queue1_transfer_start</obj_property>
+         <obj_property name="ObjectShortName">event_queue1_transfer_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/transfer_cnt" type="array">
+         <obj_property name="ElementShortName">transfer_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">transfer_cnt[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/transfer_cnt_d0" type="array">
+         <obj_property name="ElementShortName">transfer_cnt_d0[3:0]</obj_property>
+         <obj_property name="ObjectShortName">transfer_cnt_d0[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/queue2_info_in_en" type="logic">
+         <obj_property name="ElementShortName">queue2_info_in_en</obj_property>
+         <obj_property name="ObjectShortName">queue2_info_in_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/queue2_info_in" type="array">
+         <obj_property name="ElementShortName">queue2_info_in[63:0]</obj_property>
+         <obj_property name="ObjectShortName">queue2_info_in[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/total_queue_data_out" type="array">
+         <obj_property name="ElementShortName">total_queue_data_out[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_queue_data_out[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/total_queue_out_en" type="logic">
+         <obj_property name="ElementShortName">total_queue_out_en</obj_property>
+         <obj_property name="ObjectShortName">total_queue_out_en</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">ip_rx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/state" type="array">
+         <obj_property name="ElementShortName">state[4:0]</obj_property>
+         <obj_property name="ObjectShortName">state[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/ip_rec_source_addr" type="array">
+         <obj_property name="ElementShortName">ip_rec_source_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ip_rec_source_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/ip_rec_destination_addr" type="array">
+         <obj_property name="ElementShortName">ip_rec_destination_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ip_rec_destination_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/ip_rx_data" type="array">
+         <obj_property name="ElementShortName">ip_rx_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ip_rx_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/ip_addr_check_error" type="logic">
+         <obj_property name="ElementShortName">ip_addr_check_error</obj_property>
+         <obj_property name="ObjectShortName">ip_addr_check_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/local_ip_addr" type="array">
+         <obj_property name="ElementShortName">local_ip_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">local_ip_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/ip_rec_destination_addr" type="array">
+         <obj_property name="ElementShortName">ip_rec_destination_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ip_rec_destination_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/mac_rx_destination_mac_addr" type="array">
+         <obj_property name="ElementShortName">mac_rx_destination_mac_addr[47:0]</obj_property>
+         <obj_property name="ObjectShortName">mac_rx_destination_mac_addr[47:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/local_mac_addr" type="array">
+         <obj_property name="ElementShortName">local_mac_addr[47:0]</obj_property>
+         <obj_property name="ObjectShortName">local_mac_addr[47:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/mac_rx_destination_mac_addr" type="array">
+         <obj_property name="ElementShortName">mac_rx_destination_mac_addr[47:0]</obj_property>
+         <obj_property name="ObjectShortName">mac_rx_destination_mac_addr[47:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/ip0/ip_rec_destination_addr" type="array">
+         <obj_property name="ElementShortName">ip_rec_destination_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ip_rec_destination_addr[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">udp_rx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/state" type="array">
+         <obj_property name="ElementShortName">state[7:0]</obj_property>
+         <obj_property name="ObjectShortName">state[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/udp_rx_data" type="array">
+         <obj_property name="ElementShortName">udp_rx_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">udp_rx_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_0" type="array">
+         <obj_property name="ElementShortName">event_info_0[63:0]</obj_property>
+         <obj_property name="ObjectShortName">event_info_0[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_1" type="array">
+         <obj_property name="ElementShortName">event_info_1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">event_info_1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_2" type="array">
+         <obj_property name="ElementShortName">event_info_2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">event_info_2[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_ip" type="array">
+         <obj_property name="ElementShortName">event_info_ip[31:0]</obj_property>
+         <obj_property name="ObjectShortName">event_info_ip[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_mac" type="array">
+         <obj_property name="ElementShortName">event_info_mac[47:0]</obj_property>
+         <obj_property name="ObjectShortName">event_info_mac[47:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_in" type="array">
+         <obj_property name="ElementShortName">event_info_in[63:0]</obj_property>
+         <obj_property name="ObjectShortName">event_info_in[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/IB_parameter" type="array">
+         <obj_property name="ElementShortName">IB_parameter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IB_parameter[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/IB_addr" type="array">
+         <obj_property name="ElementShortName">IB_addr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">IB_addr[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/IB_len" type="array">
+         <obj_property name="ElementShortName">IB_len[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IB_len[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_in_en" type="logic">
+         <obj_property name="ElementShortName">event_info_in_en</obj_property>
+         <obj_property name="ObjectShortName">event_info_in_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/write_event_cnt" type="array">
+         <obj_property name="ElementShortName">write_event_cnt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">write_event_cnt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/write_event_start" type="logic">
+         <obj_property name="ElementShortName">write_event_start</obj_property>
+         <obj_property name="ObjectShortName">write_event_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_switch" type="logic">
+         <obj_property name="ElementShortName">event_switch</obj_property>
+         <obj_property name="ObjectShortName">event_switch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_to_pcie" type="array">
+         <obj_property name="ElementShortName">event_info_to_pcie[63:0]</obj_property>
+         <obj_property name="ObjectShortName">event_info_to_pcie[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_to_pcie_en" type="logic">
+         <obj_property name="ElementShortName">event_info_to_pcie_en</obj_property>
+         <obj_property name="ObjectShortName">event_info_to_pcie_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/dma_data_in" type="array">
+         <obj_property name="ElementShortName">dma_data_in[63:0]</obj_property>
+         <obj_property name="ObjectShortName">dma_data_in[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/dma_in_en" type="logic">
+         <obj_property name="ElementShortName">dma_in_en</obj_property>
+         <obj_property name="ObjectShortName">dma_in_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/udp_rx_cnt" type="array">
+         <obj_property name="ElementShortName">udp_rx_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">udp_rx_cnt[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group37" type="group">
+      <obj_property name="label">udp_tx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/udp0/udp_tx_data" type="array">
+         <obj_property name="ElementShortName">udp_tx_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">udp_tx_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/udp0/ram_rdata_d0" type="array">
+         <obj_property name="ElementShortName">ram_rdata_d0[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_rdata_d0[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/udp0/udp_send_data_length" type="array">
+         <obj_property name="ElementShortName">udp_send_data_length[15:0]</obj_property>
+         <obj_property name="ObjectShortName">udp_send_data_length[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/udp0/ram_wr_data" type="array">
+         <obj_property name="ElementShortName">ram_wr_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_wr_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/udp0/snd_IB_parameter" type="array">
+         <obj_property name="ElementShortName">snd_IB_parameter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">snd_IB_parameter[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/udp0/snd_IB_addr" type="array">
+         <obj_property name="ElementShortName">snd_IB_addr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">snd_IB_addr[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/udp0/snd_IB_len" type="array">
+         <obj_property name="ElementShortName">snd_IB_len[31:0]</obj_property>
+         <obj_property name="ObjectShortName">snd_IB_len[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group38" type="group">
+      <obj_property name="label">ip_tx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/state" type="array">
+         <obj_property name="ElementShortName">state[7:0]</obj_property>
+         <obj_property name="ObjectShortName">state[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/ip_tx_data" type="array">
+         <obj_property name="ElementShortName">ip_tx_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ip_tx_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/ip_sending" type="logic">
+         <obj_property name="ElementShortName">ip_sending</obj_property>
+         <obj_property name="ObjectShortName">ip_sending</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group39" type="group">
+      <obj_property name="label">mac_tx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim1/eth_test/u1/mac_test0/mac_top0/mac_tx0/mac0/send_state" type="array">
+         <obj_property name="ElementShortName">send_state[5:0]</obj_property>
+         <obj_property name="ObjectShortName">send_state[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group295" type="group">
+      <obj_property name="label">mac_wrapper</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim1/ten_gig_eth_example_top/tx_axis_tdata_dly" type="array">
+         <obj_property name="ElementShortName">tx_axis_tdata_dly[63:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_axis_tdata_dly[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_gig_eth_example_top/tx_axis_tvalid" type="logic">
+         <obj_property name="ElementShortName">tx_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">tx_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_gig_eth_example_top/tx_axis_tkeep" type="array">
+         <obj_property name="ElementShortName">tx_axis_tkeep[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_axis_tkeep[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_gig_eth_example_top/tx_axis_tready" type="logic">
+         <obj_property name="ElementShortName">tx_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">tx_axis_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_gig_eth_example_top/tx_axis_tvalid_in" type="logic">
+         <obj_property name="ElementShortName">tx_axis_tvalid_in</obj_property>
+         <obj_property name="ObjectShortName">tx_axis_tvalid_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_gig_eth_example_top/tx_axis_tlast_in" type="logic">
+         <obj_property name="ElementShortName">tx_axis_tlast_in</obj_property>
+         <obj_property name="ObjectShortName">tx_axis_tlast_in</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group348" type="group">
+      <obj_property name="label">eth_TOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim1/ten_to_one/prog_empty" type="logic">
+         <obj_property name="ElementShortName">prog_empty</obj_property>
+         <obj_property name="ObjectShortName">prog_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/wrong_packet" type="logic">
+         <obj_property name="ElementShortName">wrong_packet</obj_property>
+         <obj_property name="ObjectShortName">wrong_packet</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/cnt" type="array">
+         <obj_property name="ElementShortName">cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/packet_len" type="array">
+         <obj_property name="ElementShortName">packet_len[15:0]</obj_property>
+         <obj_property name="ObjectShortName">packet_len[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/mac" type="array">
+         <obj_property name="ElementShortName">mac[47:0]</obj_property>
+         <obj_property name="ObjectShortName">mac[47:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/gmii_rxd" type="array">
+         <obj_property name="ElementShortName">gmii_rxd[63:0]</obj_property>
+         <obj_property name="ObjectShortName">gmii_rxd[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/rec_datain_en" type="logic">
+         <obj_property name="ElementShortName">rec_datain_en</obj_property>
+         <obj_property name="ObjectShortName">rec_datain_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/gmii_rxd_d1" type="array">
+         <obj_property name="ElementShortName">gmii_rxd_d1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">gmii_rxd_d1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/gmii_rx_en" type="logic">
+         <obj_property name="ElementShortName">gmii_rx_en</obj_property>
+         <obj_property name="ObjectShortName">gmii_rx_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/rx_ready" type="logic">
+         <obj_property name="ElementShortName">rx_ready</obj_property>
+         <obj_property name="ObjectShortName">rx_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/eth_test/packet_type" type="array">
+         <obj_property name="ElementShortName">packet_type[15:0]</obj_property>
+         <obj_property name="ObjectShortName">packet_type[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group105" type="group">
+      <obj_property name="label">10-1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim1/ten_to_one/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/wr_clk" type="logic">
+         <obj_property name="ElementShortName">wr_clk</obj_property>
+         <obj_property name="ObjectShortName">wr_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/rd_clk" type="logic">
+         <obj_property name="ElementShortName">rd_clk</obj_property>
+         <obj_property name="ObjectShortName">rd_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/din" type="array">
+         <obj_property name="ElementShortName">din[63:0]</obj_property>
+         <obj_property name="ObjectShortName">din[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/dout" type="array">
+         <obj_property name="ElementShortName">dout[63:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/prog_empty" type="logic">
+         <obj_property name="ElementShortName">prog_empty</obj_property>
+         <obj_property name="ObjectShortName">prog_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/wr_rst_busy" type="logic">
+         <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+         <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/ten_to_one/rd_rst_busy" type="logic">
+         <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+         <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group361" type="group">
+      <obj_property name="label">despatch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim1/despatch_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/state" type="array">
+         <obj_property name="ElementShortName">state[5:0]</obj_property>
+         <obj_property name="ObjectShortName">state[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/dma_len" type="array">
+         <obj_property name="ElementShortName">dma_len[28:0]</obj_property>
+         <obj_property name="ObjectShortName">dma_len[28:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/push_data_cnt" type="array">
+         <obj_property name="ElementShortName">push_data_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">push_data_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/fifo_empty" type="logic">
+         <obj_property name="ElementShortName">fifo_empty</obj_property>
+         <obj_property name="ObjectShortName">fifo_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/fifo_rd_en" type="logic">
+         <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+         <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/data_from_eth" type="array">
+         <obj_property name="ElementShortName">data_from_eth[63:0]</obj_property>
+         <obj_property name="ObjectShortName">data_from_eth[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/data_to_eth_1" type="array">
+         <obj_property name="ElementShortName">data_to_eth_1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">data_to_eth_1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/get_data_cnt" type="array">
+         <obj_property name="ElementShortName">get_data_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">get_data_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/event_header" type="array">
+         <obj_property name="ElementShortName">event_header[63:0]</obj_property>
+         <obj_property name="ObjectShortName">event_header[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/event_header_in" type="logic">
+         <obj_property name="ElementShortName">event_header_in</obj_property>
+         <obj_property name="ObjectShortName">event_header_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/din_c2h" type="array">
+         <obj_property name="ElementShortName">din_c2h[155:0]</obj_property>
+         <obj_property name="ObjectShortName">din_c2h[155:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/wr_en_c2h" type="logic">
+         <obj_property name="ElementShortName">wr_en_c2h</obj_property>
+         <obj_property name="ObjectShortName">wr_en_c2h</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/din_h2c" type="array">
+         <obj_property name="ElementShortName">din_h2c[155:0]</obj_property>
+         <obj_property name="ObjectShortName">din_h2c[155:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/wr_en_h2c" type="logic">
+         <obj_property name="ElementShortName">wr_en_h2c</obj_property>
+         <obj_property name="ObjectShortName">wr_en_h2c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/c_h2c_success" type="logic">
+         <obj_property name="ElementShortName">c_h2c_success</obj_property>
+         <obj_property name="ObjectShortName">c_h2c_success</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/c_h2c_success_cnt" type="array">
+         <obj_property name="ElementShortName">c_h2c_success_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">c_h2c_success_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/despatch_i/p2e_state" type="array">
+         <obj_property name="ElementShortName">p2e_state[5:0]</obj_property>
+         <obj_property name="ObjectShortName">p2e_state[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

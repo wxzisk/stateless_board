@@ -1,0 +1,1719 @@
+/*
+
+Xilinx Vivado v2017.4_AR70877 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 8932
+License: Customer
+
+Current time: 	Mon Aug 24 16:03:51 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows NT (unknown)
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 24
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 267 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	E:/Vivado/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	E:/Vivado/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: E:/test/pcie_eth_10g_8.11/ram_eth
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: E:/Vivado/Vivado
+HDI_APPROOT: E:/Vivado/Vivado/2017.4
+RDI_DATADIR: E:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data;E:/Vivado/Vivado/2017.4/data
+RDI_BINDIR: E:/Vivado/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	E:/Vivado/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	E:/test/pcie_eth_10g_8.11/ram_eth/vivado.log
+Vivado journal file location: 	E:/test/pcie_eth_10g_8.11/ram_eth/vivado.jou
+Engine tmp dir: 	E:/test/pcie_eth_10g_8.11/ram_eth/.Xil/Vivado-8932-WIN-5I8J21IIVL5
+
+GUI allocated memory:	186 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 526 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 48 MB (+47670kb) [00:00:17]
+// [Engine Memory]: 507 MB (+380418kb) [00:00:17]
+// Opening Vivado Project: E:\test\pcie_eth_10g_8.11\ram_eth\ram_eth.xpr. Version: Vivado v2017.4_AR70877 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.xpr 
+// [GUI Memory]: 57 MB (+6602kb) [00:00:18]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 530 MB. GUI used memory: 35 MB. Current time: 8/24/20 4:03:53 PM CST
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 567 MB (+35552kb) [00:00:23]
+// [Engine Memory]: 632 MB (+38591kb) [00:00:28]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 658 MB. GUI used memory: 34 MB. Current time: 8/24/20 4:04:24 PM CST
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 678 MB (+15465kb) [00:00:53]
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 736 MB (+24921kb) [00:00:58]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 60 MB (+593kb) [00:01:07]
+// [GUI Memory]: 68 MB (+4863kb) [00:01:09]
+// [GUI Memory]: 73 MB (+2447kb) [00:01:10]
+// [GUI Memory]: 81 MB (+4477kb) [00:01:13]
+// [Engine Memory]: 834 MB (+64601kb) [00:01:13]
+// Tcl Message: open_project E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 859 MB. GUI used memory: 61 MB. Current time: 8/24/20 4:04:50 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:01:46 ; elapsed = 00:00:59 . Memory (MB): peak = 1067.184 ; gain = 303.723 
+// Project name: ram_eth; location: E:/test/pcie_eth_10g_8.11/ram_eth; part: xcku040-ffva1156-2-e
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// a (cj): Critical Messages: addNotify
+// [GUI Memory]: 90 MB (+5101kb) [00:01:25]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 96 MB (+1267kb) [00:01:32]
+// Elapsed time: 67 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v)]", 2); // B (D, cj)
+// PAPropertyPanels.initPanels (ethernet_2port.v) elapsed time: 0.5s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v)]", 4, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v)]", 4, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// [GUI Memory]: 105 MB (+3844kb) [00:02:46]
+// Elapsed time: 13 seconds
+selectCodeEditor("ethernet_2port.v", 300, 441); // cd (w, cj)
+selectCodeEditor("ethernet_2port.v", 110, 429); // cd (w, cj)
+// Elapsed time: 61 seconds
+selectCodeEditor("ethernet_2port.v", 308, 182); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 41 seconds
+selectCodeEditor("ethernet_2port.v", 220, 368); // cd (w, cj)
+selectCodeEditor("ethernet_2port.v", 233, 369); // cd (w, cj)
+typeControlKey((HResource) null, "ethernet_2port.v", 'c'); // cd (w, cj)
+// Elapsed time: 27 seconds
+selectCodeEditor("ethernet_2port.v", 3, 232); // cd (w, cj)
+selectCodeEditor("ethernet_2port.v", 2, 142, true, false, false, false, false); // cd (w, cj) - Shift Key
+typeControlKey((HResource) null, "ethernet_2port.v", 'c'); // cd (w, cj)
+// [Engine Memory]: 879 MB (+3379kb) [00:05:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 879 MB. GUI used memory: 63 MB. Current time: 8/24/20 4:09:24 PM CST
+// [GUI Memory]: 110 MB (+170kb) [00:24:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 880 MB. GUI used memory: 63 MB. Current time: 8/24/20 4:39:24 PM CST
+// [GUI Memory]: 116 MB (+66kb) [00:41:18]
+// Elapsed time: 2453 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 7, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 7, false); // B (D, cj)
+// TclEventType: LOAD_FEATURE
+// HMemoryUtils.trashcanNow. Engine heap size: 916 MB. GUI used memory: 63 MB. Current time: 8/24/20 4:49:49 PM CST
+// N (cj):  Re-customize IP : addNotify
+// [Engine Memory]: 927 MB (+3619kb) [00:46:21]
+// r (cj): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // N (cj)
+// Elapsed time: 52 seconds
+dismissDialog("Re-customize IP"); // r (cj)
+// [GUI Memory]: 135 MB (+14446kb) [00:47:17]
+// Elapsed time: 57 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 16); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 17); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v)]", 19, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 23, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("sim1.v", 287, 318); // cd (w, cj)
+typeControlKey((HResource) null, "sim1.v", 'c'); // cd (w, cj)
+// Elapsed time: 54 seconds
+selectCodeEditor("sim1.v", 8, 79); // cd (w, cj)
+selectCodeEditor("sim1.v", 103, 294, true, false, false, false, false); // cd (w, cj) - Shift Key
+typeControlKey((HResource) null, "sim1.v", 'c'); // cd (w, cj)
+// [GUI Memory]: 142 MB (+473kb) [01:14:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 951 MB. GUI used memory: 80 MB. Current time: 8/24/20 5:19:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 79 MB. Current time: 8/24/20 5:49:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 953 MB. GUI used memory: 66 MB. Current time: 8/24/20 6:19:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 954 MB. GUI used memory: 74 MB. Current time: 8/24/20 6:36:46 PM CST
+// Elapsed time: 6242 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u (O, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bs (cj):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// PAPropertyPanels.initPanels (sim1.v) elapsed time: 0.3s
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bs (cj)
+// TclEventType: HW_SERVER_UPDATE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bs (cj):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,548 MB. GUI used memory: 78 MB. Current time: 8/24/20 6:37:11 PM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [Engine Memory]: 1,548 MB (+603224kb) [02:33:39]
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1711.891 ; gain = 591.316 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: current_hw_device [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcku040_0] 0] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 1720.313 ; gain = 7.746 
+// Elapsed time: 22 seconds
+dismissDialog("Auto Connect"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,575 MB. GUI used memory: 103 MB. Current time: 8/24/20 6:37:27 PM CST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// PAPropertyPanels.initPanels (xcku040_0) elapsed time: 0.2s
+// Elapsed time: 126 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcku040_0 (4) ; Programmed", 2, "xcku040_0 (4)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcku040_0 (4) ; Programmed", 2, "xcku040_0 (4)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cj):  Program Device : addNotify
+dismissDialog("Program Device"); // bA (cj)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1721.773 ; gain = 0.852 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcku040_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s). 
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,587 MB. GUI used memory: 106 MB. Current time: 8/24/20 6:39:47 PM CST
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// 'I' command handler elapsed time: 18 seconds
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 17 seconds
+dismissDialog("Program Device"); // bs (cj)
+// [GUI Memory]: 150 MB (+408kb) [02:54:57]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,591 MB. GUI used memory: 106 MB. Current time: 8/24/20 7:09:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,608 MB. GUI used memory: 106 MB. Current time: 8/24/20 7:10:13 PM CST
+// Elapsed time: 1986 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcku040_0 (4) ; Programmed", 2, "xcku040_0 (4)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cj):  Program Device : addNotify
+dismissDialog("Program Device"); // bA (cj)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xcku040_0] 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1736.383 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcku040_0] 0] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,612 MB. GUI used memory: 107 MB. Current time: 8/24/20 7:13:10 PM CST
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s). 
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:23 ; elapsed = 00:00:10 . Memory (MB): peak = 1736.383 ; gain = 0.000 
+// 'I' command handler elapsed time: 20 seconds
+// Elapsed time: 19 seconds
+dismissDialog("Program Device"); // bs (cj)
+// [GUI Memory]: 160 MB (+2446kb) [03:16:13]
+// [GUI Memory]: 170 MB (+2387kb) [03:16:38]
+// [GUI Memory]: 179 MB (+771kb) [03:18:38]
+// Elapsed time: 1171 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcku040_0 (4) ; Programmed", 2, "xcku040_0 (4)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cj):  Program Device : addNotify
+dismissDialog("Program Device"); // bA (cj)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xcku040_0] 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,613 MB. GUI used memory: 106 MB. Current time: 8/24/20 7:32:54 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 1736.383 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcku040_0] 0] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s). 
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1738.742 ; gain = 2.359 
+// 'I' command handler elapsed time: 18 seconds
+// Elapsed time: 17 seconds
+dismissDialog("Program Device"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,625 MB. GUI used memory: 107 MB. Current time: 8/24/20 8:02:59 PM CST
+// Elapsed time: 2341 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcku040_0 (4) ; Programmed", 2, "xcku040_0 (4)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcku040_0 (4) ; Programmed", 2, "xcku040_0 (4)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cj):  Program Device : addNotify
+dismissDialog("Program Device"); // bA (cj)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,625 MB. GUI used memory: 108 MB. Current time: 8/24/20 8:12:15 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: program_hw_devices [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1917.414 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,625 MB. GUI used memory: 108 MB. Current time: 8/24/20 8:12:24 PM CST
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcku040_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s). 
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1917.414 ; gain = 0.000 
+// 'I' command handler elapsed time: 20 seconds
+// Elapsed time: 19 seconds
+dismissDialog("Program Device"); // bs (cj)
+// Elapsed time: 534 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Hardware_run_trigger"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\    [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\    [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Aug-24 20:21:28 INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2020-Aug-24 20:21:28 INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2020-Aug-24 20:21:28 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Aug-24 20:21:45 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,626 MB. GUI used memory: 108 MB. Current time: 8/24/20 8:21:49 PM CST
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [Engine Memory]: 1,627 MB (+1522kb) [04:18:18]
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2020-Aug-24 20:21:45 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2020-Aug-24 20:21:45 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 32 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 398, 183); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,631 MB. GUI used memory: 108 MB. Current time: 8/24/20 8:22:03 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 407, 186); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,632 MB. GUI used memory: 112 MB. Current time: 8/24/20 8:22:06 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,632 MB. GUI used memory: 108 MB. Current time: 8/24/20 8:22:07 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_2", 3); // k (j, cj)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 353, 67); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 483, 147); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,632 MB. GUI used memory: 109 MB. Current time: 8/24/20 8:22:24 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_3", 4); // k (j, cj)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 388, 283); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,633 MB. GUI used memory: 110 MB. Current time: 8/24/20 8:22:28 PM CST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,633 MB. GUI used memory: 110 MB. Current time: 8/24/20 8:22:29 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 394, 265); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,634 MB. GUI used memory: 110 MB. Current time: 8/24/20 8:22:33 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,634 MB. GUI used memory: 110 MB. Current time: 8/24/20 8:22:36 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,634 MB. GUI used memory: 109 MB. Current time: 8/24/20 8:22:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,634 MB. GUI used memory: 109 MB. Current time: 8/24/20 8:52:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 109 MB. Current time: 8/24/20 9:22:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 109 MB. Current time: 8/24/20 9:52:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 109 MB. Current time: 8/24/20 10:22:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 102 MB. Current time: 8/24/20 10:52:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 102 MB. Current time: 8/24/20 11:22:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/24/20 11:52:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 12:22:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 12:52:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 1:22:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 1:52:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 2:22:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 2:52:45 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 3:22:45 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 3:52:45 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 4:22:46 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 4:52:46 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 5:22:46 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 5:52:47 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 6:22:47 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 6:52:47 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 7:22:48 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 7:52:48 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 102 MB. Current time: 8/25/20 8:22:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 8:52:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 9:22:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 9:52:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 10:22:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 10:52:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 11:22:51 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 11:52:51 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 12:22:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 12:52:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 1:22:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 8/25/20 1:52:53 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 64800 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cj) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 23, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 23, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cj): Re-customize IP: addNotify
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 23, false); // B (D, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,657 MB. GUI used memory: 123 MB. Current time: 8/25/20 2:22:51 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 23, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 27 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // bb (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // bb (C, r)
+setText("Empty Threshold Assert Value", "43", true); // z (bc, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cj)
+// TclEventType: FILE_SET_CHANGE
+// r (cj): Re-customize IP: addNotify
+// bs (r):  Re-customize IP : addNotify
+// Tcl Message: set_property -dict [list CONFIG.Empty_Threshold_Assert_Value {43} CONFIG.Empty_Threshold_Negate_Value {44}] [get_ips ten_to_one_fifo] 
+// TclEventType: FILESET_UPDATE_IP
+// au (cj): Generate Output Products: addNotify
+dismissDialog("Re-customize IP"); // bs (r)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (au)
+// bs (cj):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: generate_target all [get_files  E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ten_to_one_fifo'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ten_to_one_fifo'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ten_to_one_fifo'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ten_to_one_fifo'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all ten_to_one_fifo] } 
+// Tcl Message: config_ip_cache: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1939.891 ; gain = 1.223 
+// Tcl Message: export_ip_user_files -of_objects [get_files E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run ten_to_one_fifo_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 24 ten_to_one_fifo_synth_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: config_ip_cache: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1940.797 ; gain = 0.207 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Aug 25 14:23:49 2020] Launched ten_to_one_fifo_synth_1... Run output will be captured here: E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/ten_to_one_fifo_synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1946.523 ; gain = 5.934 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,681 MB. GUI used memory: 123 MB. Current time: 8/25/20 2:24:04 PM CST
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 48 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// Elapsed time: 30 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cj)
+// Elapsed time: 163 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File]", 31, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), despatch_i : despatch (despatch.v)]", 26, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), despatch_i : despatch (despatch.v)]", 26, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), despatch_i : despatch (despatch.v)]", 26, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("despatch.v", 477, 282); // cd (w, cj)
+typeControlKey((HResource) null, "despatch.v", 'v'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), eth_test : ethernet_2port (ethernet_2port.v)]", 20); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v)]", 21); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v)]", 23); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v), mac_top0 : mac_top (mac_top.v)]", 24); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v), mac_top0 : mac_top (mac_top.v), mac_rx0 : mac_rx_top (mac_rx_top.v)]", 26); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v), mac_top0 : mac_top (mac_top.v), mac_rx0 : mac_rx_top (mac_rx_top.v), udp0 : udp_rx (udp_rx.v)]", 29, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sim1 (sim1.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v), mac_top0 : mac_top (mac_top.v), mac_rx0 : mac_rx_top (mac_rx_top.v), udp0 : udp_rx (udp_rx.v), udp_receive_ram : udp_rx_ram_8_2048 (udp_rx_ram_8_2048.xci)]", 30, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("udp_rx.v", 464, 265); // cd (w, cj)
+typeControlKey((HResource) null, "udp_rx.v", 'v'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("udp_rx.v", 454, 364); // cd (w, cj)
+typeControlKey(null, null, 'z');
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 3); // k (j, cj)
+selectCodeEditor("despatch.v", 406, 191); // cd (w, cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("despatch.v", 406, 191); // cd (w, cj)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,704 MB. GUI used memory: 133 MB. Current time: 8/25/20 2:30:24 PM CST
+// [Engine Memory]: 1,711 MB (+2760kb) [22:27:01]
+// Elapsed time: 124 seconds
+selectButton(PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, "details"); // h (cZ, cj)
+// Synthesis and Implementation Out-of-date Due to: show
+// Elapsed time: 12 seconds
+selectButton((HResource) null, "ethernet_2port.v"); // h (N, ResizableWindow)
+selectCodeEditor("ethernet_2port.v", 397, 52); // cd (w, cj)
+// Elapsed time: 23 seconds
+selectButton(PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, "details"); // h (cZ, cj)
+// Synthesis and Implementation Out-of-date Due to: show
+// Elapsed time: 20 seconds
+selectButton(PAResourceQtoS.StaleMoreAction_FORCE_UP_TO_DATE, "Force up-to-date"); // h (n, ResizableWindow)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cj):  Force Current Runs Up-to-date : addNotify
+// Tcl Message: set_property needs_refresh false [get_runs synth_1] 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: set_property needs_refresh false [get_runs impl_2] 
+// Tcl Message: set_property needs_refresh false [get_runs ClkGen_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs ten_gig_eth_pcs_pma_0_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs ten_gig_eth_mac_0_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs udp_rx_ram_8_2048_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs icmp_rx_ram_8_256_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs udp_checksum_fifo_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs udp_tx_data_fifo_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs fifo_generator_0_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs fifo_generator_2_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs despatch_fifo_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs dsc_gen_fifo_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs tx_data_fifo_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs ten_to_one_fifo_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs event_header_fifo_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs fifo_generator_1_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs one_to_ten_fifo_synth_1] 
+dismissDialog("Force Current Runs Up-to-date"); // bs (cj)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// 'k' command handler elapsed time: 4 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), ten_to_one : ten_to_one_fifo (ten_to_one_fifo.xci)]", 7, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cj): Re-customize IP: addNotify
+// Elapsed time: 13 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // bb (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // bb (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // bb (C, r)
+// [GUI Memory]: 189 MB (+889kb) [22:28:41]
+dismissDialog("Re-customize IP"); // r (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// x (cj): Run Synthesis: addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // x (cj)
+// TclEventType: RUN_RESET
+// [GUI Memory]: 199 MB (+249kb) [22:28:46]
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bs (cj):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 24 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Aug 25 14:32:21 2020] Launched synth_1... Run output will be captured here: E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "despatch.v", 3); // k (j, cj)
+// [GUI Memory]: 214 MB (+5534kb) [22:28:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,749 MB. GUI used memory: 148 MB. Current time: 8/25/20 2:32:28 PM CST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 406 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_2 -jobs 24 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Aug 25 14:39:12 2020] Launched impl_2... Run output will be captured here: E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 225 MB (+326kb) [22:50:45]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,750 MB. GUI used memory: 144 MB. Current time: 8/25/20 3:02:29 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,751 MB. GUI used memory: 143 MB. Current time: 8/25/20 3:32:30 PM CST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// ah (cj): Implementation Completed: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 3777 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (cj)
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream -jobs 24 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Aug 25 15:42:12 2020] Launched impl_2... Run output will be captured here: E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// Elapsed time: 1039 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 433, 183); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 483, 120); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 394, 229); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 433, 183); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 483, 120); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 394, 229); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 433, 183); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 483, 120); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 394, 229); // n (o, cj)Waveform: addNotify
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcku040_0 (4) ; Programmed", 2, "xcku040_0 (4)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcku040_0 (4) ; Programmed", 2, "xcku040_0 (4)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cj):  Program Device : addNotify
+dismissDialog("Program Device"); // bA (cj)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,755 MB. GUI used memory: 147 MB. Current time: 8/25/20 3:59:42 PM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: program_hw_devices [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:31 ; elapsed = 00:00:08 . Memory (MB): peak = 1967.836 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,755 MB. GUI used memory: 147 MB. Current time: 8/25/20 3:59:49 PM CST
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcku040_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s). 
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,755 MB. GUI used memory: 173 MB. Current time: 8/25/20 3:59:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1967.836 ; gain = 0.000 
+// 'I' command handler elapsed time: 21 seconds
+// Elapsed time: 20 seconds
+dismissDialog("Program Device"); // bs (cj)
+// Elapsed time: 1756 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cj)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// x (cj): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg} 
+// Tcl Message: save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg} 
+// Tcl Message: save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg} 
+// TclEventType: WAVEFORM_MODEL_EVENT
+dismissDialog("Confirm Close"); // x (cj)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: close_hw 
+// bs (cj):  CLose Hardware Manager : addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_2"); // i
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_3"); // i
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1967.836 ; gain = 0.000 
+dismissDialog("CLose Hardware Manager"); // bs (cj)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true); // B (D, cj) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v)]", 5); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v)]", 5); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v)]", 5); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v)]", 7); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v), mac_top0 : mac_top (mac_top.v)]", 8); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v), mac_top0 : mac_top (mac_top.v), mac_tx0 : mac_tx_top (mac_tx_top.v)]", 9); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v), mac_top0 : mac_top (mac_top.v), mac_tx0 : mac_tx_top (mac_tx_top.v), ip0 : ip_tx (ip_tx.v)]", 13, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_eth (ram_eth.v), eth_test : ethernet_2port (ethernet_2port.v), u1 : ethernet_test (ethernet_test.v), mac_test0 : mac_test (mac_test.v), mac_top0 : mac_top (mac_top.v), mac_tx0 : mac_tx_top (mac_tx_top.v), ip0 : ip_tx (ip_tx.v)]", 13, false, false, false, false, false, true); // B (D, cj) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,762 MB. GUI used memory: 121 MB. Current time: 8/25/20 4:30:01 PM CST
+selectCodeEditor("ip_tx.v", 448, 243); // cd (w, cj)
+// Elapsed time: 226 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "checksum"); // l (aP, cj)
+selectCodeEditor("ip_tx.v", 159, 170); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 159, 170, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("ip_tx.v", 141, 297); // cd (w, cj)
+// Elapsed time: 28 seconds
+selectCodeEditor("ip_tx.v", 183, 302); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 183, 302, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 301, 294); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 301, 294, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 117, 1); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 120, 275); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 120, 275, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 18 seconds
+selectComboBox(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "wait_cnt", 2); // aP (aH, cj)
+// Elapsed time: 24 seconds
+selectCodeEditor("ip_tx.v", 203, 391); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 203, 391, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 112, 378); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 112, 378, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("ip_tx.v", 250, 410); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 250, 410, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 261, 402); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 261, 402, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 270, 389); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 270, 389, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 185 seconds
+selectCodeEditor("ip_tx.v", 496, 303); // cd (w, cj)
+// Elapsed time: 87 seconds
+selectCodeEditor("ip_tx.v", 193, 167); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 193, 167, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 201, 170); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 201, 170, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 44 seconds
+selectCodeEditor("ip_tx.v", 426, 265); // cd (w, cj)
+// Elapsed time: 27 seconds
+selectCodeEditor("ip_tx.v", 562, 170); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 562, 170, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("ip_tx.v", 523, 229); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 523, 229, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 549, 169); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 549, 169); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 549, 169, false, false, false, false, true); // cd (w, cj) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,769 MB. GUI used memory: 119 MB. Current time: 8/25/20 5:00:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,771 MB. GUI used memory: 119 MB. Current time: 8/25/20 5:30:02 PM CST
+// Elapsed time: 2948 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "checksum_"); // l (aP, cj)
+selectCodeEditor("ip_tx.v", 208, 322); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 208, 322, false, false, false, false, true); // cd (w, cj) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,771 MB. GUI used memory: 119 MB. Current time: 8/25/20 6:00:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,772 MB. GUI used memory: 119 MB. Current time: 8/25/20 6:30:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 119 MB. Current time: 8/25/20 7:00:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,774 MB. GUI used memory: 119 MB. Current time: 8/25/20 7:30:02 PM CST
+// Elapsed time: 7439 seconds
+selectCodeEditor("ip_tx.v", 626, 99); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 626, 99, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 87 seconds
+selectCodeEditor("ip_tx.v", 117, 179); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 130, 201); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 172, 205); // cd (w, cj)
+// Elapsed time: 23 seconds
+selectCodeEditor("ip_tx.v", 651, 261); // cd (w, cj)
+// Elapsed time: 19 seconds
+selectCodeEditor("ip_tx.v", 501, 219); // cd (w, cj)
+// Elapsed time: 19 seconds
+selectCodeEditor("ip_tx.v", 442, 163); // cd (w, cj)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "4500"); // l (aP, cj)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "4500"); // l (aP, cj)
+// Elapsed time: 20 seconds
+selectCodeEditor("ip_tx.v", 355, 430); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 355, 430, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 30 seconds
+selectCodeEditor("ip_tx.v", 372, 280); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 372, 280, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 553, 277); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 553, 277, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 421, 295); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 421, 295, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 585, 291); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 585, 291, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 60 seconds
+selectCodeEditor("ip_tx.v", 174, 230); // cd (w, cj)
+// Elapsed time: 46 seconds
+selectCodeEditor("ip_tx.v", 446, 293); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 446, 293, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 42 seconds
+selectCodeEditor("ip_tx.v", 237, 313); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 153, 323); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 153, 323, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("ip_tx.v", 153, 321); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 153, 321); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 205, 324); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 205, 324, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 38 seconds
+selectCodeEditor("ip_tx.v", 354, 287); // cd (w, cj)
+// Elapsed time: 11 seconds
+selectCodeEditor("ip_tx.v", 735, 154); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 367, 189); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("ip_tx.v", 340, 301); // cd (w, cj)
+selectCodeEditor("ip_tx.v", 146, 243); // cd (w, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// x (cj): Elaborate Design: addNotify
+dismissDialog("Elaborate Design"); // x (cj)
+selectCodeEditor("ip_tx.v", 436, 163); // cd (w, cj)
+// Elapsed time: 18 seconds
+selectCodeEditor("ip_tx.v", 475, 304); // cd (w, cj)
+// Elapsed time: 47 seconds
+selectCodeEditor("ip_tx.v", 251, 305); // cd (w, cj)
+// Elapsed time: 27 seconds
+selectCodeEditor("ip_tx.v", 255, 294); // cd (w, cj)
+// Elapsed time: 22 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 55 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// am (cj): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_DONT_SAVE, "Don't Save"); // a (am)
+// e (cj):  Run Simulation : addNotify
+dismissDialog("Save Project"); // am (cj)
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'E:/Vivado/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'sim1' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// 'd' command handler elapsed time: 9 seconds
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectCodeEditor("ip_tx.v", 451, 295); // cd (w, cj)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+typeControlKey(null, null, 'z');
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+typeControlKey(null, null, 'z');
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+selectCodeEditor("ip_tx.v", 348, 286); // cd (w, cj)
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... 
+// Tcl Message: INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj sim1_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1976.922 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '13' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim' 
+// Tcl Message: Vivado Simulator 2017.4 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: E:/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 41ed348df50945a8b5bcc8170767b3a7 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_1 -L xil_defaultlib -L ten_gig_eth_mac_v15_1_4 -L gtwizard_ultrascale_v1_7_2 -L ten_gig_eth_pcs_pma_v6_0_11 -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim1_behav xil_defaultlib.sim1 xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// Tcl Message: Starting simulation data flow analysis 
+// Tcl Message: Completed simulation data flow analysis 
+// Tcl Message: Compiling module unisims_ver.GTHE3_COMMON(QPLL0_CFG0=16'b0110... 
+// Tcl Message: Compiling module unisims_ver.GTHE3_CHANNEL(ALIGN_COMMA_ENABLE... 
+// Tcl Message: Compiling module xil_defaultlib.gtwizard_ultrascale_v1_7_2_gthe3... 
+// Tcl Message: Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_p... Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(... Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_COMMON... Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_COMMON_... Compiling module xil_defaultlib.despatch_fifo Compiling module xil_defaultlib.despatch Compiling module xil_defaultlib.sim1 Compiling module xil_defaultlib.glbl 
+// Tcl Message: Built simulation snapshot sim1_behav 
+// Tcl Message:  ****** Webtalk v2017.4_AR70877 (64-bit)   **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017   **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.  source E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim/xsim.dir/sim1_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// [Engine Memory]: 1,799 MB (+2127kb) [27:44:46]
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Tue Aug 25 19:48:15 2020... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:09 ; elapsed = 00:02:07 . Memory (MB): peak = 1976.922 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '127' seconds 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,800 MB. GUI used memory: 127 MB. Current time: 8/25/20 7:48:21 PM CST
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "sim1_behav -key {Behavioral:sim_1:Functional:sim1} -tclbatch {sim1.tcl} -view {E:/test/pcie_eth_10g_8.11/ram_eth/sim_test_behav1.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// PAPropertyPanels.initPanels (ip_tx.v) elapsed time: 0.2s
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// Tcl Message: open_wave_config E:/test/pcie_eth_10g_8.11/ram_eth/sim_test_behav1.wcfg 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,805 MB. GUI used memory: 125 MB. Current time: 8/25/20 7:48:27 PM CST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: source sim1.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,830 MB. GUI used memory: 125 MB. Current time: 8/25/20 7:48:29 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:25 ; elapsed = 00:00:09 . Memory (MB): peak = 2056.602 ; gain = 65.863 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim1_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:01:06 ; elapsed = 00:02:47 . Memory (MB): peak = 2056.602 ; gain = 87.094 
+// Elapsed time: 154 seconds
+dismissDialog("Run Simulation"); // e (cj)
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, mac_rx]", 14); // a (s, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,834 MB. GUI used memory: 125 MB. Current time: 8/25/20 7:48:32 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, udp_rx]", 16); // a (s, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,834 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:48:38 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "eth_test ; ethernet_2port ; Verilog Module", 1); // d (O, cj)
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "u1 ; ethernet_test ; Verilog Module", 2, "u1", 0, true); // d (O, cj) - Node
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "u1 ; ethernet_test ; Verilog Module", 2); // d (O, cj)
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "mac_test0 ; mac_test ; Verilog Module", 4); // d (O, cj)
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "mac_top0 ; mac_top ; Verilog Module", 5); // d (O, cj)
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "mac_rx0 ; mac_rx_top ; Verilog Module", 7); // d (O, cj)
+collapseTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "mac_rx0 ; mac_rx_top ; Verilog Module", 7); // d (O, cj)
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "mac_tx0 ; mac_tx_top ; Verilog Module", 6); // d (O, cj)
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "ip0 ; ip_tx ; Verilog Module", 10, "ip0", 0, false); // d (O, cj)
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "Objects_search"); // u (f, cj): TRUE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 20 seconds
+setText("PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE_SEARCH_FIELD", "checksum"); // OverlayTextField (au, cj)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "checksum_finish ; 0 ; Logic", 0, "checksum_finish", 0, false); // n (c, cj)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "checksum_finish ; 0 ; Logic", 0, "checksum_finish", 0, false); // n (c, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,836 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:49:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "checksum_tmp0[16:0] ; 00000 ; Array", 1, "00000", 1, true); // n (c, cj) - Node
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "checksum_tmp0[16:0] ; 00000 ; Array", 1, "00000", 1, true); // n (c, cj) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "checksum_tmp8[19:0] ; 00000 ; Array", 9, "checksum_tmp8[19:0]", 0, true); // n (c, cj) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "checksum[15:0] ; 0000 ; Array", 10, "checksum[15:0]", 0, true); // n (c, cj) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "checksum[15:0] ; 0000 ; Array", 10, "checksum[15:0]", 0, true); // n (c, cj) - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 17 seconds
+setText("PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE_SEARCH_FIELD", "ip_sen"); // OverlayTextField (au, cj)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "ip_send_cnt[15:0] ; 0000 ; Array", 4, "ip_send_cnt[15:0]", 0, true); // n (c, cj) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "ip_send_cnt[15:0] ; 0000 ; Array", 4, "ip_send_cnt[15:0]", 0, true); // n (c, cj) - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,836 MB. GUI used memory: 161 MB. Current time: 8/25/20 7:49:45 PM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART, "simulation_live_restart"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART
+// bs (cj):  Restart : addNotify
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: restart 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// Tcl Message: INFO: [Simtcl 6-17] Simulation restarted 
+dismissDialog("Restart"); // bs (cj)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run all 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,862 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:49:52 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 511, 298); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,862 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:49:53 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,862 MB. GUI used memory: 132 MB. Current time: 8/25/20 7:49:54 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,863 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:49:57 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,863 MB. GUI used memory: 132 MB. Current time: 8/25/20 7:49:58 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,864 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:50:01 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,865 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:50:04 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,865 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:50:06 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,866 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:50:10 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Elapsed time: 20 seconds
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_BREAK, "simulation_live_break"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_BREAK
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,866 MB. GUI used memory: 126 MB. Current time: 8/25/20 7:50:13 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:00:43 ; elapsed = 00:00:24 . Memory (MB): peak = 2118.109 ; gain = 55.961 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ip_tx.v", 4); // k (j, cj)
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "sim1 ; sim1 ; Verilog Module", 0, "sim1", 0, true); // d (O, cj) - Node
+// Elapsed time: 90 seconds
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "sim1 ; sim1 ; Verilog Module", 0, "sim1", 0, true); // d (O, cj) - Node
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "sim1 ; sim1 ; Verilog Module", 0, "sim1", 0, true, false, false, false, false, true); // d (O, cj) - Double Click - Node
+// TclEventType: SIMULATION_OPEN_SOURCE
+selectCodeEditor("sim1.v", 305, 372); // cd (w, cj)
+selectCodeEditor("sim1.v", 123, 280); // cd (w, cj)
+typeControlKey((HResource) null, "sim1.v", 'v'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// c (cj): Save Simulation Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (c)
+// b (cj):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+dismissDialog("Save Simulation Sources"); // c (cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: relaunch_sim 

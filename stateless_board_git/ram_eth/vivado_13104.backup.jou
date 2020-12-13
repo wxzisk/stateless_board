@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Dec 11 13:39:24 2020
+# Process ID: 13104
+# Current directory: D:/pcie_eth_10g/ram_eth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11028 D:\pcie_eth_10g\ram_eth\ram_eth.xpr
+# Log file: D:/pcie_eth_10g/ram_eth/vivado.log
+# Journal file: D:/pcie_eth_10g/ram_eth\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/pcie_eth_10g/ram_eth/ram_eth.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/gvi_10ge_mac_example.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_gt_common.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_gt_common_wrapper.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/gtwizard_ultrascale_v1_6_gthe3_common.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_shared_clock_and_reset.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_ff_synchronizer_rst2.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/ten_gig_mac_wrapper.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_fifo_block.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_support.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_xgmac_fifo.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_axi_fifo.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_sync_reset.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_sync_block.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_fifo_ram.vhd] -no_script -reset -force -quiet
+remove_files  {D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/gvi_10ge_mac_example.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_gt_common.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_gt_common_wrapper.v D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/gtwizard_ultrascale_v1_6_gthe3_common.v D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_shared_clock_and_reset.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_ff_synchronizer_rst2.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/ten_gig_mac_wrapper.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_fifo_block.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_support.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_xgmac_fifo.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_axi_fifo.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_sync_reset.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_sync_block.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_fifo_ram.vhd}
+file delete -force D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/gvi_10ge_mac_example.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_gt_common.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_gt_common_wrapper.v D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/gtwizard_ultrascale_v1_6_gthe3_common.v D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_shared_clock_and_reset.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/pcs_pma/ten_gig_eth_pcs_pma_0_ff_synchronizer_rst2.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/ten_gig_mac_wrapper.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_fifo_block.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_support.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_xgmac_fifo.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_axi_fifo.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_sync_reset.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_sync_block.vhd D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/imports/src/xge_mac/ten_gig_eth_mac_0_fifo_ram.vhd
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ten_gig_eth_pcs_pma_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset ten_gig_eth_pcs_pma_0 D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ten_gig_eth_pcs_pma_0.xci
+file delete -force D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0
+export_ip_user_files -of_objects  [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset ten_gig_eth_mac_0 D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci
+file delete -force D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/ip/ten_gig_eth_mac_0
+add_files {D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/xge_mac/ten_gig_eth_mac_0_support.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/ten_gig_mac_wrapper.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/xge_mac/ten_gig_eth_mac_0_axi_fifo.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/xge_mac/ten_gig_eth_mac_0_sync_reset.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/pcs_pma/ten_gig_eth_pcs_pma_0_gt_common_wrapper.v D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/xge_mac/ten_gig_eth_mac_0_fifo_ram.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/pcs_pma/ten_gig_eth_pcs_pma_0_shared_clock_and_reset.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/xge_mac/ten_gig_eth_mac_0_sync_block.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/pcs_pma/ten_gig_eth_pcs_pma_0_ff_synchronizer_rst2.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/xge_mac/ten_gig_eth_mac_0_fifo_block.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/gvi_10ge_mac_example.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/pcs_pma/gtwizard_ultrascale_v1_6_gthe3_common.v D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/xge_mac/ten_gig_eth_mac_0_xgmac_fifo.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/ten_gig_eth_mac_0_pat_gen.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/src/pcs_pma/ten_gig_eth_pcs_pma_0_gt_common.vhd D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ten_gig_eth_pcs_pma_0.xci D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen.xci D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci}
+export_ip_user_files -of_objects  [get_files  {D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ten_gig_eth_pcs_pma_0.xci D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci}] -lib_map_path [list {modelsim=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/modelsim} {questa=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/questa} {riviera=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/riviera} {activehdl=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/activehdl}] -force -quiet
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {ten_gig_eth_mac_0 ten_gig_eth_pcs_pma_0 xdma_and_ram_xdma_0_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {ten_gig_eth_mac_0 ten_gig_eth_pcs_pma_0 xdma_and_ram_xdma_0_0}] -no_script -sync -force -quiet
+convert_ips [get_files  {D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ten_gig_eth_pcs_pma_0.xci}]
+export_ip_user_files -of_objects  [get_files  {D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci D:/pcie_eth_10g/08_10GE_MAC/10GE_MAC/proj/XGE_MAC.srcs/sources_1/ip/ten_gig_eth_pcs_pma_0/ten_gig_eth_pcs_pma_0.xci}] -sync -lib_map_path [list {modelsim=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/modelsim} {questa=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/questa} {riviera=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/riviera} {activehdl=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/activehdl}] -force -quiet
+set_property coreContainer.enable 1 [current_project]
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_2 -jobs 6
+wait_on_run impl_2
+launch_simulation
+open_wave_config D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg
+source sim1.tcl
+launch_runs impl_2 -to_step write_bitstream -jobs 6
+wait_on_run impl_2
+run all
+set_property -dict [list CONFIG.Performance_Options {First_Word_Fall_Through} CONFIG.Full_Threshold_Assert_Value {2047} CONFIG.Full_Threshold_Negate_Value {2046}] [get_ips ten_to_one_fifo]
+generate_target all [get_files  D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci]
+catch { config_ip_cache -export [get_ips -all ten_to_one_fifo] }
+export_ip_user_files -of_objects [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci] -no_script -sync -force -quiet
+reset_run ten_to_one_fifo_synth_1
+launch_runs -jobs 6 ten_to_one_fifo_synth_1
+export_simulation -of_objects [get_files D:/pcie_eth_10g/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci] -directory D:/pcie_eth_10g/ram_eth/ram_eth.ip_user_files/sim_scripts -ip_user_files_dir D:/pcie_eth_10g/ram_eth/ram_eth.ip_user_files -ipstatic_source_dir D:/pcie_eth_10g/ram_eth/ram_eth.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/modelsim} {questa=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/questa} {riviera=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/riviera} {activehdl=D:/pcie_eth_10g/ram_eth/ram_eth.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+launch_simulation
+open_wave_config D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg
+source sim1.tcl
+run all
+save_wave_config {D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg}
+save_wave_config {D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg}
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+save_wave_config {D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg}
+relaunch_sim
+run all
+relaunch_sim
+run all
+save_wave_config {D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg}
+close_sim

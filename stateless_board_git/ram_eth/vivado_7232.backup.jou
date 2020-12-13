@@ -1,0 +1,137 @@
+#-----------------------------------------------------------
+# Vivado v2017.4_AR70877 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Sep  2 00:06:06 2020
+# Process ID: 7232
+# Current directory: E:/test/pcie_eth_10g_8.11/ram_eth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11844 E:\test\pcie_eth_10g_8.11\ram_eth\ram_eth.xpr
+# Log file: E:/test/pcie_eth_10g_8.11/ram_eth/vivado.log
+# Journal file: E:/test/pcie_eth_10g_8.11/ram_eth\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:\pcie_eth_10G_stateful_5states\ram_eth.bin} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {E:\pcie_eth_10G_stateful_5states\ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:\pcie_eth_10G_stateful_5states\ram_eth.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {FIFO_wr_en_p2e} {pcie_out} {PCIe_TOP/c_h2c_success} {PCIe_TOP/despatch_i/c_h2c_success_cnt} {PCIe_TOP/despatch_i/data_from_eth} {PCIe_TOP/despatch_i/din} {PCIe_TOP/despatch_i/din_h2c} {PCIe_TOP/despatch_i/dout} {PCIe_TOP/despatch_i/event_header} {PCIe_TOP/despatch_i/event_header_in} {PCIe_TOP/despatch_i/fifo_empty} {PCIe_TOP/despatch_i/fifo_rd_en} {PCIe_TOP/despatch_i/p2e_state} {PCIe_TOP/despatch_i/rd_en} {PCIe_TOP/despatch_i/state} {PCIe_TOP/despatch_i/state_cnt} {PCIe_TOP/despatch_i/state_cnt_last} {PCIe_TOP/despatch_i/state_e2p_empty} {PCIe_TOP/despatch_i/state_e2p_rd_en} {PCIe_TOP/despatch_i/wr_en} {PCIe_TOP/despatch_i/wr_en_h2c} }
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes PCIe_TOP/c_h2c_success -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes PCIe_TOP/c_h2c_success -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes PCIe_TOP/despatch_i/wr_en_h2c -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes PCIe_TOP/despatch_i/wr_en_h2c -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes state_e2p_wr_en -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+set_property PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/pcie_eth_10G_stateful_5states/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes FIFO_wr_en_e2p -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes FIFO_rd_en_e2p -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg}
+close_hw
+set_property -dict [list CONFIG.Read_Data_Count {true}] [get_ips ten_to_one_fifo]
+generate_target all [get_files  E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci]
+catch { config_ip_cache -export [get_ips -all ten_to_one_fifo] }
+export_ip_user_files -of_objects [get_files E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci] -no_script -sync -force -quiet
+reset_run ten_to_one_fifo_synth_1
+launch_runs -jobs 24 ten_to_one_fifo_synth_1
+export_simulation -of_objects [get_files E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.srcs/sources_1/ip/ten_to_one_fifo/ten_to_one_fifo.xci] -directory E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.ip_user_files/sim_scripts -ip_user_files_dir E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.ip_user_files -ipstatic_source_dir E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.cache/compile_simlib/modelsim} {questa=E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.cache/compile_simlib/questa} {riviera=E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.cache/compile_simlib/riviera} {activehdl=E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+launch_runs impl_2 -jobs 24
+wait_on_run impl_2
+launch_runs impl_2 -to_step write_bitstream -jobs 24
+wait_on_run impl_2
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+launch_simulation
+open_wave_config E:/test/pcie_eth_10g_8.11/ram_eth/sim_test_behav1.wcfg
+source sim1.tcl
+run all
+close_sim
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg}

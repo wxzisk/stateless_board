@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# Vivado v2017.4_AR70877 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jul  7 12:53:08 2020
+# Process ID: 7272
+# Current directory: D:/fpga/yxj/xdma_0_ex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8488 D:\fpga\yxj\xdma_0_ex\xdma_0_ex.xpr
+# Log file: D:/fpga/yxj/xdma_0_ex/vivado.log
+# Journal file: D:/fpga/yxj/xdma_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/fpga/yxj/xdma_0_ex/xdma_0_ex.xpr
+update_compile_order -fileset sources_1
+reset_run xdma_and_ram_xdma_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+reset_run synth_1
+reset_run xdma_and_ram_xdma_0_0_synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+delete_debug_core [get_debug_cores {u_ila_0 }]
+save_constraints
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ]
+endgroup
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list c2h_dsc_byp_load ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list c2h_dsc_byp_ready ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list c_c2h_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list c_h2c_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list dsc_gen_all_i/dsc_gen_c2h_n_2 ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list h2c_dsc_byp_load ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list h2c_dsc_byp_ready ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe7]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7]
+connect_debug_port u_ila_0/probe7 [get_nets [list h_c2h_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe8]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8]
+connect_debug_port u_ila_0/probe8 [get_nets [list h_h2c_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe9]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9]
+connect_debug_port u_ila_0/probe9 [get_nets [list user_resetn ]]
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 24
+wait_on_run impl_1
+open_hw
+close_hw
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1

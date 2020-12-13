@@ -1,0 +1,6 @@
+verilog xil_defaultlib "../../../../XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen_clk_wiz.v" --include "../../../ipstatic"
+verilog xil_defaultlib "../../../../XGE_MAC.srcs/sources_1/ip/ClkGen/ClkGen.v" --include "../../../ipstatic"
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

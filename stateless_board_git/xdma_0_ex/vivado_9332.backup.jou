@@ -1,0 +1,147 @@
+#-----------------------------------------------------------
+# Vivado v2017.4_AR70877 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jul  8 11:42:45 2020
+# Process ID: 9332
+# Current directory: D:/fpga/yxj/xdma_0_ex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11776 D:\fpga\yxj\xdma_0_ex\xdma_0_ex.xpr
+# Log file: D:/fpga/yxj/xdma_0_ex/vivado.log
+# Journal file: D:/fpga/yxj/xdma_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/fpga/yxj/xdma_0_ex/xdma_0_ex.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ]
+endgroup
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ]]
+set_property port_width 16 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {c2h_dsc_byp_ctl[0]} {c2h_dsc_byp_ctl[1]} {c2h_dsc_byp_ctl[2]} {c2h_dsc_byp_ctl[3]} {c2h_dsc_byp_ctl[4]} {c2h_dsc_byp_ctl[5]} {c2h_dsc_byp_ctl[6]} {c2h_dsc_byp_ctl[7]} {c2h_dsc_byp_ctl[8]} {c2h_dsc_byp_ctl[9]} {c2h_dsc_byp_ctl[10]} {c2h_dsc_byp_ctl[11]} {c2h_dsc_byp_ctl[12]} {c2h_dsc_byp_ctl[13]} {c2h_dsc_byp_ctl[14]} {c2h_dsc_byp_ctl[15]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 64 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {c2h_dsc_byp_dst_addr[0]} {c2h_dsc_byp_dst_addr[1]} {c2h_dsc_byp_dst_addr[2]} {c2h_dsc_byp_dst_addr[3]} {c2h_dsc_byp_dst_addr[4]} {c2h_dsc_byp_dst_addr[5]} {c2h_dsc_byp_dst_addr[6]} {c2h_dsc_byp_dst_addr[7]} {c2h_dsc_byp_dst_addr[8]} {c2h_dsc_byp_dst_addr[9]} {c2h_dsc_byp_dst_addr[10]} {c2h_dsc_byp_dst_addr[11]} {c2h_dsc_byp_dst_addr[12]} {c2h_dsc_byp_dst_addr[13]} {c2h_dsc_byp_dst_addr[14]} {c2h_dsc_byp_dst_addr[15]} {c2h_dsc_byp_dst_addr[16]} {c2h_dsc_byp_dst_addr[17]} {c2h_dsc_byp_dst_addr[18]} {c2h_dsc_byp_dst_addr[19]} {c2h_dsc_byp_dst_addr[20]} {c2h_dsc_byp_dst_addr[21]} {c2h_dsc_byp_dst_addr[22]} {c2h_dsc_byp_dst_addr[23]} {c2h_dsc_byp_dst_addr[24]} {c2h_dsc_byp_dst_addr[25]} {c2h_dsc_byp_dst_addr[26]} {c2h_dsc_byp_dst_addr[27]} {c2h_dsc_byp_dst_addr[28]} {c2h_dsc_byp_dst_addr[29]} {c2h_dsc_byp_dst_addr[30]} {c2h_dsc_byp_dst_addr[31]} {c2h_dsc_byp_dst_addr[32]} {c2h_dsc_byp_dst_addr[33]} {c2h_dsc_byp_dst_addr[34]} {c2h_dsc_byp_dst_addr[35]} {c2h_dsc_byp_dst_addr[36]} {c2h_dsc_byp_dst_addr[37]} {c2h_dsc_byp_dst_addr[38]} {c2h_dsc_byp_dst_addr[39]} {c2h_dsc_byp_dst_addr[40]} {c2h_dsc_byp_dst_addr[41]} {c2h_dsc_byp_dst_addr[42]} {c2h_dsc_byp_dst_addr[43]} {c2h_dsc_byp_dst_addr[44]} {c2h_dsc_byp_dst_addr[45]} {c2h_dsc_byp_dst_addr[46]} {c2h_dsc_byp_dst_addr[47]} {c2h_dsc_byp_dst_addr[48]} {c2h_dsc_byp_dst_addr[49]} {c2h_dsc_byp_dst_addr[50]} {c2h_dsc_byp_dst_addr[51]} {c2h_dsc_byp_dst_addr[52]} {c2h_dsc_byp_dst_addr[53]} {c2h_dsc_byp_dst_addr[54]} {c2h_dsc_byp_dst_addr[55]} {c2h_dsc_byp_dst_addr[56]} {c2h_dsc_byp_dst_addr[57]} {c2h_dsc_byp_dst_addr[58]} {c2h_dsc_byp_dst_addr[59]} {c2h_dsc_byp_dst_addr[60]} {c2h_dsc_byp_dst_addr[61]} {c2h_dsc_byp_dst_addr[62]} {c2h_dsc_byp_dst_addr[63]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 28 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {c2h_dsc_byp_len[0]} {c2h_dsc_byp_len[1]} {c2h_dsc_byp_len[2]} {c2h_dsc_byp_len[3]} {c2h_dsc_byp_len[4]} {c2h_dsc_byp_len[5]} {c2h_dsc_byp_len[6]} {c2h_dsc_byp_len[7]} {c2h_dsc_byp_len[8]} {c2h_dsc_byp_len[9]} {c2h_dsc_byp_len[10]} {c2h_dsc_byp_len[11]} {c2h_dsc_byp_len[12]} {c2h_dsc_byp_len[13]} {c2h_dsc_byp_len[14]} {c2h_dsc_byp_len[15]} {c2h_dsc_byp_len[16]} {c2h_dsc_byp_len[17]} {c2h_dsc_byp_len[18]} {c2h_dsc_byp_len[19]} {c2h_dsc_byp_len[20]} {c2h_dsc_byp_len[21]} {c2h_dsc_byp_len[22]} {c2h_dsc_byp_len[23]} {c2h_dsc_byp_len[24]} {c2h_dsc_byp_len[25]} {c2h_dsc_byp_len[26]} {c2h_dsc_byp_len[27]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 64 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {c2h_dsc_byp_src_addr[0]} {c2h_dsc_byp_src_addr[1]} {c2h_dsc_byp_src_addr[2]} {c2h_dsc_byp_src_addr[3]} {c2h_dsc_byp_src_addr[4]} {c2h_dsc_byp_src_addr[5]} {c2h_dsc_byp_src_addr[6]} {c2h_dsc_byp_src_addr[7]} {c2h_dsc_byp_src_addr[8]} {c2h_dsc_byp_src_addr[9]} {c2h_dsc_byp_src_addr[10]} {c2h_dsc_byp_src_addr[11]} {c2h_dsc_byp_src_addr[12]} {c2h_dsc_byp_src_addr[13]} {c2h_dsc_byp_src_addr[14]} {c2h_dsc_byp_src_addr[15]} {c2h_dsc_byp_src_addr[16]} {c2h_dsc_byp_src_addr[17]} {c2h_dsc_byp_src_addr[18]} {c2h_dsc_byp_src_addr[19]} {c2h_dsc_byp_src_addr[20]} {c2h_dsc_byp_src_addr[21]} {c2h_dsc_byp_src_addr[22]} {c2h_dsc_byp_src_addr[23]} {c2h_dsc_byp_src_addr[24]} {c2h_dsc_byp_src_addr[25]} {c2h_dsc_byp_src_addr[26]} {c2h_dsc_byp_src_addr[27]} {c2h_dsc_byp_src_addr[28]} {c2h_dsc_byp_src_addr[29]} {c2h_dsc_byp_src_addr[30]} {c2h_dsc_byp_src_addr[31]} {c2h_dsc_byp_src_addr[32]} {c2h_dsc_byp_src_addr[33]} {c2h_dsc_byp_src_addr[34]} {c2h_dsc_byp_src_addr[35]} {c2h_dsc_byp_src_addr[36]} {c2h_dsc_byp_src_addr[37]} {c2h_dsc_byp_src_addr[38]} {c2h_dsc_byp_src_addr[39]} {c2h_dsc_byp_src_addr[40]} {c2h_dsc_byp_src_addr[41]} {c2h_dsc_byp_src_addr[42]} {c2h_dsc_byp_src_addr[43]} {c2h_dsc_byp_src_addr[44]} {c2h_dsc_byp_src_addr[45]} {c2h_dsc_byp_src_addr[46]} {c2h_dsc_byp_src_addr[47]} {c2h_dsc_byp_src_addr[48]} {c2h_dsc_byp_src_addr[49]} {c2h_dsc_byp_src_addr[50]} {c2h_dsc_byp_src_addr[51]} {c2h_dsc_byp_src_addr[52]} {c2h_dsc_byp_src_addr[53]} {c2h_dsc_byp_src_addr[54]} {c2h_dsc_byp_src_addr[55]} {c2h_dsc_byp_src_addr[56]} {c2h_dsc_byp_src_addr[57]} {c2h_dsc_byp_src_addr[58]} {c2h_dsc_byp_src_addr[59]} {c2h_dsc_byp_src_addr[60]} {c2h_dsc_byp_src_addr[61]} {c2h_dsc_byp_src_addr[62]} {c2h_dsc_byp_src_addr[63]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 28 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list {h2c_dsc_byp_len[0]} {h2c_dsc_byp_len[1]} {h2c_dsc_byp_len[2]} {h2c_dsc_byp_len[3]} {h2c_dsc_byp_len[4]} {h2c_dsc_byp_len[5]} {h2c_dsc_byp_len[6]} {h2c_dsc_byp_len[7]} {h2c_dsc_byp_len[8]} {h2c_dsc_byp_len[9]} {h2c_dsc_byp_len[10]} {h2c_dsc_byp_len[11]} {h2c_dsc_byp_len[12]} {h2c_dsc_byp_len[13]} {h2c_dsc_byp_len[14]} {h2c_dsc_byp_len[15]} {h2c_dsc_byp_len[16]} {h2c_dsc_byp_len[17]} {h2c_dsc_byp_len[18]} {h2c_dsc_byp_len[19]} {h2c_dsc_byp_len[20]} {h2c_dsc_byp_len[21]} {h2c_dsc_byp_len[22]} {h2c_dsc_byp_len[23]} {h2c_dsc_byp_len[24]} {h2c_dsc_byp_len[25]} {h2c_dsc_byp_len[26]} {h2c_dsc_byp_len[27]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 64 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list {data_to_eth_OBUF[0]} {data_to_eth_OBUF[1]} {data_to_eth_OBUF[2]} {data_to_eth_OBUF[3]} {data_to_eth_OBUF[4]} {data_to_eth_OBUF[5]} {data_to_eth_OBUF[6]} {data_to_eth_OBUF[7]} {data_to_eth_OBUF[8]} {data_to_eth_OBUF[9]} {data_to_eth_OBUF[10]} {data_to_eth_OBUF[11]} {data_to_eth_OBUF[12]} {data_to_eth_OBUF[13]} {data_to_eth_OBUF[14]} {data_to_eth_OBUF[15]} {data_to_eth_OBUF[16]} {data_to_eth_OBUF[17]} {data_to_eth_OBUF[18]} {data_to_eth_OBUF[19]} {data_to_eth_OBUF[20]} {data_to_eth_OBUF[21]} {data_to_eth_OBUF[22]} {data_to_eth_OBUF[23]} {data_to_eth_OBUF[24]} {data_to_eth_OBUF[25]} {data_to_eth_OBUF[26]} {data_to_eth_OBUF[27]} {data_to_eth_OBUF[28]} {data_to_eth_OBUF[29]} {data_to_eth_OBUF[30]} {data_to_eth_OBUF[31]} {data_to_eth_OBUF[32]} {data_to_eth_OBUF[33]} {data_to_eth_OBUF[34]} {data_to_eth_OBUF[35]} {data_to_eth_OBUF[36]} {data_to_eth_OBUF[37]} {data_to_eth_OBUF[38]} {data_to_eth_OBUF[39]} {data_to_eth_OBUF[40]} {data_to_eth_OBUF[41]} {data_to_eth_OBUF[42]} {data_to_eth_OBUF[43]} {data_to_eth_OBUF[44]} {data_to_eth_OBUF[45]} {data_to_eth_OBUF[46]} {data_to_eth_OBUF[47]} {data_to_eth_OBUF[48]} {data_to_eth_OBUF[49]} {data_to_eth_OBUF[50]} {data_to_eth_OBUF[51]} {data_to_eth_OBUF[52]} {data_to_eth_OBUF[53]} {data_to_eth_OBUF[54]} {data_to_eth_OBUF[55]} {data_to_eth_OBUF[56]} {data_to_eth_OBUF[57]} {data_to_eth_OBUF[58]} {data_to_eth_OBUF[59]} {data_to_eth_OBUF[60]} {data_to_eth_OBUF[61]} {data_to_eth_OBUF[62]} {data_to_eth_OBUF[63]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 156 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list {din_c2h[0]} {din_c2h[1]} {din_c2h[2]} {din_c2h[3]} {din_c2h[4]} {din_c2h[5]} {din_c2h[6]} {din_c2h[7]} {din_c2h[8]} {din_c2h[9]} {din_c2h[10]} {din_c2h[11]} {din_c2h[12]} {din_c2h[13]} {din_c2h[14]} {din_c2h[15]} {din_c2h[16]} {din_c2h[17]} {din_c2h[18]} {din_c2h[19]} {din_c2h[20]} {din_c2h[21]} {din_c2h[22]} {din_c2h[23]} {din_c2h[24]} {din_c2h[25]} {din_c2h[26]} {din_c2h[27]} {din_c2h[28]} {din_c2h[29]} {din_c2h[30]} {din_c2h[31]} {din_c2h[32]} {din_c2h[33]} {din_c2h[34]} {din_c2h[35]} {din_c2h[36]} {din_c2h[37]} {din_c2h[38]} {din_c2h[39]} {din_c2h[40]} {din_c2h[41]} {din_c2h[42]} {din_c2h[43]} {din_c2h[44]} {din_c2h[45]} {din_c2h[46]} {din_c2h[47]} {din_c2h[48]} {din_c2h[49]} {din_c2h[50]} {din_c2h[51]} {din_c2h[52]} {din_c2h[53]} {din_c2h[54]} {din_c2h[55]} {din_c2h[56]} {din_c2h[57]} {din_c2h[58]} {din_c2h[59]} {din_c2h[60]} {din_c2h[61]} {din_c2h[62]} {din_c2h[63]} {din_c2h[64]} {din_c2h[65]} {din_c2h[66]} {din_c2h[67]} {din_c2h[68]} {din_c2h[69]} {din_c2h[70]} {din_c2h[71]} {din_c2h[72]} {din_c2h[73]} {din_c2h[74]} {din_c2h[75]} {din_c2h[76]} {din_c2h[77]} {din_c2h[78]} {din_c2h[79]} {din_c2h[80]} {din_c2h[81]} {din_c2h[82]} {din_c2h[83]} {din_c2h[84]} {din_c2h[85]} {din_c2h[86]} {din_c2h[87]} {din_c2h[88]} {din_c2h[89]} {din_c2h[90]} {din_c2h[91]} {din_c2h[92]} {din_c2h[93]} {din_c2h[94]} {din_c2h[95]} {din_c2h[96]} {din_c2h[97]} {din_c2h[98]} {din_c2h[99]} {din_c2h[100]} {din_c2h[101]} {din_c2h[102]} {din_c2h[103]} {din_c2h[104]} {din_c2h[105]} {din_c2h[106]} {din_c2h[107]} {din_c2h[108]} {din_c2h[109]} {din_c2h[110]} {din_c2h[111]} {din_c2h[112]} {din_c2h[113]} {din_c2h[114]} {din_c2h[115]} {din_c2h[116]} {din_c2h[117]} {din_c2h[118]} {din_c2h[119]} {din_c2h[120]} {din_c2h[121]} {din_c2h[122]} {din_c2h[123]} {din_c2h[124]} {din_c2h[125]} {din_c2h[126]} {din_c2h[127]} {din_c2h[128]} {din_c2h[129]} {din_c2h[130]} {din_c2h[131]} {din_c2h[132]} {din_c2h[133]} {din_c2h[134]} {din_c2h[135]} {din_c2h[136]} {din_c2h[137]} {din_c2h[138]} {din_c2h[139]} {din_c2h[140]} {din_c2h[141]} {din_c2h[142]} {din_c2h[143]} {din_c2h[144]} {din_c2h[145]} {din_c2h[146]} {din_c2h[147]} {din_c2h[148]} {din_c2h[149]} {din_c2h[150]} {din_c2h[151]} {din_c2h[152]} {din_c2h[153]} {din_c2h[154]} {din_c2h[155]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 64 [get_debug_ports u_ila_0/probe7]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7]
+connect_debug_port u_ila_0/probe7 [get_nets [list {h2c_dsc_byp_dst_addr[0]} {h2c_dsc_byp_dst_addr[1]} {h2c_dsc_byp_dst_addr[2]} {h2c_dsc_byp_dst_addr[3]} {h2c_dsc_byp_dst_addr[4]} {h2c_dsc_byp_dst_addr[5]} {h2c_dsc_byp_dst_addr[6]} {h2c_dsc_byp_dst_addr[7]} {h2c_dsc_byp_dst_addr[8]} {h2c_dsc_byp_dst_addr[9]} {h2c_dsc_byp_dst_addr[10]} {h2c_dsc_byp_dst_addr[11]} {h2c_dsc_byp_dst_addr[12]} {h2c_dsc_byp_dst_addr[13]} {h2c_dsc_byp_dst_addr[14]} {h2c_dsc_byp_dst_addr[15]} {h2c_dsc_byp_dst_addr[16]} {h2c_dsc_byp_dst_addr[17]} {h2c_dsc_byp_dst_addr[18]} {h2c_dsc_byp_dst_addr[19]} {h2c_dsc_byp_dst_addr[20]} {h2c_dsc_byp_dst_addr[21]} {h2c_dsc_byp_dst_addr[22]} {h2c_dsc_byp_dst_addr[23]} {h2c_dsc_byp_dst_addr[24]} {h2c_dsc_byp_dst_addr[25]} {h2c_dsc_byp_dst_addr[26]} {h2c_dsc_byp_dst_addr[27]} {h2c_dsc_byp_dst_addr[28]} {h2c_dsc_byp_dst_addr[29]} {h2c_dsc_byp_dst_addr[30]} {h2c_dsc_byp_dst_addr[31]} {h2c_dsc_byp_dst_addr[32]} {h2c_dsc_byp_dst_addr[33]} {h2c_dsc_byp_dst_addr[34]} {h2c_dsc_byp_dst_addr[35]} {h2c_dsc_byp_dst_addr[36]} {h2c_dsc_byp_dst_addr[37]} {h2c_dsc_byp_dst_addr[38]} {h2c_dsc_byp_dst_addr[39]} {h2c_dsc_byp_dst_addr[40]} {h2c_dsc_byp_dst_addr[41]} {h2c_dsc_byp_dst_addr[42]} {h2c_dsc_byp_dst_addr[43]} {h2c_dsc_byp_dst_addr[44]} {h2c_dsc_byp_dst_addr[45]} {h2c_dsc_byp_dst_addr[46]} {h2c_dsc_byp_dst_addr[47]} {h2c_dsc_byp_dst_addr[48]} {h2c_dsc_byp_dst_addr[49]} {h2c_dsc_byp_dst_addr[50]} {h2c_dsc_byp_dst_addr[51]} {h2c_dsc_byp_dst_addr[52]} {h2c_dsc_byp_dst_addr[53]} {h2c_dsc_byp_dst_addr[54]} {h2c_dsc_byp_dst_addr[55]} {h2c_dsc_byp_dst_addr[56]} {h2c_dsc_byp_dst_addr[57]} {h2c_dsc_byp_dst_addr[58]} {h2c_dsc_byp_dst_addr[59]} {h2c_dsc_byp_dst_addr[60]} {h2c_dsc_byp_dst_addr[61]} {h2c_dsc_byp_dst_addr[62]} {h2c_dsc_byp_dst_addr[63]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 64 [get_debug_ports u_ila_0/probe8]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8]
+connect_debug_port u_ila_0/probe8 [get_nets [list {h2c_dsc_byp_src_addr[0]} {h2c_dsc_byp_src_addr[1]} {h2c_dsc_byp_src_addr[2]} {h2c_dsc_byp_src_addr[3]} {h2c_dsc_byp_src_addr[4]} {h2c_dsc_byp_src_addr[5]} {h2c_dsc_byp_src_addr[6]} {h2c_dsc_byp_src_addr[7]} {h2c_dsc_byp_src_addr[8]} {h2c_dsc_byp_src_addr[9]} {h2c_dsc_byp_src_addr[10]} {h2c_dsc_byp_src_addr[11]} {h2c_dsc_byp_src_addr[12]} {h2c_dsc_byp_src_addr[13]} {h2c_dsc_byp_src_addr[14]} {h2c_dsc_byp_src_addr[15]} {h2c_dsc_byp_src_addr[16]} {h2c_dsc_byp_src_addr[17]} {h2c_dsc_byp_src_addr[18]} {h2c_dsc_byp_src_addr[19]} {h2c_dsc_byp_src_addr[20]} {h2c_dsc_byp_src_addr[21]} {h2c_dsc_byp_src_addr[22]} {h2c_dsc_byp_src_addr[23]} {h2c_dsc_byp_src_addr[24]} {h2c_dsc_byp_src_addr[25]} {h2c_dsc_byp_src_addr[26]} {h2c_dsc_byp_src_addr[27]} {h2c_dsc_byp_src_addr[28]} {h2c_dsc_byp_src_addr[29]} {h2c_dsc_byp_src_addr[30]} {h2c_dsc_byp_src_addr[31]} {h2c_dsc_byp_src_addr[32]} {h2c_dsc_byp_src_addr[33]} {h2c_dsc_byp_src_addr[34]} {h2c_dsc_byp_src_addr[35]} {h2c_dsc_byp_src_addr[36]} {h2c_dsc_byp_src_addr[37]} {h2c_dsc_byp_src_addr[38]} {h2c_dsc_byp_src_addr[39]} {h2c_dsc_byp_src_addr[40]} {h2c_dsc_byp_src_addr[41]} {h2c_dsc_byp_src_addr[42]} {h2c_dsc_byp_src_addr[43]} {h2c_dsc_byp_src_addr[44]} {h2c_dsc_byp_src_addr[45]} {h2c_dsc_byp_src_addr[46]} {h2c_dsc_byp_src_addr[47]} {h2c_dsc_byp_src_addr[48]} {h2c_dsc_byp_src_addr[49]} {h2c_dsc_byp_src_addr[50]} {h2c_dsc_byp_src_addr[51]} {h2c_dsc_byp_src_addr[52]} {h2c_dsc_byp_src_addr[53]} {h2c_dsc_byp_src_addr[54]} {h2c_dsc_byp_src_addr[55]} {h2c_dsc_byp_src_addr[56]} {h2c_dsc_byp_src_addr[57]} {h2c_dsc_byp_src_addr[58]} {h2c_dsc_byp_src_addr[59]} {h2c_dsc_byp_src_addr[60]} {h2c_dsc_byp_src_addr[61]} {h2c_dsc_byp_src_addr[62]} {h2c_dsc_byp_src_addr[63]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 156 [get_debug_ports u_ila_0/probe9]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9]
+connect_debug_port u_ila_0/probe9 [get_nets [list {din_h2c[0]} {din_h2c[1]} {din_h2c[2]} {din_h2c[3]} {din_h2c[4]} {din_h2c[5]} {din_h2c[6]} {din_h2c[7]} {din_h2c[8]} {din_h2c[9]} {din_h2c[10]} {din_h2c[11]} {din_h2c[12]} {din_h2c[13]} {din_h2c[14]} {din_h2c[15]} {din_h2c[16]} {din_h2c[17]} {din_h2c[18]} {din_h2c[19]} {din_h2c[20]} {din_h2c[21]} {din_h2c[22]} {din_h2c[23]} {din_h2c[24]} {din_h2c[25]} {din_h2c[26]} {din_h2c[27]} {din_h2c[28]} {din_h2c[29]} {din_h2c[30]} {din_h2c[31]} {din_h2c[32]} {din_h2c[33]} {din_h2c[34]} {din_h2c[35]} {din_h2c[36]} {din_h2c[37]} {din_h2c[38]} {din_h2c[39]} {din_h2c[40]} {din_h2c[41]} {din_h2c[42]} {din_h2c[43]} {din_h2c[44]} {din_h2c[45]} {din_h2c[46]} {din_h2c[47]} {din_h2c[48]} {din_h2c[49]} {din_h2c[50]} {din_h2c[51]} {din_h2c[52]} {din_h2c[53]} {din_h2c[54]} {din_h2c[55]} {din_h2c[56]} {din_h2c[57]} {din_h2c[58]} {din_h2c[59]} {din_h2c[60]} {din_h2c[61]} {din_h2c[62]} {din_h2c[63]} {din_h2c[64]} {din_h2c[65]} {din_h2c[66]} {din_h2c[67]} {din_h2c[68]} {din_h2c[69]} {din_h2c[70]} {din_h2c[71]} {din_h2c[72]} {din_h2c[73]} {din_h2c[74]} {din_h2c[75]} {din_h2c[76]} {din_h2c[77]} {din_h2c[78]} {din_h2c[79]} {din_h2c[80]} {din_h2c[81]} {din_h2c[82]} {din_h2c[83]} {din_h2c[84]} {din_h2c[85]} {din_h2c[86]} {din_h2c[87]} {din_h2c[88]} {din_h2c[89]} {din_h2c[90]} {din_h2c[91]} {din_h2c[92]} {din_h2c[93]} {din_h2c[94]} {din_h2c[95]} {din_h2c[96]} {din_h2c[97]} {din_h2c[98]} {din_h2c[99]} {din_h2c[100]} {din_h2c[101]} {din_h2c[102]} {din_h2c[103]} {din_h2c[104]} {din_h2c[105]} {din_h2c[106]} {din_h2c[107]} {din_h2c[108]} {din_h2c[109]} {din_h2c[110]} {din_h2c[111]} {din_h2c[112]} {din_h2c[113]} {din_h2c[114]} {din_h2c[115]} {din_h2c[116]} {din_h2c[117]} {din_h2c[118]} {din_h2c[119]} {din_h2c[120]} {din_h2c[121]} {din_h2c[122]} {din_h2c[123]} {din_h2c[124]} {din_h2c[125]} {din_h2c[126]} {din_h2c[127]} {din_h2c[128]} {din_h2c[129]} {din_h2c[130]} {din_h2c[131]} {din_h2c[132]} {din_h2c[133]} {din_h2c[134]} {din_h2c[135]} {din_h2c[136]} {din_h2c[137]} {din_h2c[138]} {din_h2c[139]} {din_h2c[140]} {din_h2c[141]} {din_h2c[142]} {din_h2c[143]} {din_h2c[144]} {din_h2c[145]} {din_h2c[146]} {din_h2c[147]} {din_h2c[148]} {din_h2c[149]} {din_h2c[150]} {din_h2c[151]} {din_h2c[152]} {din_h2c[153]} {din_h2c[154]} {din_h2c[155]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 16 [get_debug_ports u_ila_0/probe10]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe10]
+connect_debug_port u_ila_0/probe10 [get_nets [list {h2c_dsc_byp_ctl[0]} {h2c_dsc_byp_ctl[1]} {h2c_dsc_byp_ctl[2]} {h2c_dsc_byp_ctl[3]} {h2c_dsc_byp_ctl[4]} {h2c_dsc_byp_ctl[5]} {h2c_dsc_byp_ctl[6]} {h2c_dsc_byp_ctl[7]} {h2c_dsc_byp_ctl[8]} {h2c_dsc_byp_ctl[9]} {h2c_dsc_byp_ctl[10]} {h2c_dsc_byp_ctl[11]} {h2c_dsc_byp_ctl[12]} {h2c_dsc_byp_ctl[13]} {h2c_dsc_byp_ctl[14]} {h2c_dsc_byp_ctl[15]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe11]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe11]
+connect_debug_port u_ila_0/probe11 [get_nets [list c2h_dsc_byp_load ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe12]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe12]
+connect_debug_port u_ila_0/probe12 [get_nets [list c2h_dsc_byp_ready ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe13]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe13]
+connect_debug_port u_ila_0/probe13 [get_nets [list c_c2h_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe14]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe14]
+connect_debug_port u_ila_0/probe14 [get_nets [list c_h2c_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe15]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe15]
+connect_debug_port u_ila_0/probe15 [get_nets [list dsc_gen_all_i/dsc_gen_c2h_n_2 ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe16]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe16]
+connect_debug_port u_ila_0/probe16 [get_nets [list h2c_dsc_byp_load ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe17]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe17]
+connect_debug_port u_ila_0/probe17 [get_nets [list h2c_dsc_byp_ready ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe18]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe18]
+connect_debug_port u_ila_0/probe18 [get_nets [list h_c2h_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe19]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe19]
+connect_debug_port u_ila_0/probe19 [get_nets [list h_h2c_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe20]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe20]
+connect_debug_port u_ila_0/probe20 [get_nets [list to_eth_en_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe21]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe21]
+connect_debug_port u_ila_0/probe21 [get_nets [list user_resetn ]]
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 24
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+close_hw
+close_design

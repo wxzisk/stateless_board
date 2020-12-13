@@ -1,0 +1,30 @@
+$date
+        2020-Aug-25 15:59:52
+$end
+$version
+        Vivado v2017.4_AR70877 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 64 " PCIe_TOP/data_to_eth [63:0] $end
+$var reg 64 b pcie_out [63:0] $end
+$var reg 8 D" PCIe_TOP/despatch_i/web [7:0] $end
+$var reg 156 L" PCIe_TOP/despatch_i/din_c2h [155:0] $end
+$var reg 64 ,$ PCIe_TOP/despatch_i/dinb [63:0] $end
+$var reg 1 l$ PCIe_TOP/c_c2h_success $end
+$var reg 1 m$ PCIe_TOP/c_h2c_success $end
+$var reg 1 n$ eth_to_pcie_empty $end
+$var reg 1 o$ FIFO_rd_en_e2p $end
+$var reg 1 p$ FIFO_wr_en_p2e $end
+$var reg 1 q$ PCIe_TOP/h_c2h_success $end
+$var reg 1 r$ PCIe_TOP/h_h2c_success $end
+$var reg 1 s$ pcie_to_eth_full $end
+$var reg 1 t$ PCIe_TOP/to_eth_en $end
+$var reg 1 u$ PCIe_TOP/despatch_i/wr_en_c2h $end
+$var reg 1 v$ _TRIGGER $end
+$var reg 1 w$ _WINDOW $end
+$var reg 1 x$ _GAP $end
+$upscope $end
+$enddefinitions $end

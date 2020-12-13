@@ -1,0 +1,1070 @@
+/*
+
+Xilinx Vivado v2017.4_AR70877 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 11088
+License: Customer
+
+Current time: 	Thu Jun 11 21:38:25 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows NT (unknown)
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 24
+
+Screen size: 1024x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 246 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: d:/fpga/yxj/axilite/xdma_0_ex
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.4
+RDI_DATADIR: D:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data;D:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	d:/fpga/yxj/axilite/xdma_0_ex/vivado.log
+Vivado journal file location: 	d:/fpga/yxj/axilite/xdma_0_ex/vivado.jou
+Engine tmp dir: 	d:/fpga/yxj/axilite/xdma_0_ex/.Xil/Vivado-11088-WIN-6LRTIFRL70S
+
+GUI allocated memory:	184 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 554 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// bs (cj):  Sourcing Tcl script 'd:/fpga/yxj/axilite/axilite.srcs/sources_1/ip/xdma_0/xdma_0_ex.tcl' : addNotify
+// [GUI Memory]: 56 MB (+56252kb) [00:00:15]
+// [Engine Memory]: 519 MB (+392321kb) [00:00:15]
+// Tcl Message: source d:/fpga/yxj/axilite/axilite.srcs/sources_1/ip/xdma_0/xdma_0_ex.tcl -notrace 
+// Tcl Message: INFO: [open_example_project] Creating new example project... 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 31 MB. Current time: 6/11/20 9:38:28 PM CST
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip'. 
+// [Engine Memory]: 575 MB (+32118kb) [00:00:20]
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 642 MB (+40288kb) [00:00:26]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: create_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:13 . Memory (MB): peak = 888.586 ; gain = 124.848 
+// TclEventType: PART_MODIFIED
+// Tcl Message: INFO: [open_example_project] Importing original IP ... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_ip: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 907.938 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [open_example_project] Generating the example project IP ... 
+// TclEventType: LOAD_FEATURE
+// [Engine Memory]: 677 MB (+2690kb) [00:00:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 691 MB. GUI used memory: 35 MB. Current time: 6/11/20 9:39:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 969 MB. GUI used memory: 35 MB. Current time: 6/11/20 9:39:28 PM CST
+// [Engine Memory]: 974 MB (+276154kb) [00:01:20]
+// [Engine Memory]: 1,080 MB (+59256kb) [00:01:25]
+// [Engine Memory]: 1,137 MB (+3471kb) [00:01:30]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [open_example_project] Adding example synthesis HDL files ... INFO: [open_example_project] Adding example XDC files ... INFO: [open_example_project] Adding simulation HDL files ... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: INFO: [open_example_project] Adding simulation miscellaneous files ... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: CREATE_IP_CORE
+// Tcl Message: INFO: [open_example_project] Sourcing example extension scripts ... 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 35 MB. Current time: 6/11/20 9:40:03 PM CST
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_1'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_1'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_1'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_1'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_1'... 
+// [Engine Memory]: 1,213 MB (+20004kb) [00:01:57]
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'xdma_0'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [open_example_project] Rebuilding all the top level IPs ... 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: INFO: [exportsim-Tcl-35] Exporting simulation files for "XSIM" (Xilinx Vivado Simulator)... 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [exportsim-Tcl-35] Exporting simulation files for "XSIM" (Xilinx Vivado Simulator)... 
+// Tcl Message: INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.ip_user_files/sim_scripts/xdma_0/xsim/xdma_0.sh' INFO: [exportsim-Tcl-35] Exporting simulation files for "MODELSIM" (Mentor Graphics ModelSim Simulator)... 
+// Tcl Message: INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.ip_user_files/sim_scripts/xdma_0/modelsim/xdma_0.sh' 
+// Tcl Message: INFO: [exportsim-Tcl-35] Exporting simulation files for "QUESTA" (Mentor Graphics Questa Advanced Simulator)... 
+// Tcl Message: INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.ip_user_files/sim_scripts/xdma_0/questa/xdma_0.sh' INFO: [exportsim-Tcl-35] Exporting simulation files for "IES" (Cadence Incisive Enterprise Simulator)... 
+// Tcl Message: INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.ip_user_files/sim_scripts/xdma_0/ies/xdma_0.sh' INFO: [exportsim-Tcl-35] Exporting simulation files for "VCS" (Synopsys Verilog Compiler Simulator)... 
+// Tcl Message: INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.ip_user_files/sim_scripts/xdma_0/vcs/xdma_0.sh' INFO: [exportsim-Tcl-35] Exporting simulation files for "RIVIERA" (Aldec Riviera-PRO Simulator)... 
+// Tcl Message: INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.ip_user_files/sim_scripts/xdma_0/riviera/xdma_0.sh' INFO: [exportsim-Tcl-35] Exporting simulation files for "ACTIVEHDL" (Aldec Active-HDL Simulator)... 
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.ip_user_files/sim_scripts/xdma_0/activehdl/xdma_0.sh' 
+// Tcl Message: export_ip_user_files: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1451.023 ; gain = 0.000 
+// Tcl Message: INFO: [open_example_project] Open Example Project completed 
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog("Sourcing Tcl script 'd:/fpga/yxj/axilite/axilite.srcs/sources_1/ip/xdma_0/xdma_0_ex.tcl'"); // bs (cj)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 59 MB (+668kb) [00:02:30]
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 64 MB (+1916kb) [00:02:32]
+// [GUI Memory]: 68 MB (+81kb) [00:04:40]
+// Elapsed time: 200 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_dma_pcie_ep (xilinx_dma_pcie_ep.sv)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_dma_pcie_ep (xilinx_dma_pcie_ep.sv)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 24 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// [GUI Memory]: 72 MB (+878kb) [00:05:54]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun 11 21:44:06 2020] Launched xdma_0_synth_1, blk_mem_gen_1_synth_1... Run output will be captured here: xdma_0_synth_1: d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/xdma_0_synth_1/runme.log blk_mem_gen_1_synth_1: d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/blk_mem_gen_1_synth_1/runme.log [Thu Jun 11 21:44:07 2020] Launched synth_1... Run output will be captured here: d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1484.027 ; gain = 18.367 
+// 'k' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,247 MB. GUI used memory: 36 MB. Current time: 6/11/20 9:44:08 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 77 MB (+1625kb) [00:06:56]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 82 MB (+1527kb) [00:10:25]
+// [GUI Memory]: 87 MB (+594kb) [00:11:25]
+// [GUI Memory]: 92 MB (+220kb) [00:13:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,272 MB. GUI used memory: 44 MB. Current time: 6/11/20 9:51:28 PM CST
+// [Engine Memory]: 1,275 MB (+1535kb) [00:13:35]
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,314 MB. GUI used memory: 49 MB. Current time: 6/11/20 10:01:11 PM CST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 1946 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_NO, "No"); // a (x)
+// 'cv' command handler elapsed time: 3 seconds
+dismissDialog("No Implementation Results Available"); // x (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs (cj):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xcku040-ffva1156-2-e 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 49 MB. Current time: 6/11/20 10:16:43 PM CST
+// [Engine Memory]: 1,572 MB (+245041kb) [00:38:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,614 MB. GUI used memory: 49 MB. Current time: 6/11/20 10:17:28 PM CST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// [Engine Memory]: 1,768 MB (+122138kb) [00:39:28]
+// [Engine Memory]: 1,882 MB (+27407kb) [00:39:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,884 MB. GUI used memory: 49 MB. Current time: 6/11/20 10:17:53 PM CST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,961 MB. GUI used memory: 49 MB. Current time: 6/11/20 10:18:04 PM CST
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 2,131 MB (+162689kb) [00:39:58]
+// [GUI Memory]: 103 MB (+7252kb) [00:39:58]
+// Xgd.load filename: D:/Xilinx/Vivado/2017.4/data/parts/xilinx/kintexu/devint/kintexu/xcku040/xcku040.xgd; ZipEntry: xcku040_detail.xgd elapsed time: 3.6s
+// [GUI Memory]: 113 MB (+4354kb) [00:40:00]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 4.7s
+// [GUI Memory]: 124 MB (+6585kb) [00:40:01]
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/xdma_0/xdma_0.dcp' for cell 'xdma_0_i' INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.dcp' for cell 'xdma_app_i/blk_mem_xdma_inst' INFO: [Netlist 29-17] Analyzing 931 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.4_AR70877 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/xdma_0/xdma_0.dcp' 
+// Tcl Message: Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_0_i/inst/pcie3_ip_i/inst/user_lnk_up_cdc' 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl:2] 
+// Tcl Message: all_registers: Time (s): cpu = 00:00:33 ; elapsed = 00:00:25 . Memory (MB): peak = 2219.996 ; gain = 370.543 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 322 instances were transformed.   IBUF => IBUF_ANALOG: 1 instances   RAM16X1D => RAM32X1D (RAMD32, RAMD32): 22 instances   RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 280 instances   RAM32X1D => RAM32X1D (RAMD32, RAMD32): 10 instances   RAM64X1S => RAM64X1S (RAMS64E): 9 instances  
+// ExpRunCommands.openSynthResults elapsed time: 89.5s
+// Tcl Message: open_run: Time (s): cpu = 00:02:11 ; elapsed = 00:01:29 . Memory (MB): peak = 2376.008 ; gain = 852.355 
+// 'dO' command handler elapsed time: 90 seconds
+// Elapsed time: 91 seconds
+dismissDialog("Open Synthesized Design"); // bs (cj)
+// Elapsed time: 136 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, cj)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// [GUI Memory]: 132 MB (+1179kb) [00:42:48]
+// [GUI Memory]: 139 MB (+222kb) [00:43:43]
+// Elapsed time: 84 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 596, 311, 952, 510, false, false, false, true, false); // f (k, cj) - Popup Trigger
+selectMenu(PAResourceQtoS.SchMenuAndMouse_EXPAND_CONE, "Expand Cone"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_MARK_DEBUG_NET, "Mark Debug"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_MARK_DEBUG_NET
+// bs (cj):  Mark Debug : addNotify
+// TclEventType: MARK_DEBUG_NET
+dismissDialog("Mark Debug"); // bs (cj)
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// [GUI Memory]: 147 MB (+1039kb) [00:43:52]
+// N (cj): Set Up Debug: addNotify
+// bs (N):  Filtering Net and Tracing Clock Domain : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, N)
+dismissDialog("Filtering Net and Tracing Clock Domain"); // bs (N)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "xdma_0_i/inst/pcie3_ip_i/inst/cfg_ltssm_state_reg0 (6) ; xdma_0_i/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ; FDRE ; Data and Trigger", 0, "xdma_0_i/inst/pcie3_ip_i/inst/cfg_ltssm_state_reg0 (6)", 0, true); // ap (O, N) - Node
+selectButton(PAResourceAtoD.DebugWizard_REMOVE_NETS, "Nets to Debug_remove_nets"); // B (f, N)
+// PAPropertyPanels.initPanels (store_ltssm) elapsed time: 0.7s
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "xdma_0_i/inst/pcie3_ip_i/inst/store_ltssm ; xdma_0_i/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ; LUT2 ; Data and Trigger", 48, "xdma_0_i/inst/pcie3_ip_i/inst/store_ltssm", 0, false); // ap (O, N)
+selectButton(PAResourceAtoD.DebugWizard_REMOVE_NETS, "Nets to Debug_remove_nets"); // B (f, N)
+typeControlKey(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, (String) null, 'a'); // ap (O, N)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "m_axil_rvalid ; xdma_0_i/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ; FDRE ; Data and Trigger", 45, "m_axil_rvalid", 0, false, false, false, false, true, false); // ap (O, N) - Popup Trigger
+selectMenuItem(PAResourceAtoD.DebugWizard_SELECT_CLOCK_DOMAIN, "Select Clock Domain..."); // U (ai, N)
+// Tcl Command: 'show_objects -name CLK_NET0.21736887226269808 [get_nets -hierarchical -filter {TYPE == "GLOBAL_CLOCK"}]'
+// aV (cj): Select Clock Domain: addNotify
+// bs (aV):  Find Nets as Clock Domains : addNotify
+// TclEventType: SHOW_OBJECTS
+dismissDialog("Find Nets as Clock Domains"); // bs (aV)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aV)
+dismissDialog("Select Clock Domain"); // aV (cj)
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectCheckBox(PAResourceAtoD.DebugWizard_CAPTURE_CONTROL, "Capture control", true); // g (d, N): TRUE
+selectCheckBox(PAResourceAtoD.DebugWizard_ADVANCED_TRIGGER, "Advanced trigger", true); // g (d, N): TRUE
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectButton("FINISH", "Finish"); // JButton (h, N)
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_core u_ila_0 ila 
+// bs (N):  Set Up Debug : addNotify
+// Tcl Message: set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGIN_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: startgroup  
+// Tcl Message: set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: endgroup 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/clk] 
+// Tcl Message: connect_debug_port u_ila_0/clk [get_nets [list xdma_0_i/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_0/probe0] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe0 [get_nets [list {m_axi_awlen[0]} {m_axi_awlen[1]} {m_axi_awlen[2]} {m_axi_awlen[3]} {m_axi_awlen[4]} {m_axi_awlen[5]} {m_axi_awlen[6]} {m_axi_awlen[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 2 [get_debug_ports u_ila_0/probe1] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe1 [get_nets [list {m_axi_bresp[0]} {m_axi_bresp[1]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_0/probe2] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe2 [get_nets [list {m_axi_rid[0]} {m_axi_rid[1]} {m_axi_rid[2]} {m_axi_rid[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 256 [get_debug_ports u_ila_0/probe3] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 2 [get_debug_ports u_ila_0/probe4] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe4 [get_nets [list {m_axi_awburst[0]} {m_axi_awburst[1]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 256 [get_debug_ports u_ila_0/probe5] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_0/probe6] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe6 [get_nets [list {m_axil_araddr[0]} {m_axil_araddr[1]} {m_axil_araddr[2]} {m_axil_araddr[3]} {m_axil_araddr[4]} {m_axil_araddr[5]} {m_axil_araddr[6]} {m_axil_araddr[7]} {m_axil_araddr[8]} {m_axil_araddr[9]} {m_axil_araddr[10]} {m_axil_araddr[11]} {m_axil_araddr[12]} {m_axil_araddr[13]} {m_axil_araddr[14]} {m_axil_araddr[15]} {m_axil_araddr[16]} {m_axil_araddr[17]} {m_axil_araddr[18]} {m_axil_araddr[19]} {m_axil_araddr[20]} {m_axil_araddr[21]} {m_axil_araddr[22]} {m_axil_araddr[23]} {m_axil_araddr[24]} {m_axil_araddr[25]} {m_axil_araddr[26]} {m_axil_araddr[27]} {m_axil_araddr[28]} {m_axil_araddr[29]} {m_axil_araddr[30]} {m_axil_araddr[31]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_0/probe7] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe7 [get_nets [list {m_axi_wstrb[0]} {m_axi_wstrb[1]} {m_axi_wstrb[2]} {m_axi_wstrb[3]} {m_axi_wstrb[4]} {m_axi_wstrb[5]} {m_axi_wstrb[6]} {m_axi_wstrb[7]} {m_axi_wstrb[8]} {m_axi_wstrb[9]} {m_axi_wstrb[10]} {m_axi_wstrb[11]} {m_axi_wstrb[12]} {m_axi_wstrb[13]} {m_axi_wstrb[14]} {m_axi_wstrb[15]} {m_axi_wstrb[16]} {m_axi_wstrb[17]} {m_axi_wstrb[18]} {m_axi_wstrb[19]} {m_axi_wstrb[20]} {m_axi_wstrb[21]} {m_axi_wstrb[22]} {m_axi_wstrb[23]} {m_axi_wstrb[24]} {m_axi_wstrb[25]} {m_axi_wstrb[26]} {m_axi_wstrb[27]} {m_axi_wstrb[28]} {m_axi_wstrb[29]} {m_axi_wstrb[30]} {m_axi_wstrb[31]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_0/probe8] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe8 [get_nets [list {m_axi_awid[0]} {m_axi_awid[1]} {m_axi_awid[2]} {m_axi_awid[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_0/probe9] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe9 [get_nets [list {m_axil_awaddr[0]} {m_axil_awaddr[1]} {m_axil_awaddr[2]} {m_axil_awaddr[3]} {m_axil_awaddr[4]} {m_axil_awaddr[5]} {m_axil_awaddr[6]} {m_axil_awaddr[7]} {m_axil_awaddr[8]} {m_axil_awaddr[9]} {m_axil_awaddr[10]} {m_axil_awaddr[11]} {m_axil_awaddr[12]} {m_axil_awaddr[13]} {m_axil_awaddr[14]} {m_axil_awaddr[15]} {m_axil_awaddr[16]} {m_axil_awaddr[17]} {m_axil_awaddr[18]} {m_axil_awaddr[19]} {m_axil_awaddr[20]} {m_axil_awaddr[21]} {m_axil_awaddr[22]} {m_axil_awaddr[23]} {m_axil_awaddr[24]} {m_axil_awaddr[25]} {m_axil_awaddr[26]} {m_axil_awaddr[27]} {m_axil_awaddr[28]} {m_axil_awaddr[29]} {m_axil_awaddr[30]} {m_axil_awaddr[31]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 3 [get_debug_ports u_ila_0/probe10] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe10] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe10 [get_nets [list {m_axil_awprot[0]} {m_axil_awprot[1]} {m_axil_awprot[2]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 2 [get_debug_ports u_ila_0/probe11] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe11] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe11 [get_nets [list {m_axil_bresp[0]} {m_axil_bresp[1]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_0/probe12] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe12] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe12 [get_nets [list {m_axil_rdata[0]} {m_axil_rdata[1]} {m_axil_rdata[2]} {m_axil_rdata[3]} {m_axil_rdata[4]} {m_axil_rdata[5]} {m_axil_rdata[6]} {m_axil_rdata[7]} {m_axil_rdata[8]} {m_axil_rdata[9]} {m_axil_rdata[10]} {m_axil_rdata[11]} {m_axil_rdata[12]} {m_axil_rdata[13]} {m_axil_rdata[14]} {m_axil_rdata[15]} {m_axil_rdata[16]} {m_axil_rdata[17]} {m_axil_rdata[18]} {m_axil_rdata[19]} {m_axil_rdata[20]} {m_axil_rdata[21]} {m_axil_rdata[22]} {m_axil_rdata[23]} {m_axil_rdata[24]} {m_axil_rdata[25]} {m_axil_rdata[26]} {m_axil_rdata[27]} {m_axil_rdata[28]} {m_axil_rdata[29]} {m_axil_rdata[30]} {m_axil_rdata[31]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 3 [get_debug_ports u_ila_0/probe13] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe13] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe13 [get_nets [list {m_axil_arprot[0]} {m_axil_arprot[1]} {m_axil_arprot[2]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 2 [get_debug_ports u_ila_0/probe14] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe14] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe14 [get_nets [list {m_axi_arburst[0]} {m_axi_arburst[1]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 64 [get_debug_ports u_ila_0/probe15] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe15] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 3 [get_debug_ports u_ila_0/probe16] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe16] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe16 [get_nets [list {m_axi_awsize[0]} {m_axi_awsize[1]} {m_axi_awsize[2]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_0/probe17] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe17] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe17 [get_nets [list {m_axi_bid[0]} {m_axi_bid[1]} {m_axi_bid[2]} {m_axi_bid[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_0/probe18] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe18] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe18 [get_nets [list {m_axi_arid[0]} {m_axi_arid[1]} {m_axi_arid[2]} {m_axi_arid[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 2 [get_debug_ports u_ila_0/probe19] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe19] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe19 [get_nets [list {m_axi_rresp[0]} {m_axi_rresp[1]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 2 [get_debug_ports u_ila_0/probe20] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe20] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe20 [get_nets [list {m_axil_rresp[0]} {m_axil_rresp[1]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 64 [get_debug_ports u_ila_0/probe21] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe21] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 3 [get_debug_ports u_ila_0/probe22] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe22] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe22 [get_nets [list {m_axi_arsize[0]} {m_axi_arsize[1]} {m_axi_arsize[2]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_0/probe23] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe23] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe23 [get_nets [list {m_axi_arlen[0]} {m_axi_arlen[1]} {m_axi_arlen[2]} {m_axi_arlen[3]} {m_axi_arlen[4]} {m_axi_arlen[5]} {m_axi_arlen[6]} {m_axi_arlen[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_0/probe24] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe24] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe24 [get_nets [list {m_axil_wdata[0]} {m_axil_wdata[1]} {m_axil_wdata[2]} {m_axil_wdata[3]} {m_axil_wdata[4]} {m_axil_wdata[5]} {m_axil_wdata[6]} {m_axil_wdata[7]} {m_axil_wdata[8]} {m_axil_wdata[9]} {m_axil_wdata[10]} {m_axil_wdata[11]} {m_axil_wdata[12]} {m_axil_wdata[13]} {m_axil_wdata[14]} {m_axil_wdata[15]} {m_axil_wdata[16]} {m_axil_wdata[17]} {m_axil_wdata[18]} {m_axil_wdata[19]} {m_axil_wdata[20]} {m_axil_wdata[21]} {m_axil_wdata[22]} {m_axil_wdata[23]} {m_axil_wdata[24]} {m_axil_wdata[25]} {m_axil_wdata[26]} {m_axil_wdata[27]} {m_axil_wdata[28]} {m_axil_wdata[29]} {m_axil_wdata[30]} {m_axil_wdata[31]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_0/probe25] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe25] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe25 [get_nets [list {m_axil_wstrb[0]} {m_axil_wstrb[1]} {m_axil_wstrb[2]} {m_axil_wstrb[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe26] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe26] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe26 [get_nets [list m_axi_arready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe27] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe27] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe27 [get_nets [list m_axi_arvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe28] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe28] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe28 [get_nets [list m_axi_awready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe29] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe29] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe29 [get_nets [list m_axi_awvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe30] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe30] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe30 [get_nets [list m_axi_bready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe31] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe31] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe31 [get_nets [list m_axi_bvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe32] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe32] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe32 [get_nets [list m_axi_rlast ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe33] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe33] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe33 [get_nets [list m_axi_rready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe34] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe34] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe34 [get_nets [list m_axi_rvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe35] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe35] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe35 [get_nets [list m_axi_wlast ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe36] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe36] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe36 [get_nets [list m_axi_wready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe37] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe37] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe37 [get_nets [list m_axi_wvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe38] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe38] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe38 [get_nets [list m_axil_arready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe39] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe39] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe39 [get_nets [list m_axil_arvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe40] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe40] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe40 [get_nets [list m_axil_awready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe41] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe41] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe41 [get_nets [list m_axil_awvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe42] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe42] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe42 [get_nets [list m_axil_bready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe43] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe43] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe43 [get_nets [list m_axil_bvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe44] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe44] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe44 [get_nets [list m_axil_rready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe45] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe45] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe45 [get_nets [list m_axil_rvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe46] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe46] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe46 [get_nets [list m_axil_wready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe47] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe47] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,234 MB. GUI used memory: 108 MB. Current time: 6/11/20 10:23:19 PM CST
+// Tcl Message: connect_debug_port u_ila_0/probe47 [get_nets [list m_axil_wvalid ]] 
+// Elapsed time: 51 seconds
+dismissDialog("Set Up Debug"); // bs (N)
+dismissDialog("Set Up Debug"); // N (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cj): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// x (cj): Out of Date Design: addNotify
+dismissDialog("Save Project"); // am (cj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// a (cj): Save Constraints: addNotify
+dismissDialog("Out of Date Design"); // x (cj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bs (cj):  Save Constraints : addNotify
+// Tcl Message: set_property target_constrs_file d:/fpga/yxj/axilite/xdma_0_ex/imports/xilinx_xdma_pcie_x0y0.xdc [current_fileset -constrset] 
+dismissDialog("Save Constraints"); // a (cj)
+// Tcl Message: save_constraints -force 
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Save Constraints"); // bs (cj)
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// f (cj): Launch Runs: addNotify
+// Elapsed time: 100 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 24 
+// Tcl Message: [Thu Jun 11 22:25:17 2020] Launched synth_1... Run output will be captured here: d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 106 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 278 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+// [Engine Memory]: 2,242 MB (+3913kb) [00:51:53]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// f (cj): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // x (cj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cj)
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 24 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun 11 22:30:06 2020] Launched impl_1... Run output will be captured here: d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// [GUI Memory]: 155 MB (+997kb) [00:53:31]
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,244 MB. GUI used memory: 108 MB. Current time: 6/11/20 10:53:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,244 MB. GUI used memory: 107 MB. Current time: 6/11/20 11:23:21 PM CST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// ah (cj): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,246 MB. GUI used memory: 108 MB. Current time: 6/11/20 11:44:27 PM CST
+// [GUI Memory]: 163 MB (+322kb) [02:21:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,246 MB. GUI used memory: 108 MB. Current time: 6/12/20 12:14:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 12:44:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 1:14:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 1:44:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 2:14:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 2:44:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 3:14:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 3:44:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 4:14:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 4:44:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 5:14:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 5:44:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 6:14:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,248 MB. GUI used memory: 108 MB. Current time: 6/12/20 6:44:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,249 MB. GUI used memory: 108 MB. Current time: 6/12/20 7:14:31 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,249 MB. GUI used memory: 108 MB. Current time: 6/12/20 7:44:31 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,249 MB. GUI used memory: 108 MB. Current time: 6/12/20 8:14:31 AM CST
+// Elapsed time: 36470 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,250 MB. GUI used memory: 107 MB. Current time: 6/12/20 8:44:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 107 MB. Current time: 6/12/20 9:14:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 108 MB. Current time: 6/12/20 9:44:33 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 108 MB. Current time: 6/12/20 10:14:33 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 107 MB. Current time: 6/12/20 10:44:33 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 108 MB. Current time: 6/12/20 11:14:34 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 108 MB. Current time: 6/12/20 11:44:34 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 108 MB. Current time: 6/12/20 12:14:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 108 MB. Current time: 6/12/20 12:44:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 108 MB. Current time: 6/12/20 1:14:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 108 MB. Current time: 6/12/20 1:44:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 108 MB. Current time: 6/12/20 2:14:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 108 MB. Current time: 6/12/20 2:44:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,253 MB. GUI used memory: 108 MB. Current time: 6/12/20 3:14:36 PM CST
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bs (cj):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Elapsed time: 24699 seconds
+dismissDialog("Open Hardware Manager"); // bs (cj)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cZ, cj)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Z (ai, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// bs (cj):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// [Engine Memory]: 2,758 MB (+423400kb) [17:51:37]
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,758 MB. GUI used memory: 111 MB. Current time: 6/12/20 3:29:47 PM CST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.bit} [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: current_hw_device [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcku040_0] 0] 
+// TclEventType: HW_MIG_ADD
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 1 MIG core(s). 
+closeView(PAResourceOtoP.PAViews_MIG, "MIG - MIG_1"); // e
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+dismissDialog("Auto Connect"); // bs (cj)
+// PAPropertyPanels.initPanels (xcku040_0) elapsed time: 0.2s
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcku040_0 (2) ; Programmed", 2, "xcku040_0 (2)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // q (af, bA)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,789 MB. GUI used memory: 116 MB. Current time: 6/12/20 3:30:07 PM CST
+// Elapsed time: 24 seconds
+setFileChooser("d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cj):  Program Device : addNotify
+dismissDialog("Program Device"); // bA (cj)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.ltx} [get_hw_devices xcku040_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.ltx} [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.bit} [get_hw_devices xcku040_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_MIG_DELETE
+closeView(PAResourceOtoP.PAViews_MIG, "MIG - MIG_1"); // e
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xcku040_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 2929.602 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcku040_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2932.801 ; gain = 3.199 
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file d:/fpga/yxj/axilite/xdma_0_ex/xdma_0_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// 'I' command handler elapsed time: 53 seconds
+// Elapsed time: 22 seconds
+dismissDialog("Program Device"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 125 MB. Current time: 6/12/20 3:30:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 124 MB. Current time: 6/12/20 4:00:58 PM CST
+// [GUI Memory]: 172 MB (+1317kb) [18:39:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 124 MB. Current time: 6/12/20 4:30:57 PM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 123 MB. Current time: 6/12/20 5:00:58 PM CST
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: HW_OBJECT_DELETE
+// Elapsed time: 6410 seconds
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081 
+// n (cj): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_MIG_ADD
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+closeView(PAResourceOtoP.PAViews_MIG, "MIG - MIG_1"); // e
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_MIG_REFRESH
+// [GUI Memory]: 182 MB (+639kb) [19:45:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 119 MB. Current time: 6/12/20 5:30:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 6:00:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 6:30:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 7:00:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 7:30:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 8:00:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 8:31:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 9:01:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 9:31:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 10:01:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 10:31:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 11:01:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/12/20 11:31:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 12:01:02 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 12:31:02 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 1:01:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 1:31:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 2:01:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 2:31:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 3:01:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 3:31:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 4:01:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 4:31:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 5:01:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 5:31:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 6:01:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 6:31:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 7:01:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 7:31:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,821 MB. GUI used memory: 118 MB. Current time: 6/13/20 8:01:07 AM CST

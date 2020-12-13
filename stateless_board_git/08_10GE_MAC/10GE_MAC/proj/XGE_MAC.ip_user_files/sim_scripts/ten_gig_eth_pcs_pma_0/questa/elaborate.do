@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L gtwizard_ultrascale_v1_6_5 -L xil_defaultlib -L ten_gig_eth_pcs_pma_v6_0_7 -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.ten_gig_eth_pcs_pma_0 xil_defaultlib.glbl -o ten_gig_eth_pcs_pma_0_opt

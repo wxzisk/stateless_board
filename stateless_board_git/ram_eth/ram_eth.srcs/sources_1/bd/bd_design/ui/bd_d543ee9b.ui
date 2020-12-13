@@ -1,0 +1,44 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port axi_aclk -pg 1 -y -10 -defaultsOSRD
+preplace port pcie -pg 1 -y -70 -defaultsOSRD
+preplace port reset_n -pg 1 -y 0 -defaultsOSRD
+preplace port enb_0 -pg 1 -y -250 -defaultsOSRD
+preplace port user_lnk_up -pg 1 -y -30 -defaultsOSRD
+preplace port refclk -pg 1 -y 200 -defaultsOSRD
+preplace portBus addrb_0 -pg 1 -y -360 -defaultsOSRD
+preplace portBus doutb_0 -pg 1 -y -250 -defaultsOSRD
+preplace portBus web_0 -pg 1 -y -50 -defaultsOSRD
+preplace portBus dinb_0 -pg 1 -y -280 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -y -200 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 2 -y 190 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -y -240 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 1 -y -200 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 2 -y 400 -defaultsOSRD
+preplace netloc dinb_0_1 1 0 2 -30J -330 470
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 1 450
+preplace netloc xdma_0_axi_aclk 1 0 4 -30 -80 480 0 880J -10 NJ
+preplace netloc xdma_0_user_lnk_up 1 2 2 910J -30 NJ
+preplace netloc sys_rst_n_0_1 1 0 2 NJ 0 460J
+preplace netloc util_ds_buf_0_IBUF_OUT 1 1 2 490 60 850
+preplace netloc xdma_0_axi_aresetn 1 0 3 -10 10 NJ 10 900
+preplace netloc CLK_IN_D_0_1 1 0 2 NJ 200 450J
+preplace netloc axi_bram_ctrl_0_bram_rst_a 1 1 1 450
+preplace netloc enb_0_1 1 0 2 -20J -320 460J
+preplace netloc axi_interconnect_0_M00_AXI 1 0 4 -10 -410 NJ -410 NJ -410 1170
+preplace netloc xdma_0_M_AXI 1 2 1 870
+preplace netloc xdma_0_pcie_mgt 1 2 2 890J -70 NJ
+preplace netloc blk_mem_gen_0_doutb 1 1 3 490 -400 NJ -400 1180J
+preplace netloc addrb_0_1 1 0 2 NJ -360 480
+preplace netloc web_0_1 1 0 2 NJ -50 NJ
+preplace netloc util_ds_buf_0_IBUF_DS_ODIV2 1 1 2 480 50 860
+levelinfo -pg 1 -50 290 680 1040 1200 -top -670 -bot 1120
+",
+}
+{
+   da_axi4_cnt: "1",
+   da_bram_cntlr_cnt: "2",
+   da_clkrst_cnt: "2",
+}

@@ -1,0 +1,906 @@
+#-----------------------------------------------------------
+# Vivado v2017.4_AR70877 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jul 10 18:07:41 2020
+# Process ID: 2648
+# Current directory: D:/fpga/yxj/xdma_0_ex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9716 D:\fpga\yxj\xdma_0_ex\xdma_0_ex.xpr
+# Log file: D:/fpga/yxj/xdma_0_ex/vivado.log
+# Journal file: D:/fpga/yxj/xdma_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/fpga/yxj/xdma_0_ex/xdma_0_ex.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/fpga/yxj/xdma_0_ex/sim_test_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:dsc_bypass:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/dsc_bypass.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/dsc_bypass.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_7x_transceiver_debug.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_7x_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:ext_shared_logic:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_ext_shared_logic.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_ext_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:pcie3_us_gt_if:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_gt_if.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:int_shared_logic:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_int_shared_logic.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_int_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_us_transceiver_debug:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_transceiver_debug.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie3_us_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_if:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_gt_if.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_ext_gtcom.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_ext_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_int_gtcom.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_usp_int_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie4_us_plus_transceiver_debug:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_us_plus_transceiver_debug.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie4_us_plus_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_cfg_external_msix:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie_cfg_ext_msix.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_debug:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/pcie_debug.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/pcie_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_debug_ports:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/xdma_debug_ports.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/xdma_debug_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_status_ports:1.0'. The one found in location 'd:/Xilinx/Vivado/2017.4/patches/AR70877_Vivado_2017_4_preliminary_rev1/vivado/data/ip/xilinx/xdma_v4_0/interfaces/xdma_status_ports.xml' will take precedence over the same Interface in location 'd:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/interfaces/xdma_status_ports.xml'
+open_project: Time (s): cpu = 00:01:40 ; elapsed = 00:01:10 . Memory (MB): peak = 1055.508 ; gain = 294.977
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1638.805 ; gain = 578.328
+set_property PROGRAM.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-3222] Mismatch between the design programmed into the device xcku040 (JTAG device index = 0) and the probes file(s) D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx.
+ The hw_probe  in the probes file has port index 11. This port does not exist in the ILA core at location (uuid_23E7D65A79BC59F7BC47406C1714DFAE).
+refresh_hw_device: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1653.758 ; gain = 13.410
+set_property PROBES.FILE {D:/fpga/yxj/xdma_0_ex/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/xdma_0_ex/top.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {D:/fpga/yxj/xdma_0_ex/top.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1664.934 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-1434] Device xcku040 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-1434] Device xcku040 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/fpga/yxj/xdma_0_ex/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/xdma_0_ex/top.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {D:/fpga/yxj/xdma_0_ex/top.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1664.934 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-1434] Device xcku040 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+close_hw
+open_bd_design {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/xdma_and_ram.bd}
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/bram_cntlr/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_bram_cntlr" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_bram_cntlr { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/bram_cntlr/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/clkrst/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_clkrst" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_clkrst { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/clkrst/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/cmac/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_cmac" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_cmac { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/cmac/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/cmac_usplus/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_cmac_usplus" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_cmac_usplus { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/cmac_usplus/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/interlaken/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_interlaken" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_interlaken { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/interlaken/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/iomodule/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_iomodule" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_iomodule { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/iomodule/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/l_ethernet/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_l_ethernet" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_l_ethernet { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/l_ethernet/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/microblaze/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_microblaze" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_microblaze { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/microblaze/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/mig_7series/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_mig_7series" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_mig_7series { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/mig_7series/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/partition/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_partition" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_partition { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/partition/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/processing_system7/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_processing_system7" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_processing_system7 { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/processing_system7/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/rf_converter_usp/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_rf_converter_usp" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_rf_converter_usp { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/rf_converter_usp/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/tmr/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_tmr" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_tmr { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/tmr/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/trigger/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_trigger" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_trigger { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/trigger/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/vcu/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_vcu" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_vcu { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/vcu/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/xdma/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_xdma" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_xdma { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/xdma/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/xxv_ethernet/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_xxv_ethernet" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_xxv_ethernet { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/xxv_ethernet/bd.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/zynq_ultra_ps_e/bd.tcl} "
+    (in namespace eval "::xilinx.com_bd_rule_zynq_ultra_ps_e" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_bd_rule_zynq_ultra_ps_e { source -notrace {D:/Xilinx/Vivado/2017.4/data/rsb/rules/zynq_ultra_ps_e/bd.tcl} }"
+Adding cell -- xilinx.com:ip:xdma:4.0 - xdma_0
+INFO: [BD 41-1808] Open Block Design has been cancelled.
+INFO: [Common 17-344] 'open_bd_design' was cancelled
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+[Fri Jul 10 18:28:00 2020] Launched synth_1...
+Run output will be captured here: D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcku040-ffva1156-2-e
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.dcp' for cell 'despatch_i/descriptor'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'dsc_gen_all_i/fifo_generator_0_c2h'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_axi_bram_ctrl_0_0/xdma_and_ram_axi_bram_ctrl_0_0.dcp' for cell 'xdma_and_ram_i/axi_bram_ctrl_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_axi_bram_ctrl_0_bram_1/xdma_and_ram_axi_bram_ctrl_0_bram_1.dcp' for cell 'xdma_and_ram_i/axi_bram_ctrl_0_bram'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_util_ds_buf_0/xdma_and_ram_util_ds_buf_0.dcp' for cell 'xdma_and_ram_i/util_ds_buf'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/xdma_and_ram_xdma_0_0.dcp' for cell 'xdma_and_ram_i/xdma_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_auto_ds_0/xdma_and_ram_auto_ds_0.dcp' for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds'
+INFO: [Netlist 29-17] Analyzing 1384 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 3 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4_AR70877
+INFO: [Device 21-403] Loading part xcku040-ffva1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/ip_0/ip_0/synth/xdma_and_ram_xdma_0_0_pcie3_ip_gt.xdc] for cell 'xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/xdma_and_ram_xdma_0_0_pcie3_ip_gt_i/inst'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/ip_0/ip_0/synth/xdma_and_ram_xdma_0_0_pcie3_ip_gt.xdc] for cell 'xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/xdma_and_ram_xdma_0_0_pcie3_ip_gt_i/inst'
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/ip_0/source/xdma_and_ram_xdma_0_0_pcie3_ip-PCIE_X0Y0.xdc] for cell 'xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/ip_0/source/xdma_and_ram_xdma_0_0_pcie3_ip-PCIE_X0Y0.xdc] for cell 'xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst'
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/xdma_and_ram_xdma_0_0_board.xdc] for cell 'xdma_and_ram_i/xdma_0/inst'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/xdma_and_ram_xdma_0_0_board.xdc] for cell 'xdma_and_ram_i/xdma_0/inst'
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/source/xdma_and_ram_xdma_0_0_pcie3_us_ip.xdc] for cell 'xdma_and_ram_i/xdma_0/inst'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/source/xdma_and_ram_xdma_0_0_pcie3_us_ip.xdc] for cell 'xdma_and_ram_i/xdma_0/inst'
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_util_ds_buf_0/xdma_and_ram_util_ds_buf_0_board.xdc] for cell 'xdma_and_ram_i/util_ds_buf/U0'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_util_ds_buf_0/xdma_and_ram_util_ds_buf_0_board.xdc] for cell 'xdma_and_ram_i/util_ds_buf/U0'
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_util_ds_buf_0/xdma_and_ram_util_ds_buf_0.xdc] for cell 'xdma_and_ram_i/util_ds_buf/U0'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_util_ds_buf_0/xdma_and_ram_util_ds_buf_0.xdc] for cell 'xdma_and_ram_i/util_ds_buf/U0'
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'dsc_gen_all_i/fifo_generator_0_c2h/U0'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'dsc_gen_all_i/fifo_generator_0_c2h/U0'
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'dsc_gen_all_i/fifo_generator_0_h2c/U0'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'dsc_gen_all_i/fifo_generator_0_h2c/U0'
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.xdc] for cell 'despatch_i/descriptor/U0'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.xdc] for cell 'despatch_i/descriptor/U0'
+Parsing XDC File [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc]
+WARNING: [Vivado 12-508] No pins matched 'xdma_0_i/inst/pcie3_ip_i/inst/pcie3_uscale_top_inst/pcie3_uscale_wrapper_inst/PCIE_3_1_inst/CFGMAX*'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:70]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-through [get_pins xdma_0_i/inst/pcie3_ip_i/inst/pcie3_uscale_top_inst/pcie3_uscale_wrapper_inst/PCIE_3_1_inst/CFGMAX*]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:70]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-507] No nets matched 'xdma_0_i/inst/cfg_max*'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:71]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-through [get_nets xdma_0_i/inst/cfg_max*]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:71]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-180] No cells matched 'xdma_0_i/inst/pcie3_ip_i/inst/pcie3_uscale_top_inst/pcie3_uscale_wrapper_inst/PCIE_3_1_inst'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/en_a'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:121]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:121]
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[22]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:123]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[10]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[17]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[28]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[19]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[2]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[13]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[6]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[18]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[25]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[20]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:133]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[31]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[0]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:135]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:135]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[11]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[12]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[14]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[15]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[16]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[1]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[21]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[23]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[24]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[26]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[27]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[29]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[30]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[3]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[4]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[5]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[7]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:152]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[8]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:153]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'xdma_app_i/we_a[9]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:154]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:154]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[19]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[34]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[239]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[9]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:159]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[61]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:160]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[8]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_araddr[55]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_araddr[35]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_araddr[48]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:164]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[62]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rresp[0]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[58]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[129]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:168]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:168]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_araddr[22]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:169]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:169]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[93]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[31]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:171]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:171]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[157]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:172]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:172]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[50]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:173]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:173]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_arsize[0]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:174]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:174]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[84]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:175]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:175]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[245]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:176]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:176]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[192]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:177]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:177]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_arsize[2]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:178]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:178]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[244]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:179]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:179]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_arlen[3]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:180]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:180]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[37]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:181]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:181]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[80]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:182]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:182]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_araddr[32]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:183]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:183]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[198]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:184]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:184]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_arsize[1]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:185]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:185]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[181]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:186]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:186]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[26]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:187]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:187]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[4]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:188]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:188]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[44]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:189]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:189]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[249]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:190]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:190]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_araddr[13]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:191]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:191]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[37]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:192]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:192]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[55]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:193]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:193]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[30]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:194]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:194]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[158]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:195]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:195]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[216]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:196]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:196]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[41]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:197]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:197]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[90]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:198]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:198]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[207]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:199]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:199]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[71]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:200]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:200]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[106]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:201]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:201]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[100]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:202]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:202]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[117]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:203]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:203]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[119]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:204]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:204]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[131]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:205]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:205]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[107]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:206]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:206]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[129]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:207]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:207]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[36]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:208]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:208]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[222]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:209]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:209]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[20]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:210]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:210]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[60]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:211]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:211]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[50]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:212]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:212]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[48]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:213]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:213]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_wdata[52]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:214]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:214]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[36]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:215]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:215]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[88]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:216]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:216]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_araddr[37]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:217]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:217]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_awaddr[6]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:218]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:218]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'm_axi_rdata[55]'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:219]
+INFO: [Common 17-14] Message 'Vivado 12-507' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:219]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:219]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:220]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:220]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:1995]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:1996]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:1997]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:1998]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:1999]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2000]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2001]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2002]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2003]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2004]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2005]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2006]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2007]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2008]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2009]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2010]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2011]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2012]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2013]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2014]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2015]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2016]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2017]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2018]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2019]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2020]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2021]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2022]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2023]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2024]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2025]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2026]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2027]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2879]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2880]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2881]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2882]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2884]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2885]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2886]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2887]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2888]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2889]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2890]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2891]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2892]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2893]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2894]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2895]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2896]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2897]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2898]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2899]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2900]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2901]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2902]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2903]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2904]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2905]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2906]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2907]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2908]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2909]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2910]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2911]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2912]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2913]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2914]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2915]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2916]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2917]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2918]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2919]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2920]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2921]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2922]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2923]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2924]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2925]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2926]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2927]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2928]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2929]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2930]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2931]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2932]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2933]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2934]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2935]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2936]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2937]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2938]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2939]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2940]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2941]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2942]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2943]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2944]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2945]
+INFO: [Common 17-14] Message 'Vivado 12-1419' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:2945]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:7926]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc:7986]
+Finished Parsing XDC File [D:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/constrs_1/imports/imports/xilinx_xdma_pcie_x0y0.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_xdma_0_0/xdma_and_ram_xdma_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_auto_ds_0/xdma_and_ram_auto_ds_0.dcp'
+Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_auto_ds_0/xdma_and_ram_auto_ds_0_clocks.xdc] for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/fpga/yxj/xdma_0_ex/xdma_0_ex.srcs/sources_1/bd/xdma_and_ram/ip/xdma_and_ram_auto_ds_0/xdma_and_ram_auto_ds_0_clocks.xdc] for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds/inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl:2]
+all_registers: Time (s): cpu = 00:00:44 ; elapsed = 00:00:33 . Memory (MB): peak = 2955.246 ; gain = 387.270
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/axi_mem_intercon/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/user_lnk_up_cdc'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/user_lnk_up_cdc'
+Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/user_reset_cdc'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/user_reset_cdc'
+Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xdma_and_ram_i/xdma_0/inst/udma_wrapper/dma_top/base/IRQ_INST/usr_irq_xpm_cdc'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xdma_and_ram_i/xdma_0/inst/udma_wrapper/dma_top/base/IRQ_INST/usr_irq_xpm_cdc'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell xdma_and_ram_i/axi_bram_ctrl_0_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell xdma_and_ram_i/axi_bram_ctrl_0_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 455 instances were transformed.
+  IBUF => IBUF_ANALOG: 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 48 instances
+  RAM16X1S => RAM32X1S (RAMS32): 13 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 350 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 20 instances
+  RAM64M8 => RAM64M8 (RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E): 14 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 9 instances
+
+open_run: Time (s): cpu = 00:03:49 ; elapsed = 00:02:36 . Memory (MB): peak = 3127.656 ; gain = 1404.934
+set_property mark_debug false [get_nets [list {c_c2h_sts[0]} {c_c2h_sts[4]} {c_c2h_sts[7]} {c_h2c_sts[1]} {c_h2c_sts[6]} {c_h2c_sts[7]} {h_c2h_sts[2]} {h_c2h_sts[3]} {h_c2h_sts[6]} {h_h2c_sts[1]} {c_c2h_sts[2]} {c_h2c_sts[0]} {c_h2c_sts[2]} {c_h2c_sts[3]} {c_h2c_sts[4]} {c_h2c_sts[5]} {h_c2h_sts[0]} {h_c2h_sts[1]} {h_c2h_sts[4]} {h_c2h_sts[5]} {h_c2h_sts[7]} {h_h2c_sts[3]} {h_h2c_sts[4]} {c_c2h_sts[1]} {c_c2h_sts[3]} {c_c2h_sts[5]} {h_h2c_sts[0]} {h_h2c_sts[6]} {c_c2h_sts[6]} {h_h2c_sts[2]} {h_h2c_sts[5]} {h_h2c_sts[7]}]]
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ]
+endgroup
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list xdma_and_ram_i/xdma_0/inst/pcie3_ip_i/inst/gt_top_i/phy_clk_i/CLK_USERCLK ]]
+set_property port_width 16 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {h2c_dsc_byp_ctl[0]} {h2c_dsc_byp_ctl[1]} {h2c_dsc_byp_ctl[2]} {h2c_dsc_byp_ctl[3]} {h2c_dsc_byp_ctl[4]} {h2c_dsc_byp_ctl[5]} {h2c_dsc_byp_ctl[6]} {h2c_dsc_byp_ctl[7]} {h2c_dsc_byp_ctl[8]} {h2c_dsc_byp_ctl[9]} {h2c_dsc_byp_ctl[10]} {h2c_dsc_byp_ctl[11]} {h2c_dsc_byp_ctl[12]} {h2c_dsc_byp_ctl[13]} {h2c_dsc_byp_ctl[14]} {h2c_dsc_byp_ctl[15]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 64 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {h2c_dsc_byp_dst_addr[0]} {h2c_dsc_byp_dst_addr[1]} {h2c_dsc_byp_dst_addr[2]} {h2c_dsc_byp_dst_addr[3]} {h2c_dsc_byp_dst_addr[4]} {h2c_dsc_byp_dst_addr[5]} {h2c_dsc_byp_dst_addr[6]} {h2c_dsc_byp_dst_addr[7]} {h2c_dsc_byp_dst_addr[8]} {h2c_dsc_byp_dst_addr[9]} {h2c_dsc_byp_dst_addr[10]} {h2c_dsc_byp_dst_addr[11]} {h2c_dsc_byp_dst_addr[12]} {h2c_dsc_byp_dst_addr[13]} {h2c_dsc_byp_dst_addr[14]} {h2c_dsc_byp_dst_addr[15]} {h2c_dsc_byp_dst_addr[16]} {h2c_dsc_byp_dst_addr[17]} {h2c_dsc_byp_dst_addr[18]} {h2c_dsc_byp_dst_addr[19]} {h2c_dsc_byp_dst_addr[20]} {h2c_dsc_byp_dst_addr[21]} {h2c_dsc_byp_dst_addr[22]} {h2c_dsc_byp_dst_addr[23]} {h2c_dsc_byp_dst_addr[24]} {h2c_dsc_byp_dst_addr[25]} {h2c_dsc_byp_dst_addr[26]} {h2c_dsc_byp_dst_addr[27]} {h2c_dsc_byp_dst_addr[28]} {h2c_dsc_byp_dst_addr[29]} {h2c_dsc_byp_dst_addr[30]} {h2c_dsc_byp_dst_addr[31]} {h2c_dsc_byp_dst_addr[32]} {h2c_dsc_byp_dst_addr[33]} {h2c_dsc_byp_dst_addr[34]} {h2c_dsc_byp_dst_addr[35]} {h2c_dsc_byp_dst_addr[36]} {h2c_dsc_byp_dst_addr[37]} {h2c_dsc_byp_dst_addr[38]} {h2c_dsc_byp_dst_addr[39]} {h2c_dsc_byp_dst_addr[40]} {h2c_dsc_byp_dst_addr[41]} {h2c_dsc_byp_dst_addr[42]} {h2c_dsc_byp_dst_addr[43]} {h2c_dsc_byp_dst_addr[44]} {h2c_dsc_byp_dst_addr[45]} {h2c_dsc_byp_dst_addr[46]} {h2c_dsc_byp_dst_addr[47]} {h2c_dsc_byp_dst_addr[48]} {h2c_dsc_byp_dst_addr[49]} {h2c_dsc_byp_dst_addr[50]} {h2c_dsc_byp_dst_addr[51]} {h2c_dsc_byp_dst_addr[52]} {h2c_dsc_byp_dst_addr[53]} {h2c_dsc_byp_dst_addr[54]} {h2c_dsc_byp_dst_addr[55]} {h2c_dsc_byp_dst_addr[56]} {h2c_dsc_byp_dst_addr[57]} {h2c_dsc_byp_dst_addr[58]} {h2c_dsc_byp_dst_addr[59]} {h2c_dsc_byp_dst_addr[60]} {h2c_dsc_byp_dst_addr[61]} {h2c_dsc_byp_dst_addr[62]} {h2c_dsc_byp_dst_addr[63]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 16 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {c2h_dsc_byp_ctl[0]} {c2h_dsc_byp_ctl[1]} {c2h_dsc_byp_ctl[2]} {c2h_dsc_byp_ctl[3]} {c2h_dsc_byp_ctl[4]} {c2h_dsc_byp_ctl[5]} {c2h_dsc_byp_ctl[6]} {c2h_dsc_byp_ctl[7]} {c2h_dsc_byp_ctl[8]} {c2h_dsc_byp_ctl[9]} {c2h_dsc_byp_ctl[10]} {c2h_dsc_byp_ctl[11]} {c2h_dsc_byp_ctl[12]} {c2h_dsc_byp_ctl[13]} {c2h_dsc_byp_ctl[14]} {c2h_dsc_byp_ctl[15]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 156 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {din_h2c[0]} {din_h2c[1]} {din_h2c[2]} {din_h2c[3]} {din_h2c[4]} {din_h2c[5]} {din_h2c[6]} {din_h2c[7]} {din_h2c[8]} {din_h2c[9]} {din_h2c[10]} {din_h2c[11]} {din_h2c[12]} {din_h2c[13]} {din_h2c[14]} {din_h2c[15]} {din_h2c[16]} {din_h2c[17]} {din_h2c[18]} {din_h2c[19]} {din_h2c[20]} {din_h2c[21]} {din_h2c[22]} {din_h2c[23]} {din_h2c[24]} {din_h2c[25]} {din_h2c[26]} {din_h2c[27]} {din_h2c[28]} {din_h2c[29]} {din_h2c[30]} {din_h2c[31]} {din_h2c[32]} {din_h2c[33]} {din_h2c[34]} {din_h2c[35]} {din_h2c[36]} {din_h2c[37]} {din_h2c[38]} {din_h2c[39]} {din_h2c[40]} {din_h2c[41]} {din_h2c[42]} {din_h2c[43]} {din_h2c[44]} {din_h2c[45]} {din_h2c[46]} {din_h2c[47]} {din_h2c[48]} {din_h2c[49]} {din_h2c[50]} {din_h2c[51]} {din_h2c[52]} {din_h2c[53]} {din_h2c[54]} {din_h2c[55]} {din_h2c[56]} {din_h2c[57]} {din_h2c[58]} {din_h2c[59]} {din_h2c[60]} {din_h2c[61]} {din_h2c[62]} {din_h2c[63]} {din_h2c[64]} {din_h2c[65]} {din_h2c[66]} {din_h2c[67]} {din_h2c[68]} {din_h2c[69]} {din_h2c[70]} {din_h2c[71]} {din_h2c[72]} {din_h2c[73]} {din_h2c[74]} {din_h2c[75]} {din_h2c[76]} {din_h2c[77]} {din_h2c[78]} {din_h2c[79]} {din_h2c[80]} {din_h2c[81]} {din_h2c[82]} {din_h2c[83]} {din_h2c[84]} {din_h2c[85]} {din_h2c[86]} {din_h2c[87]} {din_h2c[88]} {din_h2c[89]} {din_h2c[90]} {din_h2c[91]} {din_h2c[92]} {din_h2c[93]} {din_h2c[94]} {din_h2c[95]} {din_h2c[96]} {din_h2c[97]} {din_h2c[98]} {din_h2c[99]} {din_h2c[100]} {din_h2c[101]} {din_h2c[102]} {din_h2c[103]} {din_h2c[104]} {din_h2c[105]} {din_h2c[106]} {din_h2c[107]} {din_h2c[108]} {din_h2c[109]} {din_h2c[110]} {din_h2c[111]} {din_h2c[112]} {din_h2c[113]} {din_h2c[114]} {din_h2c[115]} {din_h2c[116]} {din_h2c[117]} {din_h2c[118]} {din_h2c[119]} {din_h2c[120]} {din_h2c[121]} {din_h2c[122]} {din_h2c[123]} {din_h2c[124]} {din_h2c[125]} {din_h2c[126]} {din_h2c[127]} {din_h2c[128]} {din_h2c[129]} {din_h2c[130]} {din_h2c[131]} {din_h2c[132]} {din_h2c[133]} {din_h2c[134]} {din_h2c[135]} {din_h2c[136]} {din_h2c[137]} {din_h2c[138]} {din_h2c[139]} {din_h2c[140]} {din_h2c[141]} {din_h2c[142]} {din_h2c[143]} {din_h2c[144]} {din_h2c[145]} {din_h2c[146]} {din_h2c[147]} {din_h2c[148]} {din_h2c[149]} {din_h2c[150]} {din_h2c[151]} {din_h2c[152]} {din_h2c[153]} {din_h2c[154]} {din_h2c[155]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 64 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list {c2h_dsc_byp_dst_addr[0]} {c2h_dsc_byp_dst_addr[1]} {c2h_dsc_byp_dst_addr[2]} {c2h_dsc_byp_dst_addr[3]} {c2h_dsc_byp_dst_addr[4]} {c2h_dsc_byp_dst_addr[5]} {c2h_dsc_byp_dst_addr[6]} {c2h_dsc_byp_dst_addr[7]} {c2h_dsc_byp_dst_addr[8]} {c2h_dsc_byp_dst_addr[9]} {c2h_dsc_byp_dst_addr[10]} {c2h_dsc_byp_dst_addr[11]} {c2h_dsc_byp_dst_addr[12]} {c2h_dsc_byp_dst_addr[13]} {c2h_dsc_byp_dst_addr[14]} {c2h_dsc_byp_dst_addr[15]} {c2h_dsc_byp_dst_addr[16]} {c2h_dsc_byp_dst_addr[17]} {c2h_dsc_byp_dst_addr[18]} {c2h_dsc_byp_dst_addr[19]} {c2h_dsc_byp_dst_addr[20]} {c2h_dsc_byp_dst_addr[21]} {c2h_dsc_byp_dst_addr[22]} {c2h_dsc_byp_dst_addr[23]} {c2h_dsc_byp_dst_addr[24]} {c2h_dsc_byp_dst_addr[25]} {c2h_dsc_byp_dst_addr[26]} {c2h_dsc_byp_dst_addr[27]} {c2h_dsc_byp_dst_addr[28]} {c2h_dsc_byp_dst_addr[29]} {c2h_dsc_byp_dst_addr[30]} {c2h_dsc_byp_dst_addr[31]} {c2h_dsc_byp_dst_addr[32]} {c2h_dsc_byp_dst_addr[33]} {c2h_dsc_byp_dst_addr[34]} {c2h_dsc_byp_dst_addr[35]} {c2h_dsc_byp_dst_addr[36]} {c2h_dsc_byp_dst_addr[37]} {c2h_dsc_byp_dst_addr[38]} {c2h_dsc_byp_dst_addr[39]} {c2h_dsc_byp_dst_addr[40]} {c2h_dsc_byp_dst_addr[41]} {c2h_dsc_byp_dst_addr[42]} {c2h_dsc_byp_dst_addr[43]} {c2h_dsc_byp_dst_addr[44]} {c2h_dsc_byp_dst_addr[45]} {c2h_dsc_byp_dst_addr[46]} {c2h_dsc_byp_dst_addr[47]} {c2h_dsc_byp_dst_addr[48]} {c2h_dsc_byp_dst_addr[49]} {c2h_dsc_byp_dst_addr[50]} {c2h_dsc_byp_dst_addr[51]} {c2h_dsc_byp_dst_addr[52]} {c2h_dsc_byp_dst_addr[53]} {c2h_dsc_byp_dst_addr[54]} {c2h_dsc_byp_dst_addr[55]} {c2h_dsc_byp_dst_addr[56]} {c2h_dsc_byp_dst_addr[57]} {c2h_dsc_byp_dst_addr[58]} {c2h_dsc_byp_dst_addr[59]} {c2h_dsc_byp_dst_addr[60]} {c2h_dsc_byp_dst_addr[61]} {c2h_dsc_byp_dst_addr[62]} {c2h_dsc_byp_dst_addr[63]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 28 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list {c2h_dsc_byp_len[0]} {c2h_dsc_byp_len[1]} {c2h_dsc_byp_len[2]} {c2h_dsc_byp_len[3]} {c2h_dsc_byp_len[4]} {c2h_dsc_byp_len[5]} {c2h_dsc_byp_len[6]} {c2h_dsc_byp_len[7]} {c2h_dsc_byp_len[8]} {c2h_dsc_byp_len[9]} {c2h_dsc_byp_len[10]} {c2h_dsc_byp_len[11]} {c2h_dsc_byp_len[12]} {c2h_dsc_byp_len[13]} {c2h_dsc_byp_len[14]} {c2h_dsc_byp_len[15]} {c2h_dsc_byp_len[16]} {c2h_dsc_byp_len[17]} {c2h_dsc_byp_len[18]} {c2h_dsc_byp_len[19]} {c2h_dsc_byp_len[20]} {c2h_dsc_byp_len[21]} {c2h_dsc_byp_len[22]} {c2h_dsc_byp_len[23]} {c2h_dsc_byp_len[24]} {c2h_dsc_byp_len[25]} {c2h_dsc_byp_len[26]} {c2h_dsc_byp_len[27]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 28 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list {h2c_dsc_byp_len[0]} {h2c_dsc_byp_len[1]} {h2c_dsc_byp_len[2]} {h2c_dsc_byp_len[3]} {h2c_dsc_byp_len[4]} {h2c_dsc_byp_len[5]} {h2c_dsc_byp_len[6]} {h2c_dsc_byp_len[7]} {h2c_dsc_byp_len[8]} {h2c_dsc_byp_len[9]} {h2c_dsc_byp_len[10]} {h2c_dsc_byp_len[11]} {h2c_dsc_byp_len[12]} {h2c_dsc_byp_len[13]} {h2c_dsc_byp_len[14]} {h2c_dsc_byp_len[15]} {h2c_dsc_byp_len[16]} {h2c_dsc_byp_len[17]} {h2c_dsc_byp_len[18]} {h2c_dsc_byp_len[19]} {h2c_dsc_byp_len[20]} {h2c_dsc_byp_len[21]} {h2c_dsc_byp_len[22]} {h2c_dsc_byp_len[23]} {h2c_dsc_byp_len[24]} {h2c_dsc_byp_len[25]} {h2c_dsc_byp_len[26]} {h2c_dsc_byp_len[27]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 64 [get_debug_ports u_ila_0/probe7]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7]
+connect_debug_port u_ila_0/probe7 [get_nets [list {h2c_dsc_byp_src_addr[0]} {h2c_dsc_byp_src_addr[1]} {h2c_dsc_byp_src_addr[2]} {h2c_dsc_byp_src_addr[3]} {h2c_dsc_byp_src_addr[4]} {h2c_dsc_byp_src_addr[5]} {h2c_dsc_byp_src_addr[6]} {h2c_dsc_byp_src_addr[7]} {h2c_dsc_byp_src_addr[8]} {h2c_dsc_byp_src_addr[9]} {h2c_dsc_byp_src_addr[10]} {h2c_dsc_byp_src_addr[11]} {h2c_dsc_byp_src_addr[12]} {h2c_dsc_byp_src_addr[13]} {h2c_dsc_byp_src_addr[14]} {h2c_dsc_byp_src_addr[15]} {h2c_dsc_byp_src_addr[16]} {h2c_dsc_byp_src_addr[17]} {h2c_dsc_byp_src_addr[18]} {h2c_dsc_byp_src_addr[19]} {h2c_dsc_byp_src_addr[20]} {h2c_dsc_byp_src_addr[21]} {h2c_dsc_byp_src_addr[22]} {h2c_dsc_byp_src_addr[23]} {h2c_dsc_byp_src_addr[24]} {h2c_dsc_byp_src_addr[25]} {h2c_dsc_byp_src_addr[26]} {h2c_dsc_byp_src_addr[27]} {h2c_dsc_byp_src_addr[28]} {h2c_dsc_byp_src_addr[29]} {h2c_dsc_byp_src_addr[30]} {h2c_dsc_byp_src_addr[31]} {h2c_dsc_byp_src_addr[32]} {h2c_dsc_byp_src_addr[33]} {h2c_dsc_byp_src_addr[34]} {h2c_dsc_byp_src_addr[35]} {h2c_dsc_byp_src_addr[36]} {h2c_dsc_byp_src_addr[37]} {h2c_dsc_byp_src_addr[38]} {h2c_dsc_byp_src_addr[39]} {h2c_dsc_byp_src_addr[40]} {h2c_dsc_byp_src_addr[41]} {h2c_dsc_byp_src_addr[42]} {h2c_dsc_byp_src_addr[43]} {h2c_dsc_byp_src_addr[44]} {h2c_dsc_byp_src_addr[45]} {h2c_dsc_byp_src_addr[46]} {h2c_dsc_byp_src_addr[47]} {h2c_dsc_byp_src_addr[48]} {h2c_dsc_byp_src_addr[49]} {h2c_dsc_byp_src_addr[50]} {h2c_dsc_byp_src_addr[51]} {h2c_dsc_byp_src_addr[52]} {h2c_dsc_byp_src_addr[53]} {h2c_dsc_byp_src_addr[54]} {h2c_dsc_byp_src_addr[55]} {h2c_dsc_byp_src_addr[56]} {h2c_dsc_byp_src_addr[57]} {h2c_dsc_byp_src_addr[58]} {h2c_dsc_byp_src_addr[59]} {h2c_dsc_byp_src_addr[60]} {h2c_dsc_byp_src_addr[61]} {h2c_dsc_byp_src_addr[62]} {h2c_dsc_byp_src_addr[63]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 64 [get_debug_ports u_ila_0/probe8]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8]
+connect_debug_port u_ila_0/probe8 [get_nets [list {c2h_dsc_byp_src_addr[0]} {c2h_dsc_byp_src_addr[1]} {c2h_dsc_byp_src_addr[2]} {c2h_dsc_byp_src_addr[3]} {c2h_dsc_byp_src_addr[4]} {c2h_dsc_byp_src_addr[5]} {c2h_dsc_byp_src_addr[6]} {c2h_dsc_byp_src_addr[7]} {c2h_dsc_byp_src_addr[8]} {c2h_dsc_byp_src_addr[9]} {c2h_dsc_byp_src_addr[10]} {c2h_dsc_byp_src_addr[11]} {c2h_dsc_byp_src_addr[12]} {c2h_dsc_byp_src_addr[13]} {c2h_dsc_byp_src_addr[14]} {c2h_dsc_byp_src_addr[15]} {c2h_dsc_byp_src_addr[16]} {c2h_dsc_byp_src_addr[17]} {c2h_dsc_byp_src_addr[18]} {c2h_dsc_byp_src_addr[19]} {c2h_dsc_byp_src_addr[20]} {c2h_dsc_byp_src_addr[21]} {c2h_dsc_byp_src_addr[22]} {c2h_dsc_byp_src_addr[23]} {c2h_dsc_byp_src_addr[24]} {c2h_dsc_byp_src_addr[25]} {c2h_dsc_byp_src_addr[26]} {c2h_dsc_byp_src_addr[27]} {c2h_dsc_byp_src_addr[28]} {c2h_dsc_byp_src_addr[29]} {c2h_dsc_byp_src_addr[30]} {c2h_dsc_byp_src_addr[31]} {c2h_dsc_byp_src_addr[32]} {c2h_dsc_byp_src_addr[33]} {c2h_dsc_byp_src_addr[34]} {c2h_dsc_byp_src_addr[35]} {c2h_dsc_byp_src_addr[36]} {c2h_dsc_byp_src_addr[37]} {c2h_dsc_byp_src_addr[38]} {c2h_dsc_byp_src_addr[39]} {c2h_dsc_byp_src_addr[40]} {c2h_dsc_byp_src_addr[41]} {c2h_dsc_byp_src_addr[42]} {c2h_dsc_byp_src_addr[43]} {c2h_dsc_byp_src_addr[44]} {c2h_dsc_byp_src_addr[45]} {c2h_dsc_byp_src_addr[46]} {c2h_dsc_byp_src_addr[47]} {c2h_dsc_byp_src_addr[48]} {c2h_dsc_byp_src_addr[49]} {c2h_dsc_byp_src_addr[50]} {c2h_dsc_byp_src_addr[51]} {c2h_dsc_byp_src_addr[52]} {c2h_dsc_byp_src_addr[53]} {c2h_dsc_byp_src_addr[54]} {c2h_dsc_byp_src_addr[55]} {c2h_dsc_byp_src_addr[56]} {c2h_dsc_byp_src_addr[57]} {c2h_dsc_byp_src_addr[58]} {c2h_dsc_byp_src_addr[59]} {c2h_dsc_byp_src_addr[60]} {c2h_dsc_byp_src_addr[61]} {c2h_dsc_byp_src_addr[62]} {c2h_dsc_byp_src_addr[63]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 156 [get_debug_ports u_ila_0/probe9]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9]
+connect_debug_port u_ila_0/probe9 [get_nets [list {din_c2h[0]} {din_c2h[1]} {din_c2h[2]} {din_c2h[3]} {din_c2h[4]} {din_c2h[5]} {din_c2h[6]} {din_c2h[7]} {din_c2h[8]} {din_c2h[9]} {din_c2h[10]} {din_c2h[11]} {din_c2h[12]} {din_c2h[13]} {din_c2h[14]} {din_c2h[15]} {din_c2h[16]} {din_c2h[17]} {din_c2h[18]} {din_c2h[19]} {din_c2h[20]} {din_c2h[21]} {din_c2h[22]} {din_c2h[23]} {din_c2h[24]} {din_c2h[25]} {din_c2h[26]} {din_c2h[27]} {din_c2h[28]} {din_c2h[29]} {din_c2h[30]} {din_c2h[31]} {din_c2h[32]} {din_c2h[33]} {din_c2h[34]} {din_c2h[35]} {din_c2h[36]} {din_c2h[37]} {din_c2h[38]} {din_c2h[39]} {din_c2h[40]} {din_c2h[41]} {din_c2h[42]} {din_c2h[43]} {din_c2h[44]} {din_c2h[45]} {din_c2h[46]} {din_c2h[47]} {din_c2h[48]} {din_c2h[49]} {din_c2h[50]} {din_c2h[51]} {din_c2h[52]} {din_c2h[53]} {din_c2h[54]} {din_c2h[55]} {din_c2h[56]} {din_c2h[57]} {din_c2h[58]} {din_c2h[59]} {din_c2h[60]} {din_c2h[61]} {din_c2h[62]} {din_c2h[63]} {din_c2h[64]} {din_c2h[65]} {din_c2h[66]} {din_c2h[67]} {din_c2h[68]} {din_c2h[69]} {din_c2h[70]} {din_c2h[71]} {din_c2h[72]} {din_c2h[73]} {din_c2h[74]} {din_c2h[75]} {din_c2h[76]} {din_c2h[77]} {din_c2h[78]} {din_c2h[79]} {din_c2h[80]} {din_c2h[81]} {din_c2h[82]} {din_c2h[83]} {din_c2h[84]} {din_c2h[85]} {din_c2h[86]} {din_c2h[87]} {din_c2h[88]} {din_c2h[89]} {din_c2h[90]} {din_c2h[91]} {din_c2h[92]} {din_c2h[93]} {din_c2h[94]} {din_c2h[95]} {din_c2h[96]} {din_c2h[97]} {din_c2h[98]} {din_c2h[99]} {din_c2h[100]} {din_c2h[101]} {din_c2h[102]} {din_c2h[103]} {din_c2h[104]} {din_c2h[105]} {din_c2h[106]} {din_c2h[107]} {din_c2h[108]} {din_c2h[109]} {din_c2h[110]} {din_c2h[111]} {din_c2h[112]} {din_c2h[113]} {din_c2h[114]} {din_c2h[115]} {din_c2h[116]} {din_c2h[117]} {din_c2h[118]} {din_c2h[119]} {din_c2h[120]} {din_c2h[121]} {din_c2h[122]} {din_c2h[123]} {din_c2h[124]} {din_c2h[125]} {din_c2h[126]} {din_c2h[127]} {din_c2h[128]} {din_c2h[129]} {din_c2h[130]} {din_c2h[131]} {din_c2h[132]} {din_c2h[133]} {din_c2h[134]} {din_c2h[135]} {din_c2h[136]} {din_c2h[137]} {din_c2h[138]} {din_c2h[139]} {din_c2h[140]} {din_c2h[141]} {din_c2h[142]} {din_c2h[143]} {din_c2h[144]} {din_c2h[145]} {din_c2h[146]} {din_c2h[147]} {din_c2h[148]} {din_c2h[149]} {din_c2h[150]} {din_c2h[151]} {din_c2h[152]} {din_c2h[153]} {din_c2h[154]} {din_c2h[155]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe10]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe10]
+connect_debug_port u_ila_0/probe10 [get_nets [list c2h_dsc_byp_load ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe11]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe11]
+connect_debug_port u_ila_0/probe11 [get_nets [list c2h_dsc_byp_ready ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe12]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe12]
+connect_debug_port u_ila_0/probe12 [get_nets [list c_c2h_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe13]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe13]
+connect_debug_port u_ila_0/probe13 [get_nets [list c_h2c_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe14]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe14]
+connect_debug_port u_ila_0/probe14 [get_nets [list dsc_gen_all_i/dsc_gen_c2h_n_2 ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe15]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe15]
+connect_debug_port u_ila_0/probe15 [get_nets [list h2c_dsc_byp_load ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe16]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe16]
+connect_debug_port u_ila_0/probe16 [get_nets [list h2c_dsc_byp_ready ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe17]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe17]
+connect_debug_port u_ila_0/probe17 [get_nets [list h_c2h_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe18]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe18]
+connect_debug_port u_ila_0/probe18 [get_nets [list h_h2c_success ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe19]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe19]
+connect_debug_port u_ila_0/probe19 [get_nets [list user_resetn ]]
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+[Fri Jul 10 18:42:28 2020] Launched synth_1...
+Run output will be captured here: D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 24
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Jul 10 19:02:20 2020] Launched impl_1...
+Run output will be captured here: D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/runme.log
+disconnect_debug_port u_ila_0/probe18 -channel_index 0
+set_property port_width 2 [get_debug_ports u_ila_0/probe15]
+connect_debug_port u_ila_0/probe15 [get_nets [list h_h2c_success ]]
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {D:/fpga/yxj/xdma_0_ex/top.bit} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {D:/fpga/yxj/xdma_0_ex/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/xdma_0_ex/top.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-1434] Device xcku040 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 3301.914 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-1434] Device xcku040 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/fpga/yxj/sts_ports/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/sts_ports/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {D:/fpga/yxj/sts_ports/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3301.914 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-1434] Device xcku040 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/fpga/yxj/sts_ports/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/sts_ports/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {D:/fpga/yxj/sts_ports/xdma_0_ex/xdma_0_ex.runs/impl_1/xilinx_dma_pcie_ep.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3301.914 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3301.914 ; gain = 0.000
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object c2h_dsc_byp_ctl was not found in the design.
+WARNING: Simulation object c2h_dsc_byp_dst_addr was not found in the design.
+WARNING: Simulation object c2h_dsc_byp_len was not found in the design.
+WARNING: Simulation object c2h_dsc_byp_load was not found in the design.
+WARNING: Simulation object c2h_dsc_byp_ready was not found in the design.
+WARNING: Simulation object c2h_dsc_byp_src_addr was not found in the design.
+WARNING: Simulation object h2c_dsc_byp_ctl was not found in the design.
+WARNING: Simulation object h2c_dsc_byp_dst_addr was not found in the design.
+WARNING: Simulation object h2c_dsc_byp_len was not found in the design.
+WARNING: Simulation object h2c_dsc_byp_load was not found in the design.
+WARNING: Simulation object h2c_dsc_byp_ready was not found in the design.
+WARNING: Simulation object h2c_dsc_byp_src_addr was not found in the design.
+WARNING: Simulation object u_ila_0_axi_bram_ctrl_0_BRAM_PORTA_ADDR was not found in the design.
+WARNING: Simulation object xdma_and_ram_i/axi_bram_ctrl_0_BRAM_PORTA_ADDR was not found in the design.
+WARNING: Simulation object xdma_and_ram_i/axi_bram_ctrl_0_BRAM_PORTA_ADDR_1 was not found in the design.
+WARNING: Simulation object xdma_and_ram_i/axi_bram_ctrl_0_BRAM_PORTA_DIN was not found in the design.
+WARNING: Simulation object xdma_and_ram_i/axi_bram_ctrl_0_BRAM_PORTA_DOUT was not found in the design.
+WARNING: Simulation object xdma_and_ram_i/axi_bram_ctrl_0_BRAM_PORTA_EN was not found in the design.
+WARNING: Simulation object xdma_and_ram_i/axi_bram_ctrl_0_BRAM_PORTA_WE was not found in the design.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/yxj/xdma_0_ex/xdma_0_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 3313.492 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/yxj/xdma_0_ex/xdma_0_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {c2h_dsc_byp_ctl} {c2h_dsc_byp_dst_addr} {c2h_dsc_byp_len} {c2h_dsc_byp_load} {c2h_dsc_byp_ready} {c2h_dsc_byp_src_addr} {c_c2h_success} {c_h2c_success} {din_c2h} {din_h2c} {h2c_dsc_byp_ctl} {h2c_dsc_byp_dst_addr} {h2c_dsc_byp_len} {h2c_dsc_byp_load} {h2c_dsc_byp_ready} {h2c_dsc_byp_src_addr} {h_c2h_success} {h_h2c_success} {lopt} {user_resetn} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Jul-10 20:23:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Jul-10 20:23:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/yxj/xdma_0_ex/xdma_0_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:48 ; elapsed = 00:00:08 . Memory (MB): peak = 3313.492 ; gain = 0.000
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Jul-10 20:25:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Jul-10 20:25:27
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/yxj/xdma_0_ex/xdma_0_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {D:/fpga/yxj/xdma_0_ex/xdma_0_ex.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw
+save_constraints -force
+close_design
+close_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 3313.492 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+[Sun Jul 12 11:25:30 2020] Launched synth_1...
+Run output will be captured here: D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 24
+[Sun Jul 12 11:29:02 2020] Launched impl_1...
+Run output will be captured here: D:/fpga/yxj/xdma_0_ex/xdma_0_ex.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 12 11:36:09 2020...

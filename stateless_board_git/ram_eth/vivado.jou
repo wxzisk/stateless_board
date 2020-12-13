@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Dec 13 16:13:24 2020
+# Process ID: 22724
+# Current directory: D:/stateless_board_git/ram_eth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5988 D:\stateless_board_git\ram_eth\ram_eth.xpr
+# Log file: D:/stateless_board_git/ram_eth/vivado.log
+# Journal file: D:/stateless_board_git/ram_eth\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/stateless_board_git/ram_eth/ram_eth.xpr
+update_compile_order -fileset sources_1

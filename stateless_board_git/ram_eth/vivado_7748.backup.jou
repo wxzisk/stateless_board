@@ -1,0 +1,270 @@
+#-----------------------------------------------------------
+# Vivado v2017.4_AR70877 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Aug 20 14:54:30 2020
+# Process ID: 7748
+# Current directory: E:/test/pcie_eth_10g_8.11/ram_eth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5568 E:\test\pcie_eth_10g_8.11\ram_eth\ram_eth.xpr
+# Log file: E:/test/pcie_eth_10g_8.11/ram_eth/vivado.log
+# Journal file: E:/test/pcie_eth_10g_8.11/ram_eth\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+launch_runs impl_2 -jobs 24
+wait_on_run impl_2
+launch_runs impl_2 -to_step write_bitstream -jobs 24
+wait_on_run impl_2
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes pcie_to_eth_empty -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes PCIe_TOP/c_h2c_success -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {eth_test/u1/mac_test0/queue2_data_length} {eth_test/u1/mac_test0/queue2_info_in} {eth_test/u1/mac_test0/queue2_info_in_en} {eth_test/u1/mac_test0/queue2_state} }
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {eth_test/u1/mac_test0/read_data_cnt} {eth_test/u1/mac_test0/read_head_cnt} }
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {pcie_to_eth_empty} }
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+launch_simulation
+open_wave_config E:/test/pcie_eth_10g_8.11/ram_eth/sim_test_behav1.wcfg
+source sim1.tcl
+launch_runs impl_2 -jobs 24
+wait_on_run impl_2
+launch_runs impl_2 -to_step write_bitstream -jobs 24
+wait_on_run impl_2
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/ip_sending -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes FIFO_rd_en_p2e -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+reset_run synth_1
+launch_runs synth_1 -jobs 24
+wait_on_run synth_1
+launch_runs impl_2 -jobs 24
+wait_on_run impl_2
+launch_runs impl_2 -to_step write_bitstream -jobs 24
+wait_on_run impl_2
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {eth_test/u1/mac_test0/total_queue_out_en} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {eth_test/u1/mac_test0/total_queue_data_out} }
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes FIFO_rd_en_p2e -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property TRIGGER_COMPARE_VALUE eq64'h0000_0000_0000_0050 [get_hw_probes eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/packet_number_eth_out -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property TRIGGER_COMPARE_VALUE gt64'h0000_0000_0000_0050 [get_hw_probes eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/packet_number_eth_out -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/packet_number_eth_out} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property TRIGGER_COMPARE_VALUE eq64'hXXXX_XXXX_XXXX_XXXX [get_hw_probes eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/packet_number_eth_out -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property TRIGGER_COMPARE_VALUE eq64'hFFFF_FFFF_FFFF_FFFF [get_hw_probes eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/ip_tx_data -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rx_axis_tvalid_out -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+set_property TRIGGER_COMPARE_VALUE eq64'hXXXX_XXXX_XXXX_XXXX [get_hw_probes eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/ip_tx_data -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+add_wave -into {hw_ila_data_3.wcfg} -radix hex { {ten_gig_eth_example_top/tx_axis_tdata_dly} {ten_gig_eth_example_top/tx_axis_tkeep} {ten_gig_eth_example_top/tx_axis_tlast_in} {ten_gig_eth_example_top/tx_axis_tvalid} }
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ten_gig_eth_example_top/tx_axis_tlast_in -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/ip_sending -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.runs/impl_2/ram_eth.bin} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+add_wave -into {hw_ila_data_3.wcfg} -radix hex { {rec_fifo_full} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+   [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_1"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"u_ila_2"}]]
+close_sim
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {E:/test/pcie_eth_10g_8.11/ram_eth/ram_eth.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg}

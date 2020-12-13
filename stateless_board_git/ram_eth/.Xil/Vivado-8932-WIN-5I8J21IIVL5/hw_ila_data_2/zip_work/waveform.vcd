@@ -1,0 +1,45 @@
+$date
+        2020-Aug-25 15:59:56
+$end
+$version
+        Vivado v2017.4_AR70877 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 64 " eth_out [63:0] $end
+$var reg 64 b eth_in [63:0] $end
+$var reg 64 D" eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_in [63:0] $end
+$var reg 5 &# eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/write_event_cnt [4:0] $end
+$var reg 64 +# eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/ip_tx_data [63:0] $end
+$var reg 64 k# eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/packet_number_eth_out [63:0] $end
+$var reg 64 M$ eth_test/gmii_rxd_real [63:0] $end
+$var reg 64 /% eth_test/packet_number_eth_in [63:0] $end
+$var reg 16 o% eth_test/u1/mac_test0/queue2_data_length [15:0] $end
+$var reg 4 !& eth_test/u1/mac_test0/read_head_cnt [3:0] $end
+$var reg 3 %& eth_test/u1/mac_test0/queue2_state [2:0] $end
+$var reg 64 (& eth_test/u1/mac_test0/total_queue_data_out [63:0] $end
+$var reg 64 h& eth_test/u1/mac_test0/queue2_info_in [63:0] $end
+$var reg 16 J' eth_test/u1/mac_test0/read_data_cnt [15:0] $end
+$var reg 1 Z' eth_to_pcie_full $end
+$var reg 1 [' eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_info_in_en $end
+$var reg 1 \' eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/event_switch $end
+$var reg 1 ]' FIFO_rd_en_p2e $end
+$var reg 1 ^' FIFO_wr_en_e2p $end
+$var reg 1 _' eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/full $end
+$var reg 1 `' eth_test/u1/mac_test0/mac_top0/mac_tx0/ip0/ip_sending $end
+$var reg 1 a' pcie_to_eth_empty $end
+$var reg 1 b' eth_test/u1/mac_test0/queue2_info_in_en $end
+$var reg 1 c' eth_test/rec_datain_en $end
+$var reg 1 d' eth_test/rec_fifo_empty $end
+$var reg 1 e' ten_gig_eth_example_top/rx_axis_tready $end
+$var reg 1 f' eth_test/rx_ready $end
+$var reg 1 g' eth_test/u1/mac_test0/total_queue_out_en $end
+$var reg 1 h' eth_test/u1/mac_test0/tx_ready $end
+$var reg 1 i' eth_test/u1/mac_test0/mac_top0/mac_rx0/udp0/write_event_start $end
+$var reg 1 j' _TRIGGER $end
+$var reg 1 k' _WINDOW $end
+$var reg 1 l' _GAP $end
+$upscope $end
+$enddefinitions $end

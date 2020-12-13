@@ -1,0 +1,25 @@
+$date
+        2020-Aug-25 15:59:59
+$end
+$version
+        Vivado v2017.4_AR70877 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 64 " rx_axis_tdata_out [63:0] $end
+$var reg 64 b ten_gig_eth_example_top/tx_axis_tdata_dly [63:0] $end
+$var reg 8 D" ten_gig_eth_example_top/tx_axis_tkeep [7:0] $end
+$var reg 64 L" ten_gig_eth_example_top/packet_number_10G_out [63:0] $end
+$var reg 64 .# ten_gig_eth_example_top/packet_number_10G_send [63:0] $end
+$var reg 8 n# ten_gig_eth_example_top/rx_axis_tkeep [7:0] $end
+$var reg 1 v# rec_fifo_full $end
+$var reg 1 w# rx_axis_tvalid_out $end
+$var reg 1 x# ten_gig_eth_example_top/tx_axis_tlast_in $end
+$var reg 1 y# ten_gig_eth_example_top/tx_axis_tvalid $end
+$var reg 1 z# _TRIGGER $end
+$var reg 1 {# _WINDOW $end
+$var reg 1 |# _GAP $end
+$upscope $end
+$enddefinitions $end

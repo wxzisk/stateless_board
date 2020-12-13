@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Sep  3 10:22:00 2020
+# Process ID: 16708
+# Current directory: D:/pcie_eth_10g/ram_eth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11508 D:\pcie_eth_10g\ram_eth\ram_eth.xpr
+# Log file: D:/pcie_eth_10g/ram_eth/vivado.log
+# Journal file: D:/pcie_eth_10g/ram_eth\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/pcie_eth_10g/ram_eth/ram_eth.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg
+source sim1.tcl
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+save_wave_config {D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg}
+relaunch_sim
+run all
+restart
+run all
+restart
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+restart
+run all
+restart
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+relaunch_sim
+restart
+run all
+relaunch_sim
+run all
+restart
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+restart
+run all
+restart
+run all
+save_wave_config {D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg}
+relaunch_sim
+run all
+close_sim
+launch_simulation
+open_wave_config D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg
+source sim1.tcl
+run all
+restart
+run all
+restart
+run all
+save_wave_config {D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg
+source sim1.tcl
+run all
+relaunch_sim
+run all
+restart
+run all
+restart
+run all
+relaunch_sim
+run all
+restart
+run all
+relaunch_sim
+run all
+save_wave_config {D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg}
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+save_wave_config {D:/pcie_eth_10g/ram_eth/sim_test_behav1.wcfg}
+close_sim

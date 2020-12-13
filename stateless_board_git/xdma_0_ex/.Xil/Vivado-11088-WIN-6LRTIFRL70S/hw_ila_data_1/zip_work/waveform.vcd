@@ -1,0 +1,63 @@
+$date
+        2020-Jun-12 15:30:51
+$end
+$version
+        Vivado v2017.4_AR70877 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 8 " m_axi_awlen [7:0] $end
+$var reg 2 * m_axi_bresp [1:0] $end
+$var reg 4 , m_axi_rid [3:0] $end
+$var reg 256 0 m_axi_rdata [255:0] $end
+$var reg 2 t# m_axi_awburst [1:0] $end
+$var reg 256 v# m_axi_wdata [255:0] $end
+$var reg 32 \& m_axil_araddr [31:0] $end
+$var reg 32 |& m_axi_wstrb [31:0] $end
+$var reg 4 >' m_axi_awid [3:0] $end
+$var reg 32 B' m_axil_awaddr [31:0] $end
+$var reg 3 b' m_axil_awprot [2:0] $end
+$var reg 2 e' m_axil_bresp [1:0] $end
+$var reg 32 g' m_axil_rdata [31:0] $end
+$var reg 3 )( m_axil_arprot [2:0] $end
+$var reg 2 ,( m_axi_arburst [1:0] $end
+$var reg 64 .( m_axi_awaddr [63:0] $end
+$var reg 3 n( m_axi_awsize [2:0] $end
+$var reg 4 q( m_axi_bid [3:0] $end
+$var reg 4 u( m_axi_arid [3:0] $end
+$var reg 2 y( m_axi_rresp [1:0] $end
+$var reg 2 {( m_axil_rresp [1:0] $end
+$var reg 64 }( m_axi_araddr [63:0] $end
+$var reg 3 _) m_axi_arsize [2:0] $end
+$var reg 8 b) m_axi_arlen [7:0] $end
+$var reg 32 j) m_axil_wdata [31:0] $end
+$var reg 4 ,* m_axil_wstrb [3:0] $end
+$var reg 1 0* m_axi_arready $end
+$var reg 1 1* m_axi_arvalid $end
+$var reg 1 2* m_axi_awready $end
+$var reg 1 3* m_axi_awvalid $end
+$var reg 1 4* m_axi_bready $end
+$var reg 1 5* m_axi_bvalid $end
+$var reg 1 6* m_axi_rlast $end
+$var reg 1 7* m_axi_rready $end
+$var reg 1 8* m_axi_rvalid $end
+$var reg 1 9* m_axi_wlast $end
+$var reg 1 :* m_axi_wready $end
+$var reg 1 ;* m_axi_wvalid $end
+$var reg 1 <* m_axil_arready $end
+$var reg 1 =* m_axil_arvalid $end
+$var reg 1 >* m_axil_awready $end
+$var reg 1 ?* m_axil_awvalid $end
+$var reg 1 @* m_axil_bready $end
+$var reg 1 A* m_axil_bvalid $end
+$var reg 1 B* m_axil_rready $end
+$var reg 1 C* m_axil_rvalid $end
+$var reg 1 D* m_axil_wready $end
+$var reg 1 E* m_axil_wvalid $end
+$var reg 1 F* _TRIGGER $end
+$var reg 1 G* _WINDOW $end
+$var reg 1 H* _GAP $end
+$upscope $end
+$enddefinitions $end
